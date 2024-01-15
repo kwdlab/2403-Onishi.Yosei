@@ -16,9 +16,6 @@ In step1, perform trivy scan.
 In step2, extract from step1 for data reduction.  
 In step3, the results of step2 for multiple axes.  
 
->[!warn]
->The important thing is not to skip any steps.
-
 ## Requirement　
 ### example - Author's environment
 ```sh
