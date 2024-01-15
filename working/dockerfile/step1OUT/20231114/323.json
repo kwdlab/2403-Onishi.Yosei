@@ -1,0 +1,202 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": "dockerfile/20231114/erlang:25.3.2.6-alpine.Dockerfile",
+  "ArtifactType": "filesystem",
+  "Metadata": {
+    "ImageConfig": {
+      "architecture": "",
+      "created": "0001-01-01T00:00:00Z",
+      "os": "",
+      "rootfs": {
+        "type": "",
+        "diff_ids": null
+      },
+      "config": {}
+    }
+  },
+  "Results": [
+    {
+      "Target": "erlang:25.3.2.6-alpine.Dockerfile",
+      "Class": "config",
+      "Type": "dockerfile",
+      "MisconfSummary": {
+        "Successes": 23,
+        "Failures": 3,
+        "Exceptions": 0
+      },
+      "Misconfigurations": [
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS002",
+          "AVDID": "AVD-DS-0002",
+          "Title": "Image user should not be 'root'",
+          "Description": "Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.",
+          "Message": "Specify at least 1 USER command in Dockerfile with non-root user as argument",
+          "Namespace": "builtin.dockerfile.DS002",
+          "Query": "data.builtin.dockerfile.DS002.deny",
+          "Resolution": "Add 'USER \u003cnon root user name\u003e' line to the Dockerfile",
+          "Severity": "HIGH",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds002",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+            "https://avd.aquasec.com/misconfig/ds002"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "Code": {
+              "Lines": null
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS013",
+          "AVDID": "AVD-DS-0013",
+          "Title": "'RUN cd ...' to change directory",
+          "Description": "Use WORKDIR instead of proliferating instructions like 'RUN cd … \u0026\u0026 do-something', which are hard to read, troubleshoot, and maintain.",
+          "Message": "RUN should not be used to change directory: 'set -xe \t\u0026\u0026 OTP_DOWNLOAD_URL=\"https://github.com/erlang/otp/archive/OTP-${OTP_VERSION}.tar.gz\" \t\u0026\u0026 OTP_DOWNLOAD_SHA256=\"67e0f5c209a335cfc216a57b1f016072a69eb9683d36d6d101bf2f60a2e45926\" \t\u0026\u0026 REBAR3_DOWNLOAD_SHA256=\"53ed7f294a8b8fb4d7d75988c69194943831c104d39832a1fa30307b1a8593de\" \t\u0026\u0026 apk add --no-cache --virtual .fetch-deps \t\tcurl \t\tca-certificates \t\u0026\u0026 curl -fSL -o otp-src.tar.gz \"$OTP_DOWNLOAD_URL\" \t\u0026\u0026 echo \"$OTP_DOWNLOAD_SHA256  otp-src.tar.gz\" | sha256sum -c - \t\u0026\u0026 apk add --no-cache --virtual .build-deps \t\tdpkg-dev dpkg \t\tgcc \t\tg++ \t\tlibc-dev \t\tlinux-headers \t\tmake \t\tautoconf \t\tncurses-dev \t\topenssl-dev \t\tunixodbc-dev \t\tlksctp-tools-dev \t\ttar \t\u0026\u0026 export ERL_TOP=\"/usr/src/otp_src_${OTP_VERSION%%@*}\" \t\u0026\u0026 mkdir -vp $ERL_TOP \t\u0026\u0026 tar -xzf otp-src.tar.gz -C $ERL_TOP --strip-components=1 \t\u0026\u0026 rm otp-src.tar.gz \t\u0026\u0026 ( cd $ERL_TOP \t  \u0026\u0026 ./otp_build autoconf \t  \u0026\u0026 gnuArch=\"$(dpkg-architecture --query DEB_HOST_GNU_TYPE)\" \t  \u0026\u0026 ./configure --build=\"$gnuArch\" \t  \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) \t  \u0026\u0026 make install ) \t\u0026\u0026 rm -rf $ERL_TOP \t\u0026\u0026 find /usr/local -regex '/usr/local/lib/erlang/\\(lib/\\|erts-\\).*/\\(man\\|doc\\|obj\\|c_src\\|emacs\\|info\\|examples\\)' | xargs rm -rf \t\u0026\u0026 find /usr/local -name src | xargs -r find | grep -v '\\.hrl$' | xargs rm -v || true \t\u0026\u0026 find /usr/local -name src | xargs -r find | xargs rmdir -vp || true \t\u0026\u0026 scanelf --nobanner -E ET_EXEC -BF '%F' --recursive /usr/local | xargs -r strip --strip-all \t\u0026\u0026 scanelf --nobanner -E ET_DYN -BF '%F' --recursive /usr/local | xargs -r strip --strip-unneeded \t\u0026\u0026 runDeps=\"$( \t\tscanelf --needed --nobanner --format '%n#p' --recursive /usr/local \t\t\t| tr ',' '\\n' \t\t\t| sort -u \t\t\t| awk 'system(\"[ -e /usr/local/lib/\" $1 \" ]\") == 0 { next } { print \"so:\" $1 }' \t)\" \t\u0026\u0026 REBAR3_DOWNLOAD_URL=\"https://github.com/erlang/rebar3/archive/${REBAR3_VERSION}.tar.gz\" \t\u0026\u0026 curl -fSL -o rebar3-src.tar.gz \"$REBAR3_DOWNLOAD_URL\" \t\u0026\u0026 echo \"${REBAR3_DOWNLOAD_SHA256}  rebar3-src.tar.gz\" | sha256sum -c - \t\u0026\u0026 mkdir -p /usr/src/rebar3-src \t\u0026\u0026 tar -xzf rebar3-src.tar.gz -C /usr/src/rebar3-src --strip-components=1 \t\u0026\u0026 rm rebar3-src.tar.gz \t\u0026\u0026 cd /usr/src/rebar3-src \t\u0026\u0026 HOME=$PWD ./bootstrap \t\u0026\u0026 install -v ./rebar3 /usr/local/bin/ \t\u0026\u0026 rm -rf /usr/src/rebar3-src \t\u0026\u0026 apk add --virtual .erlang-rundeps \t\t$runDeps \t\tlksctp-tools \t\tca-certificates \t\u0026\u0026 apk del .fetch-deps .build-deps'. Use 'WORKDIR' statement instead.",
+          "Namespace": "builtin.dockerfile.DS013",
+          "Query": "data.builtin.dockerfile.DS013.deny",
+          "Resolution": "Use WORKDIR to change directory",
+          "Severity": "MEDIUM",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds013",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#workdir",
+            "https://avd.aquasec.com/misconfig/ds013"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "StartLine": 8,
+            "EndLine": 66,
+            "Code": {
+              "Lines": [
+                {
+                  "Number": 8,
+                  "Content": "RUN set -xe \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": true,
+                  "LastCause": false
+                },
+                {
+                  "Number": 9,
+                  "Content": "\t\u0026\u0026 OTP_DOWNLOAD_URL=\"https://github.com/erlang/otp/archive/OTP-${OTP_VERSION}.tar.gz\" \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 10,
+                  "Content": "\t\u0026\u0026 OTP_DOWNLOAD_SHA256=\"67e0f5c209a335cfc216a57b1f016072a69eb9683d36d6d101bf2f60a2e45926\" \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 11,
+                  "Content": "\t\u0026\u0026 REBAR3_DOWNLOAD_SHA256=\"53ed7f294a8b8fb4d7d75988c69194943831c104d39832a1fa30307b1a8593de\" \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 12,
+                  "Content": "\t\u0026\u0026 apk add --no-cache --virtual .fetch-deps \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 13,
+                  "Content": "\t\tcurl \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 14,
+                  "Content": "\t\tca-certificates \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 15,
+                  "Content": "\t\u0026\u0026 curl -fSL -o otp-src.tar.gz \"$OTP_DOWNLOAD_URL\" \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 16,
+                  "Content": "\t\u0026\u0026 echo \"$OTP_DOWNLOAD_SHA256  otp-src.tar.gz\" | sha256sum -c - \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": true
+                },
+                {
+                  "Number": 17,
+                  "Content": "",
+                  "IsCause": false,
+                  "Annotation": "",
+                  "Truncated": true,
+                  "FirstCause": false,
+                  "LastCause": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS026",
+          "AVDID": "AVD-DS-0026",
+          "Title": "No HEALTHCHECK defined",
+          "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers.",
+          "Message": "Add HEALTHCHECK instruction in your Dockerfile",
+          "Namespace": "builtin.dockerfile.DS026",
+          "Query": "data.builtin.dockerfile.DS026.deny",
+          "Resolution": "Add HEALTHCHECK instruction in Dockerfile",
+          "Severity": "LOW",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds026",
+          "References": [
+            "https://blog.aquasec.com/docker-security-best-practices",
+            "https://avd.aquasec.com/misconfig/ds026"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "Code": {
+              "Lines": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/etcd-ib:v3.5.10"
+        ],
+        "created": "2023-11-24T17:17:23.348392616Z"
+    },
+    {
+        "Target": "rapidfort/etcd-ib:v3.5.10 (redhat 9.3)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-50495",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.2-10.20210508.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-12T15:15:07.867Z",
+                "LastModifiedDate": "2023-12-18T18:30:24.743Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.2-10.20210508.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-50495",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.2-10.20210508.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-12T15:15:07.867Z",
+                "LastModifiedDate": "2023-12-18T18:30:24.743Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.2-10.20210508.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/local/bin/etcd",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.25.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:16.41Z",
+                "LastModifiedDate": "2023-11-20T19:34:26.493Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.14.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/local/bin/etcdctl",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.25.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:16.41Z",
+                "LastModifiedDate": "2023-11-20T19:34:26.493Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.14.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            }
+        ]
+    }
+]

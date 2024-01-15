@@ -1,0 +1,951 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/grafana-ib:9.5.3"
+        ],
+        "created": "2023-11-18T16:26:10.899697131Z"
+    },
+    {
+        "Target": "rapidfort/grafana-ib:9.5.3 (redhat 8.8)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-10-03T18:15:10.463Z",
+                "LastModifiedDate": "2023-11-07T04:23:09.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-121"
+                ],
+                "PublishedDate": "2023-09-18T17:15:55.067Z",
+                "LastModifiedDate": "2023-11-16T16:15:34.163Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:55.813Z",
+                "LastModifiedDate": "2023-11-21T18:15:08.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:08.277Z",
+                "LastModifiedDate": "2023-11-21T18:15:08.873Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-10-03T18:15:10.463Z",
+                "LastModifiedDate": "2023-11-07T04:23:09.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-121"
+                ],
+                "PublishedDate": "2023-09-18T17:15:55.067Z",
+                "LastModifiedDate": "2023-11-16T16:15:34.163Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:55.813Z",
+                "LastModifiedDate": "2023-11-21T18:15:08.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-225.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:08.277Z",
+                "LastModifiedDate": "2023-11-21T18:15:08.873Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26115",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-22T05:15:09.157Z",
+                "LastModifiedDate": "2023-11-07T04:09:22.497Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43138",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1321"
+                ],
+                "PublishedDate": "2022-04-06T17:15:08.65Z",
+                "LastModifiedDate": "2023-11-07T03:39:18.437Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-25858",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-07-15T20:15:08.427Z",
+                "LastModifiedDate": "2023-08-08T14:22:24.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-25878",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1321"
+                ],
+                "PublishedDate": "2022-05-27T20:15:10.663Z",
+                "LastModifiedDate": "2022-06-08T17:22:01.157Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-31123",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-347"
+                ],
+                "PublishedDate": "2022-10-13T22:15:10.05Z",
+                "LastModifiedDate": "2022-12-03T15:03:17.093Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-31130",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-522",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2022-10-13T23:15:09.637Z",
+                "LastModifiedDate": "2022-10-17T13:31:29.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35957",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-290"
+                ],
+                "PublishedDate": "2022-09-20T23:15:09.457Z",
+                "LastModifiedDate": "2023-11-07T03:49:28.103Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-39201",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2022-10-13T23:15:10.85Z",
+                "LastModifiedDate": "2022-10-19T14:08:30.377Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-39306",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-11-09T22:15:16.303Z",
+                "LastModifiedDate": "2023-02-16T03:19:59.027Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-39307",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-209",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2022-11-09T23:15:12.617Z",
+                "LastModifiedDate": "2023-07-14T19:10:25.977Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-39324",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-01-27T23:15:08.723Z",
+                "LastModifiedDate": "2023-02-07T20:17:46.897Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48345",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-02-24T06:15:11.317Z",
+                "LastModifiedDate": "2023-03-02T17:32:59.477Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1387",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-04-26T14:15:09.43Z",
+                "LastModifiedDate": "2023-06-09T08:15:09.287Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22462",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-03-02T01:15:11.727Z",
+                "LastModifiedDate": "2023-04-13T17:15:12.857Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26116",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-03-30T05:15:07.41Z",
+                "LastModifiedDate": "2023-11-07T04:09:22.68Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26117",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-03-30T05:15:07.687Z",
+                "LastModifiedDate": "2023-11-07T04:09:22.857Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36665",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1321"
+                ],
+                "PublishedDate": "2023-07-05T14:15:09.41Z",
+                "LastModifiedDate": "2023-09-07T22:15:07.643Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-37788",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-07-18T19:15:10.06Z",
+                "LastModifiedDate": "2023-07-27T04:05:09.953Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:16.41Z",
+                "LastModifiedDate": "2023-11-20T19:34:26.493Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32275",
+                "PkgName": "grafana",
+                "InstalledVersion": "9.5.3-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2022-06-06T19:15:09.813Z",
+                "LastModifiedDate": "2023-11-07T03:47:47.353Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2603",
+                "PkgName": "libcap",
+                "InstalledVersion": "2.48-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.48-5.el8_8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-06-06T20:15:13.187Z",
+                "LastModifiedDate": "2023-11-30T05:15:08.8Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2602",
+                "PkgName": "libcap",
+                "InstalledVersion": "2.48-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.48-5.el8_8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-06-06T20:15:12.76Z",
+                "LastModifiedDate": "2023-11-30T05:15:08.65Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8_8.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:08.57Z",
+                "LastModifiedDate": "2023-12-03T20:15:07.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-50495",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-12T15:15:07.867Z",
+                "LastModifiedDate": "2023-12-18T18:30:24.743Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.347Z",
+                "LastModifiedDate": "2019-04-23T13:15:28.213Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19217",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.597Z",
+                "LastModifiedDate": "2023-11-07T02:55:26.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19185",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:57.233Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.383Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19186",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:58.247Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.473Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19187",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:59.317Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.543Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19188",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00.38Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19189",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:01.02Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.683Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19190",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:01.803Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.763Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:12.477Z",
+                "LastModifiedDate": "2023-12-03T20:15:06.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8_8.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:08.57Z",
+                "LastModifiedDate": "2023-12-03T20:15:07.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-50495",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-12T15:15:07.867Z",
+                "LastModifiedDate": "2023-12-18T18:30:24.743Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.347Z",
+                "LastModifiedDate": "2019-04-23T13:15:28.213Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19217",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.597Z",
+                "LastModifiedDate": "2023-11-07T02:55:26.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19185",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:57.233Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.383Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19186",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:58.247Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.473Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19187",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:59.317Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.543Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19188",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00.38Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19189",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:01.02Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.683Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19190",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:01.803Z",
+                "LastModifiedDate": "2023-12-13T01:15:07.763Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-9.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:12.477Z",
+                "LastModifiedDate": "2023-12-03T20:15:06.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2005-2541",
+                "PkgName": "tar",
+                "InstalledVersion": "2:1.30-9.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2005-08-10T04:00:00Z",
+                "LastModifiedDate": "2023-11-07T01:57:39.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9923",
+                "PkgName": "tar",
+                "InstalledVersion": "2:1.30-9.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2019-03-22T08:29:00.247Z",
+                "LastModifiedDate": "2023-11-07T03:13:48.96Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20193",
+                "PkgName": "tar",
+                "InstalledVersion": "2:1.30-9.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-401"
+                ],
+                "PublishedDate": "2021-03-26T17:15:12.843Z",
+                "LastModifiedDate": "2023-11-07T03:28:59.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39804",
+                "PkgName": "tar",
+                "InstalledVersion": "2:1.30-9.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "usr/share/grafana/bin/grafana",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-37788",
+                "PkgName": "github.com/elazarl/goproxy",
+                "InstalledVersion": "v0.0.0-20220115173737-adb46da277ac",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20230731152917-f99041a5c027",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-07-18T19:15:10.06Z",
+                "LastModifiedDate": "2023-07-27T04:05:09.953Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-2c7c-3mj9-8fqh",
+                "PkgName": "github.com/go-jose/go-jose/v3",
+                "InstalledVersion": "v3.0.0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.40.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:16.41Z",
+                "LastModifiedDate": "2023-11-20T19:34:26.493Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45142",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
+                "InstalledVersion": "v0.37.0",
+                "Status": "fixed",
+                "FixedVersion": "0.44.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:09.99Z",
+                "LastModifiedDate": "2023-10-18T18:27:50.437Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.4.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.8.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:09.88Z",
+                "LastModifiedDate": "2023-12-07T03:15:06.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.8.0",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:12.097Z",
+                "LastModifiedDate": "2023-11-07T04:20:03.647Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.8.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:10.883Z",
+                "LastModifiedDate": "2023-12-02T01:15:08.373Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.45.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.45.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:10.883Z",
+                "LastModifiedDate": "2023-12-02T01:15:08.373Z"
+            }
+        ]
+    }
+]

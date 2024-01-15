@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "rancher/mirrored-coreos-prometheus-config-reloader:v0.40.0"
+        ],
+        "created": "2020-06-18T14:50:49.10571344Z"
+    },
+    {
+        "Target": "bin/prometheus-config-reloader",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20200602225109-6fdc65e7d980",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:12.747Z",
+                "LastModifiedDate": "2023-11-07T03:46:03.463Z"
+            }
+        ]
+    }
+]

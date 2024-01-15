@@ -1,0 +1,70 @@
+[
+    {
+        "RepoTags": [
+            "vmware/kube-fluentd-operator:v1.18.1"
+        ],
+        "created": "2023-11-07T16:05:38.431932692Z"
+    },
+    {
+        "Target": "Ruby",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-1428",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.52.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-06-15T22:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32731",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.52.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-06-15T22:18:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32732",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.52.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-08-02T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36617",
+                "PkgName": "uri",
+                "InstalledVersion": "0.12.1",
+                "Status": "fixed",
+                "FixedVersion": "~> 0.10.0.3, ~> 0.10.3, ~> 0.11.2, >= 0.12.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-29T13:15:00Z",
+                "LastModifiedDate": "2023-07-25T15:15:00Z"
+            }
+        ]
+    }
+]

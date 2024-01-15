@@ -1,0 +1,4197 @@
+[
+    {
+        "RepoTags": [
+            "balenalib/i386-ubuntu:20210705"
+        ],
+        "created": "2021-07-21T06:27:19.51392459Z"
+    },
+    {
+        "Target": "balenalib/i386-ubuntu:20210705 (ubuntu 18.04)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2019-18276",
+                "PkgName": "bash",
+                "InstalledVersion": "4.4.18-2ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "4.4.18-2ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-273"
+                ],
+                "PublishedDate": "2019-11-28T01:15:10.603Z",
+                "LastModifiedDate": "2023-11-07T03:06:25.3Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23491",
+                "PkgName": "ca-certificates",
+                "InstalledVersion": "20210119~18.04.1",
+                "Status": "fixed",
+                "FixedVersion": "20211016ubuntu0.18.04.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2022-12-07T22:15:09.87Z",
+                "LastModifiedDate": "2023-03-24T18:12:24.36Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22924",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.14",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-706",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-08-05T21:15:11.38Z",
+                "LastModifiedDate": "2023-11-07T03:30:28.647Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22925",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.14",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-908",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2021-08-05T21:15:11.467Z",
+                "LastModifiedDate": "2023-11-07T03:30:28.79Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22946",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-319",
+                    "CWE-325"
+                ],
+                "PublishedDate": "2021-09-29T20:15:08.187Z",
+                "LastModifiedDate": "2023-11-07T03:30:29.207Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22947",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-345",
+                    "CWE-310"
+                ],
+                "PublishedDate": "2021-09-29T20:15:08.253Z",
+                "LastModifiedDate": "2023-11-07T03:30:29.32Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-22576",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-306",
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-05-26T17:15:09.077Z",
+                "LastModifiedDate": "2023-07-24T13:31:27.107Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27774",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-522"
+                ],
+                "PublishedDate": "2022-06-02T14:15:43.317Z",
+                "LastModifiedDate": "2023-02-23T17:59:25.627Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27782",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295",
+                    "CWE-840"
+                ],
+                "PublishedDate": "2022-06-02T14:15:44.663Z",
+                "LastModifiedDate": "2023-03-20T09:15:10.827Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32206",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.19",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-07-07T13:15:08.34Z",
+                "LastModifiedDate": "2023-11-07T03:47:46.083Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32208",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.19",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-840"
+                ],
+                "PublishedDate": "2022-07-07T13:15:08.467Z",
+                "LastModifiedDate": "2023-11-07T03:47:46.28Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32221",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-668",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2022-12-05T22:15:10.343Z",
+                "LastModifiedDate": "2023-05-17T09:15:09.367Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-43552",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.22",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-02-09T20:15:10.95Z",
+                "LastModifiedDate": "2023-10-20T18:57:21.877Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-23916",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.23",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-02-23T20:15:13.777Z",
+                "LastModifiedDate": "2023-11-07T04:08:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27535",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-305"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.483Z",
+                "LastModifiedDate": "2023-11-07T04:09:59.127Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22898",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.14",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-909",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2021-06-11T16:15:11.043Z",
+                "LastModifiedDate": "2023-11-07T03:30:28.113Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27776",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.17",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-522"
+                ],
+                "PublishedDate": "2022-06-02T14:15:43.713Z",
+                "LastModifiedDate": "2023-11-07T03:45:23.783Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27781",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.18",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-835",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2022-06-02T14:15:44.467Z",
+                "LastModifiedDate": "2023-01-05T17:54:37.557Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35252",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.20",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-09-23T14:15:12.323Z",
+                "LastModifiedDate": "2023-03-01T18:09:04.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27533",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74",
+                    "CWE-75"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.373Z",
+                "LastModifiedDate": "2023-11-07T04:09:58.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27534",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.427Z",
+                "LastModifiedDate": "2023-11-07T04:09:59.06Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27536",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-305"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.547Z",
+                "LastModifiedDate": "2023-11-07T04:09:59.2Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27538",
+                "PkgName": "curl",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-305"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.677Z",
+                "LastModifiedDate": "2023-10-20T18:43:26.05Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "dirmngr",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "dirmngr",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1664",
+                "PkgName": "dpkg",
+                "InstalledVersion": "1.19.0.5ubuntu2.3",
+                "Status": "fixed",
+                "FixedVersion": "1.19.0.5ubuntu2.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2022-05-26T14:15:08.01Z",
+                "LastModifiedDate": "2022-12-03T02:19:32.127Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1304",
+                "PkgName": "e2fsprogs",
+                "InstalledVersion": "1.44.1-1ubuntu1.3",
+                "Status": "fixed",
+                "FixedVersion": "1.44.1-1ubuntu1.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-04-14T21:15:08.49Z",
+                "LastModifiedDate": "2023-11-07T03:41:53.02Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gnupg",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gnupg",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gnupg-l10n",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gnupg-l10n",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gnupg-utils",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gnupg-utils",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gpg",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gpg",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gpg-agent",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gpg-agent",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gpg-wks-client",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gpg-wks-client",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gpg-wks-server",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gpg-wks-server",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gpgconf",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gpgconf",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gpgsm",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gpgsm",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34903",
+                "PkgName": "gpgv",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2022-07-01T22:15:08.12Z",
+                "LastModifiedDate": "2023-11-07T03:48:47.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13050",
+                "PkgName": "gpgv",
+                "InstalledVersion": "2.2.4-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.2.4-1ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2019-06-29T17:15:08.627Z",
+                "LastModifiedDate": "2023-11-07T03:03:45.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1271",
+                "PkgName": "gzip",
+                "InstalledVersion": "1.6-5ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1.6-5ubuntu1.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20",
+                    "CWE-179"
+                ],
+                "PublishedDate": "2022-08-31T16:15:09.347Z",
+                "LastModifiedDate": "2023-11-07T03:41:52.377Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10188",
+                "PkgName": "inetutils-ping",
+                "InstalledVersion": "2:1.9.4-3",
+                "Status": "fixed",
+                "FixedVersion": "2:1.9.4-3ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2020-03-06T15:15:14.02Z",
+                "LastModifiedDate": "2023-11-07T03:14:07.46Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libasn1-8-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3999",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-08-24T16:15:09.077Z",
+                "LastModifiedDate": "2023-02-12T23:43:11.643Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-10228",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-03-02T01:59:00.143Z",
+                "LastModifiedDate": "2023-11-07T02:29:33.143Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-25013",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-01-04T18:15:13.027Z",
+                "LastModifiedDate": "2023-11-09T14:44:33.733Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-27618",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-02-26T23:15:11.123Z",
+                "LastModifiedDate": "2022-10-28T20:06:38.603Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-29562",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2020-12-04T07:15:11.003Z",
+                "LastModifiedDate": "2023-11-07T03:21:31.683Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-6096",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-195",
+                    "CWE-191",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2020-04-01T22:15:18.503Z",
+                "LastModifiedDate": "2023-11-07T03:24:12.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3326",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2021-01-27T20:15:14.02Z",
+                "LastModifiedDate": "2023-11-07T03:37:58.28Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35942",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-07-22T18:15:23.287Z",
+                "LastModifiedDate": "2023-11-07T03:36:39.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23218",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:08.8Z",
+                "LastModifiedDate": "2022-11-08T13:37:42.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23219",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:08.867Z",
+                "LastModifiedDate": "2022-11-08T13:32:54.15Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3999",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-08-24T16:15:09.077Z",
+                "LastModifiedDate": "2023-02-12T23:43:11.643Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-10228",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-03-02T01:59:00.143Z",
+                "LastModifiedDate": "2023-11-07T02:29:33.143Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-25013",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-01-04T18:15:13.027Z",
+                "LastModifiedDate": "2023-11-09T14:44:33.733Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-27618",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-02-26T23:15:11.123Z",
+                "LastModifiedDate": "2022-10-28T20:06:38.603Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-29562",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2020-12-04T07:15:11.003Z",
+                "LastModifiedDate": "2023-11-07T03:21:31.683Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-6096",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-195",
+                    "CWE-191",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2020-04-01T22:15:18.503Z",
+                "LastModifiedDate": "2023-11-07T03:24:12.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3326",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2021-01-27T20:15:14.02Z",
+                "LastModifiedDate": "2023-11-07T03:37:58.28Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35942",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-07-22T18:15:23.287Z",
+                "LastModifiedDate": "2023-11-07T03:36:39.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23218",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:08.8Z",
+                "LastModifiedDate": "2022-11-08T13:37:42.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23219",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.27-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "2.27-3ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:08.867Z",
+                "LastModifiedDate": "2022-11-08T13:32:54.15Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1304",
+                "PkgName": "libcom-err2",
+                "InstalledVersion": "1.44.1-1ubuntu1.3",
+                "Status": "fixed",
+                "FixedVersion": "1.44.1-1ubuntu1.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-04-14T21:15:08.49Z",
+                "LastModifiedDate": "2023-11-07T03:41:53.02Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22924",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.14",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-706",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-08-05T21:15:11.38Z",
+                "LastModifiedDate": "2023-11-07T03:30:28.647Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22925",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.14",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-908",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2021-08-05T21:15:11.467Z",
+                "LastModifiedDate": "2023-11-07T03:30:28.79Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22946",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-319",
+                    "CWE-325"
+                ],
+                "PublishedDate": "2021-09-29T20:15:08.187Z",
+                "LastModifiedDate": "2023-11-07T03:30:29.207Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22947",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-345",
+                    "CWE-310"
+                ],
+                "PublishedDate": "2021-09-29T20:15:08.253Z",
+                "LastModifiedDate": "2023-11-07T03:30:29.32Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-22576",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-306",
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-05-26T17:15:09.077Z",
+                "LastModifiedDate": "2023-07-24T13:31:27.107Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27774",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-522"
+                ],
+                "PublishedDate": "2022-06-02T14:15:43.317Z",
+                "LastModifiedDate": "2023-02-23T17:59:25.627Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27782",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295",
+                    "CWE-840"
+                ],
+                "PublishedDate": "2022-06-02T14:15:44.663Z",
+                "LastModifiedDate": "2023-03-20T09:15:10.827Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32206",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.19",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-07-07T13:15:08.34Z",
+                "LastModifiedDate": "2023-11-07T03:47:46.083Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32208",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.19",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-840"
+                ],
+                "PublishedDate": "2022-07-07T13:15:08.467Z",
+                "LastModifiedDate": "2023-11-07T03:47:46.28Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32221",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-668",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2022-12-05T22:15:10.343Z",
+                "LastModifiedDate": "2023-05-17T09:15:09.367Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-43552",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.22",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-02-09T20:15:10.95Z",
+                "LastModifiedDate": "2023-10-20T18:57:21.877Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-23916",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.23",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-02-23T20:15:13.777Z",
+                "LastModifiedDate": "2023-11-07T04:08:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27535",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-305"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.483Z",
+                "LastModifiedDate": "2023-11-07T04:09:59.127Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22898",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.14",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-909",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2021-06-11T16:15:11.043Z",
+                "LastModifiedDate": "2023-11-07T03:30:28.113Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27776",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.17",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-522"
+                ],
+                "PublishedDate": "2022-06-02T14:15:43.713Z",
+                "LastModifiedDate": "2023-11-07T03:45:23.783Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27781",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.18",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-835",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2022-06-02T14:15:44.467Z",
+                "LastModifiedDate": "2023-01-05T17:54:37.557Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35252",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.20",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-09-23T14:15:12.323Z",
+                "LastModifiedDate": "2023-03-01T18:09:04.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27533",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74",
+                    "CWE-75"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.373Z",
+                "LastModifiedDate": "2023-11-07T04:09:58.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27534",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.427Z",
+                "LastModifiedDate": "2023-11-07T04:09:59.06Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27536",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-305"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.547Z",
+                "LastModifiedDate": "2023-11-07T04:09:59.2Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27538",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.58.0-2ubuntu3.13",
+                "Status": "fixed",
+                "FixedVersion": "7.58.0-2ubuntu3.24",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-305"
+                ],
+                "PublishedDate": "2023-03-30T20:15:07.677Z",
+                "LastModifiedDate": "2023-10-20T18:43:26.05Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1304",
+                "PkgName": "libext2fs2",
+                "InstalledVersion": "1.44.1-1ubuntu1.3",
+                "Status": "fixed",
+                "FixedVersion": "1.44.1-1ubuntu1.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-04-14T21:15:08.49Z",
+                "LastModifiedDate": "2023-11-07T03:41:53.02Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-40528",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.8.1-4ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1.8.1-4ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-09-06T19:15:07.587Z",
+                "LastModifiedDate": "2023-11-07T03:38:36.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33560",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.8.1-4ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1.8.1-4ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2021-06-08T11:15:07.767Z",
+                "LastModifiedDate": "2023-11-07T03:35:52.62Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43618",
+                "PkgName": "libgmp10",
+                "InstalledVersion": "2:6.1.2+dfsg-2",
+                "Status": "fixed",
+                "FixedVersion": "2:6.1.2+dfsg-2ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-11-15T04:15:06.873Z",
+                "LastModifiedDate": "2023-09-29T15:15:10.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2509",
+                "PkgName": "libgnutls30",
+                "InstalledVersion": "3.5.18-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "3.5.18-1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2022-08-01T14:15:09.89Z",
+                "LastModifiedDate": "2023-11-07T03:46:37.7Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-4209",
+                "PkgName": "libgnutls30",
+                "InstalledVersion": "3.5.18-1ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "3.5.18-1ubuntu1.6",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-08-24T16:15:09.927Z",
+                "LastModifiedDate": "2022-10-27T16:57:33.273Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20217",
+                "PkgName": "libgssapi-krb5-2",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2018-12-26T21:29:02.543Z",
+                "LastModifiedDate": "2023-11-07T02:56:15.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36222",
+                "PkgName": "libgssapi-krb5-2",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-07-22T18:15:23.337Z",
+                "LastModifiedDate": "2021-11-28T23:19:43.677Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37750",
+                "PkgName": "libgssapi-krb5-2",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-08-23T05:15:08.063Z",
+                "LastModifiedDate": "2023-11-07T03:37:01.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libgssapi-krb5-2",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libgssapi3-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libhcrypto4-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libheimbase1-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libheimntlm0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libhx509-5-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20217",
+                "PkgName": "libk5crypto3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2018-12-26T21:29:02.543Z",
+                "LastModifiedDate": "2023-11-07T02:56:15.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36222",
+                "PkgName": "libk5crypto3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-07-22T18:15:23.337Z",
+                "LastModifiedDate": "2021-11-28T23:19:43.677Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37750",
+                "PkgName": "libk5crypto3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-08-23T05:15:08.063Z",
+                "LastModifiedDate": "2023-11-07T03:37:01.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libk5crypto3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libkrb5-26-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20217",
+                "PkgName": "libkrb5-3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2018-12-26T21:29:02.543Z",
+                "LastModifiedDate": "2023-11-07T02:56:15.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36222",
+                "PkgName": "libkrb5-3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-07-22T18:15:23.337Z",
+                "LastModifiedDate": "2021-11-28T23:19:43.677Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37750",
+                "PkgName": "libkrb5-3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-08-23T05:15:08.063Z",
+                "LastModifiedDate": "2023-11-07T03:37:01.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libkrb5-3",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20217",
+                "PkgName": "libkrb5support0",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2018-12-26T21:29:02.543Z",
+                "LastModifiedDate": "2023-11-07T02:56:15.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36222",
+                "PkgName": "libkrb5support0",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-07-22T18:15:23.337Z",
+                "LastModifiedDate": "2021-11-28T23:19:43.677Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37750",
+                "PkgName": "libkrb5support0",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-08-23T05:15:08.063Z",
+                "LastModifiedDate": "2023-11-07T03:37:01.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libkrb5support0",
+                "InstalledVersion": "1.16-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.16-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3515",
+                "PkgName": "libksba8",
+                "InstalledVersion": "1.3.5-2",
+                "Status": "fixed",
+                "FixedVersion": "1.3.5-2ubuntu0.18.04.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.187Z",
+                "LastModifiedDate": "2023-07-06T19:15:09.857Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47629",
+                "PkgName": "libksba8",
+                "InstalledVersion": "1.3.5-2",
+                "Status": "fixed",
+                "FixedVersion": "1.3.5-2ubuntu0.18.04.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-20T23:15:12.093Z",
+                "LastModifiedDate": "2023-11-07T03:56:24.24Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29155",
+                "PkgName": "libldap-2.4-2",
+                "InstalledVersion": "2.4.45+dfsg-1ubuntu1.10",
+                "Status": "fixed",
+                "FixedVersion": "2.4.45+dfsg-1ubuntu1.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-89"
+                ],
+                "PublishedDate": "2022-05-04T20:15:07.69Z",
+                "LastModifiedDate": "2022-10-06T15:56:08.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29155",
+                "PkgName": "libldap-common",
+                "InstalledVersion": "2.4.45+dfsg-1ubuntu1.10",
+                "Status": "fixed",
+                "FixedVersion": "2.4.45+dfsg-1ubuntu1.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-89"
+                ],
+                "PublishedDate": "2022-05-04T20:15:07.69Z",
+                "LastModifiedDate": "2022-10-06T15:56:08.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1271",
+                "PkgName": "liblzma5",
+                "InstalledVersion": "5.2.2-1.3",
+                "Status": "fixed",
+                "FixedVersion": "5.2.2-1.3ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20",
+                    "CWE-179"
+                ],
+                "PublishedDate": "2022-08-31T16:15:09.347Z",
+                "LastModifiedDate": "2023-11-07T03:41:52.377Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:08.57Z",
+                "LastModifiedDate": "2023-12-03T20:15:07.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:12.477Z",
+                "LastModifiedDate": "2023-12-03T20:15:06.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:08.57Z",
+                "LastModifiedDate": "2023-12-03T20:15:07.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:12.477Z",
+                "LastModifiedDate": "2023-12-03T20:15:06.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam-modules",
+                "InstalledVersion": "1.1.8-3.6ubuntu2.18.04.3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.8-3.6ubuntu2.18.04.4",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam-modules-bin",
+                "InstalledVersion": "1.1.8-3.6ubuntu2.18.04.3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.8-3.6ubuntu2.18.04.4",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam-runtime",
+                "InstalledVersion": "1.1.8-3.6ubuntu2.18.04.3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.8-3.6ubuntu2.18.04.4",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam0g",
+                "InstalledVersion": "1.1.8-3.6ubuntu2.18.04.3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.8-3.6ubuntu2.18.04.4",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-20838",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-9",
+                "Status": "fixed",
+                "FixedVersion": "2:8.39-9ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2020-06-15T17:15:09.683Z",
+                "LastModifiedDate": "2023-11-07T03:09:13.55Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-14155",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-9",
+                "Status": "fixed",
+                "FixedVersion": "2:8.39-9ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2020-06-15T17:15:10.777Z",
+                "LastModifiedDate": "2023-11-07T03:17:06.843Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libroken18-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-24407",
+                "PkgName": "libsasl2-2",
+                "InstalledVersion": "2.1.27~101-g0780600+dfsg-3ubuntu2.3",
+                "Status": "fixed",
+                "FixedVersion": "2.1.27~101-g0780600+dfsg-3ubuntu2.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-89"
+                ],
+                "PublishedDate": "2022-02-24T15:15:29.35Z",
+                "LastModifiedDate": "2023-11-07T03:44:29.09Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-24407",
+                "PkgName": "libsasl2-modules-db",
+                "InstalledVersion": "2.1.27~101-g0780600+dfsg-3ubuntu2.3",
+                "Status": "fixed",
+                "FixedVersion": "2.1.27~101-g0780600+dfsg-3ubuntu2.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-89"
+                ],
+                "PublishedDate": "2022-02-24T15:15:29.35Z",
+                "LastModifiedDate": "2023-11-07T03:44:29.09Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36084",
+                "PkgName": "libsepol1",
+                "InstalledVersion": "2.7-1",
+                "Status": "fixed",
+                "FixedVersion": "2.7-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-07-01T03:15:08.717Z",
+                "LastModifiedDate": "2023-11-07T03:36:42.51Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36085",
+                "PkgName": "libsepol1",
+                "InstalledVersion": "2.7-1",
+                "Status": "fixed",
+                "FixedVersion": "2.7-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-07-01T03:15:08.75Z",
+                "LastModifiedDate": "2023-11-07T03:36:42.577Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36086",
+                "PkgName": "libsepol1",
+                "InstalledVersion": "2.7-1",
+                "Status": "fixed",
+                "FixedVersion": "2.7-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-07-01T03:15:08.783Z",
+                "LastModifiedDate": "2023-11-07T03:36:42.637Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36087",
+                "PkgName": "libsepol1",
+                "InstalledVersion": "2.7-1",
+                "Status": "fixed",
+                "FixedVersion": "2.7-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-07-01T03:15:08.817Z",
+                "LastModifiedDate": "2023-11-07T03:36:42.693Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35525",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.22.0-1ubuntu0.4",
+                "Status": "fixed",
+                "FixedVersion": "3.22.0-1ubuntu0.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-09-01T18:15:08.54Z",
+                "LastModifiedDate": "2023-07-06T19:15:09.633Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35737",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.22.0-1ubuntu0.4",
+                "Status": "fixed",
+                "FixedVersion": "3.22.0-1ubuntu0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-129"
+                ],
+                "PublishedDate": "2022-08-03T06:15:07.69Z",
+                "LastModifiedDate": "2022-11-16T20:01:00.03Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36690",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.22.0-1ubuntu0.4",
+                "Status": "fixed",
+                "FixedVersion": "3.22.0-1ubuntu0.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-08-24T14:15:09.797Z",
+                "LastModifiedDate": "2023-11-07T03:36:46.713Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1304",
+                "PkgName": "libss2",
+                "InstalledVersion": "1.44.1-1ubuntu1.3",
+                "Status": "fixed",
+                "FixedVersion": "1.44.1-1ubuntu1.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-04-14T21:15:08.49Z",
+                "LastModifiedDate": "2023-11-07T03:41:53.02Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3711",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.13",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2021-08-24T15:15:09.133Z",
+                "LastModifiedDate": "2023-11-07T03:38:13.123Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-0778",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.15",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2022-03-15T17:15:08.513Z",
+                "LastModifiedDate": "2023-11-07T03:41:33.873Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0286",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-843"
+                ],
+                "PublishedDate": "2023-02-08T20:15:24.267Z",
+                "LastModifiedDate": "2023-11-07T04:00:05.973Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3712",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-24T15:15:09.533Z",
+                "LastModifiedDate": "2023-11-07T03:38:13.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1292",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2022-05-03T16:15:18.823Z",
+                "LastModifiedDate": "2023-11-07T03:41:52.74Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2068",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.19",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2022-06-21T15:15:09.06Z",
+                "LastModifiedDate": "2023-11-07T03:46:11.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2097",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.20",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2022-07-05T11:15:08.34Z",
+                "LastModifiedDate": "2023-11-07T03:46:13Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4304",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-02-08T20:15:23.887Z",
+                "LastModifiedDate": "2023-11-07T03:57:29.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4450",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2023-02-08T20:15:23.973Z",
+                "LastModifiedDate": "2023-11-07T03:57:50.597Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0215",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-02-08T20:15:24.107Z",
+                "LastModifiedDate": "2023-07-19T00:55:16.513Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.23",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:09.683Z",
+                "LastModifiedDate": "2023-10-27T15:15:13.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.22",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:13.13Z",
+                "LastModifiedDate": "2023-11-09T13:15:07.34Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.22",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:06.82Z",
+                "LastModifiedDate": "2023-06-08T19:15:09.407Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0466",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.22",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:06.88Z",
+                "LastModifiedDate": "2023-09-28T18:15:11.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33910",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "237-3ubuntu10.48",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.49",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2021-07-20T19:15:09.783Z",
+                "LastModifiedDate": "2023-11-07T03:35:56.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2526",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "237-3ubuntu10.48",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.56",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2022-09-09T15:15:10.107Z",
+                "LastModifiedDate": "2023-01-20T03:17:34.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3821",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "237-3ubuntu10.48",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.57",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-08T22:15:16.7Z",
+                "LastModifiedDate": "2023-11-07T03:51:50.43Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13529",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "237-3ubuntu10.48",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.49",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-290"
+                ],
+                "PublishedDate": "2021-05-10T16:15:07.373Z",
+                "LastModifiedDate": "2023-11-07T03:16:42.717Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:08.57Z",
+                "LastModifiedDate": "2023-12-03T20:15:07.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:12.477Z",
+                "LastModifiedDate": "2023-12-03T20:15:06.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2526",
+                "PkgName": "libudev1",
+                "InstalledVersion": "237-3ubuntu10.49",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.56",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2022-09-09T15:15:10.107Z",
+                "LastModifiedDate": "2023-01-20T03:17:34.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3821",
+                "PkgName": "libudev1",
+                "InstalledVersion": "237-3ubuntu10.49",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.57",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-08T22:15:16.7Z",
+                "LastModifiedDate": "2023-11-07T03:51:50.43Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16860",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-358"
+                ],
+                "PublishedDate": "2019-07-31T15:15:11.687Z",
+                "LastModifiedDate": "2019-08-14T12:15:11.307Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-44758",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-12-26T05:15:10.503Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3116",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-27T22:15:11.987Z",
+                "LastModifiedDate": "2023-05-05T20:15:09.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3437",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-01-12T15:15:10.083Z",
+                "LastModifiedDate": "2023-11-07T03:51:15.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41916",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-15T23:15:27.197Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42898",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2022-12-25T06:15:09.427Z",
+                "LastModifiedDate": "2023-10-08T09:15:10.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44640",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-25T05:15:11.103Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.017Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45142",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-354"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.233Z",
+                "LastModifiedDate": "2023-10-08T09:15:11.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12098",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-15T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:03:28.5Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3671",
+                "PkgName": "libwind0-heimdal",
+                "InstalledVersion": "7.5.0+dfsg-1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.0+dfsg-1ubuntu0.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-10-12T18:15:08.357Z",
+                "LastModifiedDate": "2023-11-07T03:38:11.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7169",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.5-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "1:4.5-1ubuntu2.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-732"
+                ],
+                "PublishedDate": "2018-02-15T20:29:00.867Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:08.57Z",
+                "LastModifiedDate": "2023-12-03T20:15:07.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:12.477Z",
+                "LastModifiedDate": "2023-12-03T20:15:06.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:08.57Z",
+                "LastModifiedDate": "2023-12-03T20:15:07.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:12.477Z",
+                "LastModifiedDate": "2023-12-03T20:15:06.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "6.1-1ubuntu1.18.04",
+                "Status": "fixed",
+                "FixedVersion": "6.1-1ubuntu1.18.04.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3711",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.13",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2021-08-24T15:15:09.133Z",
+                "LastModifiedDate": "2023-11-07T03:38:13.123Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-0778",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.15",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2022-03-15T17:15:08.513Z",
+                "LastModifiedDate": "2023-11-07T03:41:33.873Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0286",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-843"
+                ],
+                "PublishedDate": "2023-02-08T20:15:24.267Z",
+                "LastModifiedDate": "2023-11-07T04:00:05.973Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3712",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-24T15:15:09.533Z",
+                "LastModifiedDate": "2023-11-07T03:38:13.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1292",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2022-05-03T16:15:18.823Z",
+                "LastModifiedDate": "2023-11-07T03:41:52.74Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2068",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.19",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2022-06-21T15:15:09.06Z",
+                "LastModifiedDate": "2023-11-07T03:46:11.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2097",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.20",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2022-07-05T11:15:08.34Z",
+                "LastModifiedDate": "2023-11-07T03:46:13Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4304",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-02-08T20:15:23.887Z",
+                "LastModifiedDate": "2023-11-07T03:57:29.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4450",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2023-02-08T20:15:23.973Z",
+                "LastModifiedDate": "2023-11-07T03:57:50.597Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0215",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-02-08T20:15:24.107Z",
+                "LastModifiedDate": "2023-07-19T00:55:16.513Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.23",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:09.683Z",
+                "LastModifiedDate": "2023-10-27T15:15:13.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.22",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:13.13Z",
+                "LastModifiedDate": "2023-11-09T13:15:07.34Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.22",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:06.82Z",
+                "LastModifiedDate": "2023-06-08T19:15:09.407Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0466",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1-1ubuntu2.1~18.04.9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1-1ubuntu2.1~18.04.22",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:06.88Z",
+                "LastModifiedDate": "2023-09-28T18:15:11.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7169",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.5-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "1:4.5-1ubuntu2.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-732"
+                ],
+                "PublishedDate": "2018-02-15T20:29:00.867Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-16156",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.26.1-6ubuntu0.5",
+                "Status": "fixed",
+                "FixedVersion": "5.26.1-6ubuntu0.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-347"
+                ],
+                "PublishedDate": "2021-12-13T18:15:07.943Z",
+                "LastModifiedDate": "2023-11-07T03:18:12.83Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31484",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.26.1-6ubuntu0.5",
+                "Status": "fixed",
+                "FixedVersion": "5.26.1-6ubuntu0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-04-29T00:15:09Z",
+                "LastModifiedDate": "2023-11-07T04:14:19.41Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22809",
+                "PkgName": "sudo",
+                "InstalledVersion": "1.8.21p2-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.8.21p2-3ubuntu1.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2023-01-18T17:15:10.353Z",
+                "LastModifiedDate": "2023-11-17T19:32:56.817Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28486",
+                "PkgName": "sudo",
+                "InstalledVersion": "1.8.21p2-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.8.21p2-3ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2023-03-16T01:15:47.003Z",
+                "LastModifiedDate": "2023-11-02T01:59:06.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28487",
+                "PkgName": "sudo",
+                "InstalledVersion": "1.8.21p2-3ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.8.21p2-3ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2023-03-16T01:15:47.067Z",
+                "LastModifiedDate": "2023-11-02T01:58:22.777Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48303",
+                "PkgName": "tar",
+                "InstalledVersion": "1.29b-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.29b-2ubuntu0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-01-30T04:15:08.03Z",
+                "LastModifiedDate": "2023-05-30T17:16:57.713Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20193",
+                "PkgName": "tar",
+                "InstalledVersion": "1.29b-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.29b-2ubuntu0.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-401"
+                ],
+                "PublishedDate": "2021-03-26T17:15:12.843Z",
+                "LastModifiedDate": "2023-11-07T03:28:59.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2526",
+                "PkgName": "udev",
+                "InstalledVersion": "237-3ubuntu10.49",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.56",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2022-09-09T15:15:10.107Z",
+                "LastModifiedDate": "2023-01-20T03:17:34.727Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3821",
+                "PkgName": "udev",
+                "InstalledVersion": "237-3ubuntu10.49",
+                "Status": "fixed",
+                "FixedVersion": "237-3ubuntu10.57",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-08T22:15:16.7Z",
+                "LastModifiedDate": "2023-11-07T03:51:50.43Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-25032",
+                "PkgName": "zlib1g",
+                "InstalledVersion": "1:1.2.11.dfsg-0ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "1:1.2.11.dfsg-0ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-03-25T09:15:08.187Z",
+                "LastModifiedDate": "2023-11-07T02:56:26.393Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-37434",
+                "PkgName": "zlib1g",
+                "InstalledVersion": "1:1.2.11.dfsg-0ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "1:1.2.11.dfsg-0ubuntu2.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-08-05T07:15:07.24Z",
+                "LastModifiedDate": "2023-07-19T00:56:46.373Z"
+            }
+        ]
+    }
+]

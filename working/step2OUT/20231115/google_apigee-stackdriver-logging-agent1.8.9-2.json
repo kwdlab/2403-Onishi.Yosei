@@ -1,0 +1,638 @@
+[
+    {
+        "RepoTags": [
+            "google/apigee-stackdriver-logging-agent:1.8.9-2"
+        ],
+        "created": "2021-11-01T21:25:25.975997236Z"
+    },
+    {
+        "Target": "google/apigee-stackdriver-logging-agent:1.8.9-2 (debian 10.11)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "DLA-3134-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2021a-0+deb10u3",
+                "Status": "fixed",
+                "FixedVersion": "2021a-0+deb10u7",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "DLA-3161-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2021a-0+deb10u3",
+                "Status": "fixed",
+                "FixedVersion": "2021a-0+deb10u8",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "DLA-3366-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2021a-0+deb10u3",
+                "Status": "fixed",
+                "FixedVersion": "2021a-0+deb10u10",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "DLA-3412-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2021a-0+deb10u3",
+                "Status": "fixed",
+                "FixedVersion": "2021a-0+deb10u11",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "Ruby",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2016-7954",
+                "PkgName": "bundler",
+                "InstalledVersion": "1.17.2",
+                "Status": "fixed",
+                "FixedVersion": ">= 2.0.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2016-12-22T22:59:00Z",
+                "LastModifiedDate": "2019-07-02T14:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3881",
+                "PkgName": "bundler",
+                "InstalledVersion": "1.17.2",
+                "Status": "fixed",
+                "FixedVersion": ">= 2.1.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-427"
+                ],
+                "PublishedDate": "2020-09-04T12:15:00Z",
+                "LastModifiedDate": "2022-11-08T19:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36327",
+                "PkgName": "bundler",
+                "InstalledVersion": "1.17.2",
+                "Status": "fixed",
+                "FixedVersion": "= 2.2.10, >= 2.2.18",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-04-29T03:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43809",
+                "PkgName": "bundler",
+                "InstalledVersion": "1.17.2",
+                "Status": "fixed",
+                "FixedVersion": ">= 2.2.33",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-88"
+                ],
+                "PublishedDate": "2021-12-08T19:15:00Z",
+                "LastModifiedDate": "2023-10-27T12:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-41817",
+                "PkgName": "date",
+                "InstalledVersion": "2.0.0",
+                "Status": "fixed",
+                "FixedVersion": "~> 2.0.1, ~> 3.0.2, ~> 3.1.2, >= 3.2.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-01-01T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-41186",
+                "PkgName": "fluentd",
+                "InstalledVersion": "1.11.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.14.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2021-10-29T14:15:00Z",
+                "LastModifiedDate": "2021-11-03T00:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-41186",
+                "PkgName": "fluentd",
+                "InstalledVersion": "1.13.3",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.14.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2021-10-29T14:15:00Z",
+                "LastModifiedDate": "2021-11-03T00:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-39379",
+                "PkgName": "fluentd",
+                "InstalledVersion": "1.13.3",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.15.3",
+                "Severity": "LOW",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-11-02T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22569",
+                "PkgName": "google-protobuf",
+                "InstalledVersion": "3.15.8",
+                "Status": "fixed",
+                "FixedVersion": ">= 3.19.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-01-10T14:10:00Z",
+                "LastModifiedDate": "2023-04-18T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3171",
+                "PkgName": "google-protobuf",
+                "InstalledVersion": "3.15.8",
+                "Status": "fixed",
+                "FixedVersion": "~> 3.16.3, ~> 3.19.6, ~> 3.20.3, >= 3.21.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-10-12T23:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1428",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.20.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-06-15T22:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32731",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.20.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-06-15T22:18:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32732",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.20.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-08-02T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1428",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.31.1",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-06-15T22:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32731",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.31.1",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-06-15T22:18:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32732",
+                "PkgName": "grpc",
+                "InstalledVersion": "1.31.1",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.53.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-09T11:15:00Z",
+                "LastModifiedDate": "2023-08-02T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32511",
+                "PkgName": "jmespath",
+                "InstalledVersion": "1.4.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.6.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-06-06T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10663",
+                "PkgName": "json",
+                "InstalledVersion": "2.1.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 2.3.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2020-04-28T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10663",
+                "PkgName": "json",
+                "InstalledVersion": "2.1.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 2.3.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2020-04-28T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10663",
+                "PkgName": "json",
+                "InstalledVersion": "2.2.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 2.3.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2020-04-28T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-0759",
+                "PkgName": "kubeclient",
+                "InstalledVersion": "4.9.2",
+                "Status": "fixed",
+                "FixedVersion": ">= 4.9.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2022-03-25T19:15:00Z",
+                "LastModifiedDate": "2022-04-07T19:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-25032",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-03-25T09:15:00Z",
+                "LastModifiedDate": "2023-11-07T02:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-30560",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-08-03T19:15:00Z",
+                "LastModifiedDate": "2023-10-31T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-24836",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-04-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-24839",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2022-04-11T22:15:00Z",
+                "LastModifiedDate": "2023-02-23T20:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29181",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.6",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-241"
+                ],
+                "PublishedDate": "2022-05-20T19:15:00Z",
+                "LastModifiedDate": "2023-02-16T02:31:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-cgx6-hpwq-fhv5",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-fq42-c5rg-92c2",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": "1.13.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-gx8x-g87m-h5q6",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": "1.13.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-v6gp-9mmm-c6p5",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": "1.13.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23437",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2022-01-24T15:15:00Z",
+                "LastModifiedDate": "2023-08-08T14:22:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-2qc6-mcvw-92cw",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.13.9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-pxvg-2qj5-37jq",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.14.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-xxx9-3xcr-gjj3",
+                "PkgName": "nokogiri",
+                "InstalledVersion": "1.12.5",
+                "Status": "fixed",
+                "FixedVersion": "1.13.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8130",
+                "PkgName": "rake",
+                "InstalledVersion": "12.3.2",
+                "Status": "fixed",
+                "FixedVersion": ">= 12.3.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2020-02-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-31799",
+                "PkgName": "rdoc",
+                "InstalledVersion": "6.1.2",
+                "Status": "fixed",
+                "FixedVersion": "~> 6.1.2.1, ~> 6.2.1.1, >= 6.3.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2021-07-30T14:15:00Z",
+                "LastModifiedDate": "2022-06-28T14:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-28965",
+                "PkgName": "rexml",
+                "InstalledVersion": "3.1.9",
+                "Status": "fixed",
+                "FixedVersion": "~> 3.1.9.1, ~> 3.2.3.1, >= 3.2.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-04-21T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-31163",
+                "PkgName": "tzinfo",
+                "InstalledVersion": "1.2.2",
+                "Status": "fixed",
+                "FixedVersion": "~> 0.3.61, >= 1.2.10",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-22",
+                    "CWE-23"
+                ],
+                "PublishedDate": "2022-07-22T04:15:00Z",
+                "LastModifiedDate": "2022-10-26T19:00:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-25613",
+                "PkgName": "webrick",
+                "InstalledVersion": "1.4.2",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-444"
+                ],
+                "PublishedDate": "2020-10-06T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-24795",
+                "PkgName": "yajl-ruby",
+                "InstalledVersion": "1.3.1",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2022-04-05T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            }
+        ]
+    }
+]

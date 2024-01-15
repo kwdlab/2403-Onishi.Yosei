@@ -1,0 +1,132 @@
+[
+    {
+        "RepoTags": [
+            "amazon/aws-lambda-ruby:3.2.2023.11.03.14"
+        ],
+        "created": "2023-11-03T14:32:41Z"
+    },
+    {
+        "Target": "amazon/aws-lambda-ruby:3.2.2023.11.03.14 (amazon 2 (Karoo))",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-4156",
+                "PkgName": "gawk",
+                "InstalledVersion": "4.0.2-4.amzn2.1.2",
+                "Status": "fixed",
+                "FixedVersion": "4.0.2-4.amzn2.1.3",
+                "Severity": "LOW",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-25T18:15:11.013Z",
+                "LastModifiedDate": "2023-11-07T04:22:11.937Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43618",
+                "PkgName": "gmp",
+                "InstalledVersion": "1:6.0.0-15.amzn2.0.2",
+                "Status": "fixed",
+                "FixedVersion": "1:6.0.0-15.amzn2.0.3",
+                "Severity": "LOW",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-11-15T04:15:06.873Z",
+                "LastModifiedDate": "2023-09-29T15:15:10.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45322",
+                "PkgName": "libxml2",
+                "InstalledVersion": "2.9.1-6.amzn2.5.12",
+                "Status": "fixed",
+                "FixedVersion": "2.9.1-6.amzn2.5.13",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-10-06T22:15:11.66Z",
+                "LastModifiedDate": "2023-11-07T04:21:45Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.0.2k-24.amzn2.0.9",
+                "Status": "fixed",
+                "FixedVersion": "1:1.0.2k-24.amzn2.0.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48565",
+                "PkgName": "python",
+                "InstalledVersion": "2.7.18-1.amzn2.0.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.18-1.amzn2.0.7",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-611"
+                ],
+                "PublishedDate": "2023-08-22T19:16:32.007Z",
+                "LastModifiedDate": "2023-11-07T03:56:34.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48565",
+                "PkgName": "python-libs",
+                "InstalledVersion": "2.7.18-1.amzn2.0.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.18-1.amzn2.0.7",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-611"
+                ],
+                "PublishedDate": "2023-08-22T19:16:32.007Z",
+                "LastModifiedDate": "2023-11-07T03:56:34.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45853",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.7-19.amzn2.0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.7-19.amzn2.0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-14T02:15:09.323Z",
+                "LastModifiedDate": "2023-12-16T23:15:40.647Z"
+            }
+        ]
+    },
+    {
+        "Target": "Ruby",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-36617",
+                "PkgName": "uri",
+                "InstalledVersion": "0.12.1",
+                "Status": "fixed",
+                "FixedVersion": "~> 0.10.0.3, ~> 0.10.3, ~> 0.11.2, >= 0.12.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-29T13:15:09.583Z",
+                "LastModifiedDate": "2023-07-25T15:15:13.497Z"
+            }
+        ]
+    }
+]

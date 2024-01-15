@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "balenalib/spacely-tx2-fedora-node:20231106"
+        ],
+        "created": "2023-11-06T14:12:56.934320243Z"
+    },
+    {
+        "Target": "Node.js",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-25881",
+                "PkgName": "http-cache-semantics",
+                "InstalledVersion": "4.1.0",
+                "Status": "fixed",
+                "FixedVersion": "4.1.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-01-31T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-25883",
+                "PkgName": "semver",
+                "InstalledVersion": "7.3.8",
+                "Status": "fixed",
+                "FixedVersion": "7.5.2, 6.3.1, 5.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-21T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            }
+        ]
+    }
+]

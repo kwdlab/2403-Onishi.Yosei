@@ -1,0 +1,252 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/apache2-ib:2.4.53"
+        ],
+        "created": "2023-12-19T18:18:34.556019192Z"
+    },
+    {
+        "Target": "rapidfort/apache2-ib:2.4.53 (redhat 9.3)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-31122",
+                "PkgName": "httpd",
+                "InstalledVersion": "2.4.57-5.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-23T07:15:11.103Z",
+                "LastModifiedDate": "2023-11-07T05:15:08.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31122",
+                "PkgName": "httpd-core",
+                "InstalledVersion": "2.4.57-5.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-23T07:15:11.103Z",
+                "LastModifiedDate": "2023-11-07T05:15:08.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libgcc",
+                "InstalledVersion": "11.4.1-2.1.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4899",
+                "PkgName": "libzstd",
+                "InstalledVersion": "1.5.1-2.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-03-31T20:15:07.213Z",
+                "LastModifiedDate": "2023-11-07T03:59:16.09Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43622",
+                "PkgName": "mod_http2",
+                "InstalledVersion": "1.15.19-5.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-23T07:15:11.243Z",
+                "LastModifiedDate": "2023-11-01T18:11:02.37Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45802",
+                "PkgName": "mod_http2",
+                "InstalledVersion": "1.15.19-5.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-23T07:15:11.33Z",
+                "LastModifiedDate": "2023-11-07T05:15:13.413Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31122",
+                "PkgName": "mod_lua",
+                "InstalledVersion": "2.4.57-5.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-23T07:15:11.103Z",
+                "LastModifiedDate": "2023-11-07T05:15:08.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31122",
+                "PkgName": "mod_session",
+                "InstalledVersion": "2.4.57-5.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-23T07:15:11.103Z",
+                "LastModifiedDate": "2023-11-07T05:15:08.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31122",
+                "PkgName": "mod_ssl",
+                "InstalledVersion": "1:2.4.57-5.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-23T07:15:11.103Z",
+                "LastModifiedDate": "2023-11-07T05:15:08.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-50495",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.2-10.20210508.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-12T15:15:07.867Z",
+                "LastModifiedDate": "2023-12-18T18:30:24.743Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29458",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.2-10.20210508.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-18T21:15:07.6Z",
+                "LastModifiedDate": "2023-11-07T03:46:02.1Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:3.0.7-24.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:43.613Z",
+                "LastModifiedDate": "2023-11-09T13:55:31.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2975",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:3.0.7-24.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-07-14T12:15:09.023Z",
+                "LastModifiedDate": "2023-07-27T13:02:02.013Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:3.0.7-24.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:10.003Z",
+                "LastModifiedDate": "2023-10-03T15:48:00.24Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:3.0.7-24.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:10.497Z",
+                "LastModifiedDate": "2023-11-06T19:15:09.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:3.0.7-24.el9",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3997",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "252-18.el9",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-08-23T20:15:08.67Z",
+                "LastModifiedDate": "2023-05-03T12:15:15.95Z"
+            }
+        ]
+    }
+]

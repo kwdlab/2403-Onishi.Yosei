@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "docker/ucp-kube-compose-api-s390x:3.1.0-beta3"
+        ],
+        "created": "2018-10-04T20:42:26.715150117Z"
+    },
+    {
+        "Target": "docker/ucp-kube-compose-api-s390x:3.1.0-beta3 (alpine 3.7.1)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.18-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.18-r4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:11.72Z",
+                "LastModifiedDate": "2023-03-03T17:43:22.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.18-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.18-r4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:11.72Z",
+                "LastModifiedDate": "2023-03-03T17:43:22.227Z"
+            }
+        ]
+    }
+]

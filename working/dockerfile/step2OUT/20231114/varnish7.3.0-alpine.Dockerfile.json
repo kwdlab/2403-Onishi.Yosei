@@ -1,0 +1,25 @@
+[
+    {
+        "Target": "varnish:7.3.0-alpine.Dockerfile",
+        "Class": "config",
+        "MisconfSummary": {
+            "Successes": 24,
+            "Failures": 2,
+            "Exceptions": 0
+        },
+        "Misconfigurations": [
+            {
+                "AVDID": "AVD-DS-0025",
+                "Severity": "HIGH",
+                "Title": "'apk add' is missing '--no-cache'",
+                "Description": "You should use 'apk add' with '--no-cache' to clean package cached data and reduce image size."
+            },
+            {
+                "AVDID": "AVD-DS-0026",
+                "Severity": "LOW",
+                "Title": "No HEALTHCHECK defined",
+                "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
+            }
+        ]
+    }
+]

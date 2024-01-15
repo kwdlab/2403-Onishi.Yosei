@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "intel/esp-dnsmasq:v3.1.2"
+        ],
+        "created": "2023-07-25T04:53:30.787891891Z"
+    },
+    {
+        "Target": "intel/esp-dnsmasq:v3.1.2 (alpine 3.14.10)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-28450",
+                "PkgName": "dnsmasq",
+                "InstalledVersion": "2.85-r3",
+                "Status": "fixed",
+                "FixedVersion": "2.86-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-03-15T21:15:09.333Z",
+                "LastModifiedDate": "2023-11-07T04:10:37.277Z"
+            }
+        ]
+    }
+]

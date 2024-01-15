@@ -1,0 +1,268 @@
+[
+    {
+        "RepoTags": [
+            "astronomerinc/ap-fluentd:1.16.2-2"
+        ],
+        "created": "2023-11-08T12:46:41.22549524Z"
+    },
+    {
+        "Target": "astronomerinc/ap-fluentd:1.16.2-2 (ubuntu 23.10)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2016-2781",
+                "PkgName": "coreutils",
+                "InstalledVersion": "9.1-1ubuntu2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:32:03.347Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3219",
+                "PkgName": "gpgv",
+                "InstalledVersion": "2.2.40-1.1ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-02-23T20:15:12.393Z",
+                "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.38-1ubuntu6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:09.413Z",
+                "LastModifiedDate": "2022-03-03T16:43:19.667Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.38-1ubuntu6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:09.413Z",
+                "LastModifiedDate": "2022-03-03T16:43:19.667Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5981",
+                "PkgName": "libgnutls30",
+                "InstalledVersion": "3.8.1-4ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "3.8.1-4ubuntu1.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-11-28T12:15:07.04Z",
+                "LastModifiedDate": "2023-12-11T09:15:06.907Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-22916",
+                "PkgName": "liblzma5",
+                "InstalledVersion": "5.4.1-0.2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:19.407Z",
+                "LastModifiedDate": "2023-11-07T03:19:47.47Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam-modules",
+                "InstalledVersion": "1.5.2-6ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam-modules-bin",
+                "InstalledVersion": "1.5.2-6ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam-runtime",
+                "InstalledVersion": "1.5.2-6ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28321",
+                "PkgName": "libpam0g",
+                "InstalledVersion": "1.5.2-6ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2022-09-19T22:15:10.913Z",
+                "LastModifiedDate": "2023-08-08T14:21:49.707Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4016",
+                "PkgName": "libproc2-0",
+                "InstalledVersion": "2:4.0.3-1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:4.0.3-1ubuntu1.23.10.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-08-02T05:15:09.85Z",
+                "LastModifiedDate": "2023-12-15T18:19:03.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.13+dfsg1-1ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:07.68Z",
+                "LastModifiedDate": "2023-04-24T18:05:30.313Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.13+dfsg1-1ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:07.68Z",
+                "LastModifiedDate": "2023-04-24T18:05:30.313Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47038",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.36.0-9ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "5.36.0-9ubuntu1.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-12-18T14:15:08.933Z",
+                "LastModifiedDate": "2023-12-18T15:04:28.363Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4016",
+                "PkgName": "procps",
+                "InstalledVersion": "2:4.0.3-1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:4.0.3-1ubuntu1.23.10.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-08-02T05:15:09.85Z",
+                "LastModifiedDate": "2023-12-15T18:19:03.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28755",
+                "PkgName": "ruby-rubygems",
+                "InstalledVersion": "3.3.15-2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-03-31T04:15:09.037Z",
+                "LastModifiedDate": "2023-11-07T04:10:50.83Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36617",
+                "PkgName": "ruby-rubygems",
+                "InstalledVersion": "3.3.15-2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-29T13:15:09.583Z",
+                "LastModifiedDate": "2023-07-25T15:15:13.497Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39804",
+                "PkgName": "tar",
+                "InstalledVersion": "1.34+dfsg-1.2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1.34+dfsg-1.2ubuntu1.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

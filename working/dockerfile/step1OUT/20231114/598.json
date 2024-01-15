@@ -1,0 +1,202 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": "dockerfile/20231114/unit:1.31.1-minimal.Dockerfile",
+  "ArtifactType": "filesystem",
+  "Metadata": {
+    "ImageConfig": {
+      "architecture": "",
+      "created": "0001-01-01T00:00:00Z",
+      "os": "",
+      "rootfs": {
+        "type": "",
+        "diff_ids": null
+      },
+      "config": {}
+    }
+  },
+  "Results": [
+    {
+      "Target": "unit:1.31.1-minimal.Dockerfile",
+      "Class": "config",
+      "Type": "dockerfile",
+      "MisconfSummary": {
+        "Successes": 23,
+        "Failures": 3,
+        "Exceptions": 0
+      },
+      "Misconfigurations": [
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS002",
+          "AVDID": "AVD-DS-0002",
+          "Title": "Image user should not be 'root'",
+          "Description": "Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.",
+          "Message": "Specify at least 1 USER command in Dockerfile with non-root user as argument",
+          "Namespace": "builtin.dockerfile.DS002",
+          "Query": "data.builtin.dockerfile.DS002.deny",
+          "Resolution": "Add 'USER \u003cnon root user name\u003e' line to the Dockerfile",
+          "Severity": "HIGH",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds002",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+            "https://avd.aquasec.com/misconfig/ds002"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "Code": {
+              "Lines": null
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS013",
+          "AVDID": "AVD-DS-0013",
+          "Title": "'RUN cd ...' to change directory",
+          "Description": "Use WORKDIR instead of proliferating instructions like 'RUN cd … \u0026\u0026 do-something', which are hard to read, troubleshoot, and maintain.",
+          "Message": "RUN should not be used to change directory: 'set -ex     \u0026\u0026 savedAptMark=\"$(apt-mark showmanual)\"     \u0026\u0026 apt-get update     \u0026\u0026 apt-get install --no-install-recommends --no-install-suggests -y ca-certificates mercurial build-essential libssl-dev libpcre2-dev curl pkg-config     \u0026\u0026 mkdir -p /usr/lib/unit/modules /usr/lib/unit/debug-modules     \u0026\u0026 mkdir -p /usr/src/unit     \u0026\u0026 cd /usr/src/unit     \u0026\u0026 hg clone -u 1.31.1-1 https://hg.nginx.org/unit     \u0026\u0026 cd unit     \u0026\u0026 NCPU=\"$(getconf _NPROCESSORS_ONLN)\"     \u0026\u0026 DEB_HOST_MULTIARCH=\"$(dpkg-architecture -q DEB_HOST_MULTIARCH)\"     \u0026\u0026 CC_OPT=\"$(DEB_BUILD_MAINT_OPTIONS=\"hardening=+all,-pie\" DEB_CFLAGS_MAINT_APPEND=\"-Wp,-D_FORTIFY_SOURCE=2 -fPIC\" dpkg-buildflags --get CFLAGS)\"     \u0026\u0026 LD_OPT=\"$(DEB_BUILD_MAINT_OPTIONS=\"hardening=+all,-pie\" DEB_LDFLAGS_MAINT_APPEND=\"-Wl,--as-needed -pie\" dpkg-buildflags --get LDFLAGS)\"     \u0026\u0026 CONFIGURE_ARGS_MODULES=\"--prefix=/usr                 --statedir=/var/lib/unit                 --control=unix:/var/run/control.unit.sock                 --runstatedir=/var/run                 --pid=/var/run/unit.pid                 --logdir=/var/log                 --log=/var/log/unit.log                 --tmpdir=/var/tmp                 --user=unit                 --group=unit                 --openssl                 --libdir=/usr/lib/$DEB_HOST_MULTIARCH\"     \u0026\u0026 CONFIGURE_ARGS=\"$CONFIGURE_ARGS_MODULES                 --njs\"     \u0026\u0026 make -j $NCPU -C pkg/contrib .njs     \u0026\u0026 export PKG_CONFIG_PATH=$(pwd)/pkg/contrib/njs/build     \u0026\u0026 ./configure $CONFIGURE_ARGS --cc-opt=\"$CC_OPT\" --ld-opt=\"$LD_OPT\" --modulesdir=/usr/lib/unit/debug-modules --debug     \u0026\u0026 make -j $NCPU unitd     \u0026\u0026 install -pm755 build/sbin/unitd /usr/sbin/unitd-debug     \u0026\u0026 make clean     \u0026\u0026 ./configure $CONFIGURE_ARGS --cc-opt=\"$CC_OPT\" --ld-opt=\"$LD_OPT\" --modulesdir=/usr/lib/unit/modules     \u0026\u0026 make -j $NCPU unitd     \u0026\u0026 install -pm755 build/sbin/unitd /usr/sbin/unitd     \u0026\u0026 make clean     \u0026\u0026 /bin/true     \u0026\u0026 ./configure $CONFIGURE_ARGS_MODULES --cc-opt=\"$CC_OPT\" --modulesdir=/usr/lib/unit/debug-modules --debug     \u0026\u0026 ./configure      \u0026\u0026 make -j $NCPU version     \u0026\u0026 make clean     \u0026\u0026 ./configure $CONFIGURE_ARGS_MODULES --cc-opt=\"$CC_OPT\" --modulesdir=/usr/lib/unit/modules     \u0026\u0026 ./configure      \u0026\u0026 make -j $NCPU version     \u0026\u0026 cd     \u0026\u0026 rm -rf /usr/src/unit     \u0026\u0026 for f in /usr/sbin/unitd /usr/lib/unit/modules/*.unit.so; do         ldd $f | awk '/=\u003e/{print $(NF-1)}' | while read n; do dpkg-query -S $n; done | sed 's/^\\([^:]\\+\\):.*$/\\1/' | sort | uniq \u003e\u003e /requirements.apt;        done     \u0026\u0026 apt-mark showmanual | xargs apt-mark auto \u003e /dev/null     \u0026\u0026 { [ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; }     \u0026\u0026 /bin/true     \u0026\u0026 mkdir -p /var/lib/unit/     \u0026\u0026 mkdir -p /docker-entrypoint.d/     \u0026\u0026 groupadd --gid 999 unit     \u0026\u0026 useradd          --uid 999          --gid unit          --no-create-home          --home /nonexistent          --comment \"unit user\"          --shell /bin/false          unit     \u0026\u0026 apt-get update     \u0026\u0026 apt-get --no-install-recommends --no-install-suggests -y install curl $(cat /requirements.apt)     \u0026\u0026 apt-get purge -y --auto-remove build-essential     \u0026\u0026 rm -rf /var/lib/apt/lists/*     \u0026\u0026 rm -f /requirements.apt     \u0026\u0026 ln -sf /dev/stdout /var/log/unit.log'. Use 'WORKDIR' statement instead.",
+          "Namespace": "builtin.dockerfile.DS013",
+          "Query": "data.builtin.dockerfile.DS013.deny",
+          "Resolution": "Use WORKDIR to change directory",
+          "Severity": "MEDIUM",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds013",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#workdir",
+            "https://avd.aquasec.com/misconfig/ds013"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "StartLine": 11,
+            "EndLine": 80,
+            "Code": {
+              "Lines": [
+                {
+                  "Number": 11,
+                  "Content": "RUN set -ex \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": true,
+                  "LastCause": false
+                },
+                {
+                  "Number": 12,
+                  "Content": "    \u0026\u0026 savedAptMark=\"$(apt-mark showmanual)\" \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 13,
+                  "Content": "    \u0026\u0026 apt-get update \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 14,
+                  "Content": "    \u0026\u0026 apt-get install --no-install-recommends --no-install-suggests -y ca-certificates mercurial build-essential libssl-dev libpcre2-dev curl pkg-config \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 15,
+                  "Content": "    \u0026\u0026 mkdir -p /usr/lib/unit/modules /usr/lib/unit/debug-modules \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 16,
+                  "Content": "    \u0026\u0026 mkdir -p /usr/src/unit \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 17,
+                  "Content": "    \u0026\u0026 cd /usr/src/unit \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 18,
+                  "Content": "    \u0026\u0026 hg clone -u 1.31.1-1 https://hg.nginx.org/unit \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 19,
+                  "Content": "    \u0026\u0026 cd unit \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": true
+                },
+                {
+                  "Number": 20,
+                  "Content": "",
+                  "IsCause": false,
+                  "Annotation": "",
+                  "Truncated": true,
+                  "FirstCause": false,
+                  "LastCause": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS026",
+          "AVDID": "AVD-DS-0026",
+          "Title": "No HEALTHCHECK defined",
+          "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers.",
+          "Message": "Add HEALTHCHECK instruction in your Dockerfile",
+          "Namespace": "builtin.dockerfile.DS026",
+          "Query": "data.builtin.dockerfile.DS026.deny",
+          "Resolution": "Add HEALTHCHECK instruction in Dockerfile",
+          "Severity": "LOW",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds026",
+          "References": [
+            "https://blog.aquasec.com/docker-security-best-practices",
+            "https://avd.aquasec.com/misconfig/ds026"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "Code": {
+              "Lines": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

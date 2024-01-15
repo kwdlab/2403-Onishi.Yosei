@@ -1,0 +1,240 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": "dockerfile/20231114/eggdrop:develop.Dockerfile",
+  "ArtifactType": "filesystem",
+  "Metadata": {
+    "ImageConfig": {
+      "architecture": "",
+      "created": "0001-01-01T00:00:00Z",
+      "os": "",
+      "rootfs": {
+        "type": "",
+        "diff_ids": null
+      },
+      "config": {}
+    }
+  },
+  "Results": [
+    {
+      "Target": "eggdrop:develop.Dockerfile",
+      "Class": "config",
+      "Type": "dockerfile",
+      "MisconfSummary": {
+        "Successes": 22,
+        "Failures": 4,
+        "Exceptions": 0
+      },
+      "Misconfigurations": [
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS002",
+          "AVDID": "AVD-DS-0002",
+          "Title": "Image user should not be 'root'",
+          "Description": "Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.",
+          "Message": "Specify at least 1 USER command in Dockerfile with non-root user as argument",
+          "Namespace": "builtin.dockerfile.DS002",
+          "Query": "data.builtin.dockerfile.DS002.deny",
+          "Resolution": "Add 'USER \u003cnon root user name\u003e' line to the Dockerfile",
+          "Severity": "HIGH",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds002",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+            "https://avd.aquasec.com/misconfig/ds002"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "Code": {
+              "Lines": null
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS013",
+          "AVDID": "AVD-DS-0013",
+          "Title": "'RUN cd ...' to change directory",
+          "Description": "Use WORKDIR instead of proliferating instructions like 'RUN cd … \u0026\u0026 do-something', which are hard to read, troubleshoot, and maintain.",
+          "Message": "RUN should not be used to change directory: 'apk --update add --no-cache --virtual egg-deps wget ca-certificates make tar gnupg build-base openssl-dev   \u0026\u0026 wget \"https://prdownloads.sourceforge.net/tcl/tcl8.6.13-src.tar.gz\" -O tcl8.6.13-src.tar.gz   \u0026\u0026 tar -zxf tcl8.6.13-src.tar.gz   \u0026\u0026 ( cd tcl8.6.13     \u0026\u0026 sed -i \"/define TCL_UTF_MAX/c\\#define TCL_UTF_MAX 6\" generic/tcl.h     \u0026\u0026 cd unix     \u0026\u0026 ./configure     \u0026\u0026 make     \u0026\u0026 make install )   \u0026\u0026 rm -rf tcl8.6.13-src.tar.gz   \u0026\u0026 rm -rf tcl8.6.13   \u0026\u0026 wget \"https://github.com/eggheads/eggdrop/archive/$EGGDROP_COMMIT.tar.gz\" -O develop.tar.gz   \u0026\u0026 echo \"$EGGDROP_SHA256 *develop.tar.gz\" | sha256sum -c -   \u0026\u0026 tar -zxf develop.tar.gz   \u0026\u0026 rm develop.tar.gz     \u0026\u0026 ( cd eggdrop-$EGGDROP_COMMIT     \u0026\u0026 ./configure     \u0026\u0026 make config     \u0026\u0026 make     \u0026\u0026 make install DEST=/home/eggdrop/eggdrop )   \u0026\u0026 rm -rf eggdrop-$EGGDROP_COMMIT   \u0026\u0026 mkdir /home/eggdrop/eggdrop/data   \u0026\u0026 chown -R eggdrop /home/eggdrop/eggdrop   \u0026\u0026 apk del egg-deps'. Use 'WORKDIR' statement instead.",
+          "Namespace": "builtin.dockerfile.DS013",
+          "Query": "data.builtin.dockerfile.DS013.deny",
+          "Resolution": "Use WORKDIR to change directory",
+          "Severity": "MEDIUM",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds013",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#workdir",
+            "https://avd.aquasec.com/misconfig/ds013"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "StartLine": 13,
+            "EndLine": 37,
+            "Code": {
+              "Lines": [
+                {
+                  "Number": 13,
+                  "Content": "RUN apk --update add --no-cache --virtual egg-deps wget ca-certificates make tar gnupg build-base openssl-dev \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": true,
+                  "LastCause": false
+                },
+                {
+                  "Number": 14,
+                  "Content": "  \u0026\u0026 wget \"https://prdownloads.sourceforge.net/tcl/tcl8.6.13-src.tar.gz\" -O tcl8.6.13-src.tar.gz \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 15,
+                  "Content": "  \u0026\u0026 tar -zxf tcl8.6.13-src.tar.gz \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 16,
+                  "Content": "  \u0026\u0026 ( cd tcl8.6.13 \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 17,
+                  "Content": "# Fix Tcl UTF Emoji support",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 18,
+                  "Content": "    \u0026\u0026 sed -i \"/define TCL_UTF_MAX/c\\#define TCL_UTF_MAX 6\" generic/tcl.h \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 19,
+                  "Content": "    \u0026\u0026 cd unix \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 20,
+                  "Content": "    \u0026\u0026 ./configure \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 21,
+                  "Content": "    \u0026\u0026 make \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": true
+                },
+                {
+                  "Number": 22,
+                  "Content": "",
+                  "IsCause": false,
+                  "Annotation": "",
+                  "Truncated": true,
+                  "FirstCause": false,
+                  "LastCause": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS022",
+          "AVDID": "AVD-DS-0022",
+          "Title": "Deprecated MAINTAINER used",
+          "Description": "MAINTAINER has been deprecated since Docker 1.13.0.",
+          "Message": "MAINTAINER should not be used: 'MAINTAINER Geo Van O \u003cgeo@eggheads.org\u003e'",
+          "Namespace": "builtin.dockerfile.DS022",
+          "Query": "data.builtin.dockerfile.DS022.deny",
+          "Resolution": "Use LABEL instead of MAINTAINER",
+          "Severity": "HIGH",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds022",
+          "References": [
+            "https://docs.docker.com/engine/deprecated/#maintainer-in-dockerfile",
+            "https://avd.aquasec.com/misconfig/ds022"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "StartLine": 2,
+            "EndLine": 2,
+            "Code": {
+              "Lines": [
+                {
+                  "Number": 2,
+                  "Content": "MAINTAINER Geo Van O \u003cgeo@eggheads.org\u003e",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": true,
+                  "LastCause": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS026",
+          "AVDID": "AVD-DS-0026",
+          "Title": "No HEALTHCHECK defined",
+          "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers.",
+          "Message": "Add HEALTHCHECK instruction in your Dockerfile",
+          "Namespace": "builtin.dockerfile.DS026",
+          "Query": "data.builtin.dockerfile.DS026.deny",
+          "Resolution": "Add HEALTHCHECK instruction in Dockerfile",
+          "Severity": "LOW",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds026",
+          "References": [
+            "https://blog.aquasec.com/docker-security-best-practices",
+            "https://avd.aquasec.com/misconfig/ds026"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "Code": {
+              "Lines": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

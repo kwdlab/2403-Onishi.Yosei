@@ -1,0 +1,1927 @@
+[
+    {
+        "RepoTags": [
+            "adobecoldfusion/coldfusion2023:2023.0.5"
+        ],
+        "created": "2023-10-06T17:09:15.070143988Z"
+    },
+    {
+        "Target": "adobecoldfusion/coldfusion2023:2023.0.5 (ubuntu 22.04)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-3715",
+                "PkgName": "bash",
+                "InstalledVersion": "5.1-6ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-01-05T15:15:00Z",
+                "LastModifiedDate": "2023-02-24T18:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2781",
+                "PkgName": "coreutils",
+                "InstalledVersion": "8.32-4.1ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "curl",
+                "InstalledVersion": "7.81.0-1ubuntu1.13",
+                "Status": "fixed",
+                "FixedVersion": "7.81.0-1ubuntu1.14",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-11-16T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "curl",
+                "InstalledVersion": "7.81.0-1ubuntu1.13",
+                "Status": "fixed",
+                "FixedVersion": "7.81.0-1ubuntu1.14",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-10-28T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "gcc-12-base",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3219",
+                "PkgName": "gpgv",
+                "InstalledVersion": "2.2.27-3ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-02-23T20:15:00Z",
+                "LastModifiedDate": "2023-05-26T16:31:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.35-0ubuntu3.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:00Z",
+                "LastModifiedDate": "2022-03-03T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.35-0ubuntu3.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:00Z",
+                "LastModifiedDate": "2022-03-03T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.81.0-1ubuntu1.13",
+                "Status": "fixed",
+                "FixedVersion": "7.81.0-1ubuntu1.14",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-11-16T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "7.81.0-1ubuntu1.13",
+                "Status": "fixed",
+                "FixedVersion": "7.81.0-1ubuntu1.14",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-10-28T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libgcc-s1",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5981",
+                "PkgName": "libgnutls30",
+                "InstalledVersion": "3.7.3-4ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "3.7.3-4ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36054",
+                "PkgName": "libgssapi-krb5-2",
+                "InstalledVersion": "1.19.2-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.19.2-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-824"
+                ],
+                "PublishedDate": "2023-08-07T19:15:00Z",
+                "LastModifiedDate": "2023-11-15T03:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36054",
+                "PkgName": "libk5crypto3",
+                "InstalledVersion": "1.19.2-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.19.2-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-824"
+                ],
+                "PublishedDate": "2023-08-07T19:15:00Z",
+                "LastModifiedDate": "2023-11-15T03:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36054",
+                "PkgName": "libkrb5-3",
+                "InstalledVersion": "1.19.2-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.19.2-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-824"
+                ],
+                "PublishedDate": "2023-08-07T19:15:00Z",
+                "LastModifiedDate": "2023-11-15T03:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36054",
+                "PkgName": "libkrb5support0",
+                "InstalledVersion": "1.19.2-2ubuntu0.2",
+                "Status": "fixed",
+                "FixedVersion": "1.19.2-2ubuntu0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-824"
+                ],
+                "PublishedDate": "2023-08-07T19:15:00Z",
+                "LastModifiedDate": "2023-11-15T03:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2953",
+                "PkgName": "libldap-2.5-0",
+                "InstalledVersion": "2.5.16+dfsg-0ubuntu0.22.04.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-05-30T22:15:00Z",
+                "LastModifiedDate": "2023-08-02T16:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-22916",
+                "PkgName": "liblzma5",
+                "InstalledVersion": "5.2.5-2ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11164",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13ubuntu0.22.04.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2017-07-11T03:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3857",
+                "PkgName": "libpng16-16",
+                "InstalledVersion": "1.6.37-3build5",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-06T23:15:00Z",
+                "LastModifiedDate": "2023-04-06T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4016",
+                "PkgName": "libprocps8",
+                "InstalledVersion": "2:3.3.17-6ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.17-6ubuntu2.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-02T05:15:00Z",
+                "LastModifiedDate": "2023-08-21T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.2-0ubuntu1.10",
+                "Status": "fixed",
+                "FixedVersion": "3.0.2-0ubuntu1.12",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2975",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.2-0ubuntu1.10",
+                "Status": "fixed",
+                "FixedVersion": "3.0.2-0ubuntu1.12",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-07-14T12:15:00Z",
+                "LastModifiedDate": "2023-07-27T13:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.2-0ubuntu1.10",
+                "Status": "fixed",
+                "FixedVersion": "3.0.2-0ubuntu1.12",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:00Z",
+                "LastModifiedDate": "2023-10-03T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.2-0ubuntu1.10",
+                "Status": "fixed",
+                "FixedVersion": "3.0.2-0ubuntu1.12",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-06T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4899",
+                "PkgName": "libzstd1",
+                "InstalledVersion": "1.4.8+dfsg-3build1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-03-31T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:59:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.8.1-2ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:00Z",
+                "LastModifiedDate": "2023-04-24T18:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.8.1-2ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:00Z",
+                "LastModifiedDate": "2023-04-24T18:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48522",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.34.0-3ubuntu1.2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-09-15T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4016",
+                "PkgName": "procps",
+                "InstalledVersion": "2:3.3.17-6ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.17-6ubuntu2.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-02T05:15:00Z",
+                "LastModifiedDate": "2023-08-21T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-31879",
+                "PkgName": "wget",
+                "InstalledVersion": "1.21.2-2ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-601"
+                ],
+                "PublishedDate": "2021-04-29T05:15:00Z",
+                "LastModifiedDate": "2022-05-13T20:52:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-17485",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.4, 2.8.11",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-01-10T18:29:00Z",
+                "LastModifiedDate": "2023-06-08T18:00:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7525",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.6.7.1, 2.7.9.1, 2.8.9",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-184"
+                ],
+                "PublishedDate": "2018-02-06T15:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-11307",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.7.9.4, 2.8.11.2, 2.9.6",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-07-09T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T02:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14718",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.7, 2.8.11.3, 2.7.9.5, 2.6.7.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-01-02T18:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:53:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14719",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.7, 2.8.11.3, 2.7.9.5",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-01-02T18:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:53:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7489",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.8.11.1, 2.9.5",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-184",
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-02-26T15:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14379",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.9.2, 2.8.11.4, 2.7.9.6",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1321"
+                ],
+                "PublishedDate": "2019-07-29T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14540",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10, 2.8.11.5, 2.6.7.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-09-15T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-16335",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10, 2.8.11.5, 2.6.7.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-09-15T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-16942",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-10-01T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-16943",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.1, 2.8.11.5, 2.6.7.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-10-01T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17267",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10, 2.8.11.5",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-10-07T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17531",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.1, 2.8.11.5, 2.6.7.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-10-12T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-20330",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-01-03T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8840",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-02-10T21:56:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-9547",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.4, 2.8.11.6, 2.7.9.7",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-03-02T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-9548",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.4, 2.8.11.6, 2.7.9.7",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-03-02T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12022",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.7.9.4, 2.8.11.2, 2.9.6",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-03-21T16:00:00Z",
+                "LastModifiedDate": "2023-11-07T02:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5968",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-184",
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-01-22T04:29:00Z",
+                "LastModifiedDate": "2023-09-13T14:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12086",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.9",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-05-17T17:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14439",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.9.2, 2.8.11.14, 2.7.9.6, 2.6.7.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-07-30T11:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14892",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.6.7.3, 2.8.11.5, 2.9.10",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-03-02T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10650",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-12-26T20:15:00Z",
+                "LastModifiedDate": "2023-08-18T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10673",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.4, 2.6.7.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2020-03-18T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-24616",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.6",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-08-25T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-24750",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.6.7.5, 2.9.10.6",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-09-17T19:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35490",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-12-17T19:15:00Z",
+                "LastModifiedDate": "2022-09-08T21:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35491",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-12-17T19:15:00Z",
+                "LastModifiedDate": "2022-09-08T21:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35728",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-12-27T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36179",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-07T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36180",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-07T00:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36181",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-06T23:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36182",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-07T00:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36183",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-07T00:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36184",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-06T23:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36185",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-06T23:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36186",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-06T23:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36187",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-06T23:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36188",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-06T23:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36189",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.8, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-06T23:15:00Z",
+                "LastModifiedDate": "2023-09-13T14:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-36518",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.13.2.1, 2.12.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-03-11T07:15:00Z",
+                "LastModifiedDate": "2022-11-29T22:12:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20190",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.10.7, 2.6.7.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-01-19T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:28:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42004",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.12.7.1, 2.13.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-10-02T05:15:00Z",
+                "LastModifiedDate": "2022-12-02T15:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12384",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.9.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-06-24T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12814",
+                "PkgName": "com.fasterxml.jackson.core:jackson-databind",
+                "InstalledVersion": "2.3.3",
+                "Status": "fixed",
+                "FixedVersion": "2.9.9.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-06-19T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-25647",
+                "PkgName": "com.google.code.gson:gson",
+                "InstalledVersion": "2.8.6",
+                "Status": "fixed",
+                "FixedVersion": "2.8.9",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-05-01T16:15:00Z",
+                "LastModifiedDate": "2022-11-28T17:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-10237",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "15.0",
+                "Status": "fixed",
+                "FixedVersion": "24.1.1-android",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2018-04-26T21:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2976",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "15.0",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-552"
+                ],
+                "PublishedDate": "2023-06-14T18:15:00Z",
+                "LastModifiedDate": "2023-08-18T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8908",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "15.0",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-732"
+                ],
+                "PublishedDate": "2020-12-10T23:15:00Z",
+                "LastModifiedDate": "2023-08-02T17:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22569",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "2.4.1",
+                "Status": "fixed",
+                "FixedVersion": "3.16.1, 3.18.2, 3.19.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-01-10T14:10:00Z",
+                "LastModifiedDate": "2023-04-18T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22570",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "2.4.1",
+                "Status": "fixed",
+                "FixedVersion": "3.15.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2022-01-26T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3509",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "2.4.1",
+                "Status": "fixed",
+                "FixedVersion": "3.16.3, 3.19.6, 3.20.3, 3.21.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-12T13:15:00Z",
+                "LastModifiedDate": "2022-12-15T16:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3510",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "2.4.1",
+                "Status": "fixed",
+                "FixedVersion": "3.16.3, 3.19.6, 3.20.3, 3.21.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-12T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3171",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "2.4.1",
+                "Status": "fixed",
+                "FixedVersion": "3.21.7, 3.20.3, 3.19.6, 3.16.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-10-12T23:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3509",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "3.21.5",
+                "Status": "fixed",
+                "FixedVersion": "3.16.3, 3.19.6, 3.20.3, 3.21.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-12T13:15:00Z",
+                "LastModifiedDate": "2022-12-15T16:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3510",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "3.21.5",
+                "Status": "fixed",
+                "FixedVersion": "3.16.3, 3.19.6, 3.20.3, 3.21.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-12T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3171",
+                "PkgName": "com.google.protobuf:protobuf-java",
+                "InstalledVersion": "3.21.5",
+                "Status": "fixed",
+                "FixedVersion": "3.21.7, 3.20.3, 3.19.6, 3.16.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-10-12T23:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37533",
+                "PkgName": "commons-net:commons-net",
+                "InstalledVersion": "3.6",
+                "Status": "fixed",
+                "FixedVersion": "3.9.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-12-03T15:15:00Z",
+                "LastModifiedDate": "2023-01-10T19:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17571",
+                "PkgName": "log4j:log4j",
+                "InstalledVersion": "1.2.17",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2019-12-20T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23305",
+                "PkgName": "log4j:log4j",
+                "InstalledVersion": "1.2.17",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-89"
+                ],
+                "PublishedDate": "2022-01-18T16:15:00Z",
+                "LastModifiedDate": "2023-02-24T15:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23307",
+                "PkgName": "log4j:log4j",
+                "InstalledVersion": "1.2.17",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-01-18T16:15:00Z",
+                "LastModifiedDate": "2023-02-24T15:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-4104",
+                "PkgName": "log4j:log4j",
+                "InstalledVersion": "1.2.17",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2021-12-14T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:40:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23302",
+                "PkgName": "log4j:log4j",
+                "InstalledVersion": "1.2.17",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-01-18T16:15:00Z",
+                "LastModifiedDate": "2023-02-24T15:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39410",
+                "PkgName": "org.apache.avro:avro",
+                "InstalledVersion": "1.11.1",
+                "Status": "fixed",
+                "FixedVersion": "1.11.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2023-09-29T17:15:00Z",
+                "LastModifiedDate": "2023-10-06T17:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42920",
+                "PkgName": "org.apache.bcel:bcel",
+                "InstalledVersion": "5.1-jnbridge",
+                "Status": "fixed",
+                "FixedVersion": "6.6.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-11-07T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:53:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35515",
+                "PkgName": "org.apache.commons:commons-compress",
+                "InstalledVersion": "1.19",
+                "Status": "fixed",
+                "FixedVersion": "1.21",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-07-13T08:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35516",
+                "PkgName": "org.apache.commons:commons-compress",
+                "InstalledVersion": "1.19",
+                "Status": "fixed",
+                "FixedVersion": "1.21",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2021-07-13T08:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35517",
+                "PkgName": "org.apache.commons:commons-compress",
+                "InstalledVersion": "1.19",
+                "Status": "fixed",
+                "FixedVersion": "1.21",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2021-07-13T08:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36090",
+                "PkgName": "org.apache.commons:commons-compress",
+                "InstalledVersion": "1.19",
+                "Status": "fixed",
+                "FixedVersion": "1.21",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-07-13T08:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-17201",
+                "PkgName": "org.apache.sanselan:sanselan",
+                "InstalledVersion": "0.97-incubator",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-05-06T18:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:54:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-17202",
+                "PkgName": "org.apache.sanselan:sanselan",
+                "InstalledVersion": "0.97-incubator",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2019-05-06T18:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:54:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-10088",
+                "PkgName": "org.apache.tika:tika-core",
+                "InstalledVersion": "1.21",
+                "Status": "fixed",
+                "FixedVersion": "1.22",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-08-02T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-10094",
+                "PkgName": "org.apache.tika:tika-core",
+                "InstalledVersion": "1.21",
+                "Status": "fixed",
+                "FixedVersion": "1.22",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-08-02T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-30973",
+                "PkgName": "org.apache.tika:tika-core",
+                "InstalledVersion": "1.21",
+                "Status": "fixed",
+                "FixedVersion": "1.28.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-05-31T14:15:00Z",
+                "LastModifiedDate": "2022-10-27T16:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-10093",
+                "PkgName": "org.apache.tika:tika-parsers",
+                "InstalledVersion": "1.21",
+                "Status": "fixed",
+                "FixedVersion": "1.22",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-08-02T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31582",
+                "PkgName": "org.bitbucket.b_c:jose4j",
+                "InstalledVersion": "0.7.12",
+                "Status": "fixed",
+                "FixedVersion": "0.9.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-331"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-10-31T15:18:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-jgvc-jfgh-rjvv",
+                "PkgName": "org.bitbucket.b_c:jose4j",
+                "InstalledVersion": "0.7.12",
+                "Status": "fixed",
+                "FixedVersion": "0.9.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-15522",
+                "PkgName": "org.bouncycastle:bcprov-jdk15on",
+                "InstalledVersion": "1.53",
+                "Status": "fixed",
+                "FixedVersion": "1.66",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2021-05-20T12:15:00Z",
+                "LastModifiedDate": "2021-06-22T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-33201",
+                "PkgName": "org.bouncycastle:bcprov-jdk15on",
+                "InstalledVersion": "1.53",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-07-05T03:15:00Z",
+                "LastModifiedDate": "2023-08-24T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2047",
+                "PkgName": "org.eclipse.jetty:jetty-http",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.4.47, 10.0.10, 11.0.10",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-07-07T21:15:00Z",
+                "LastModifiedDate": "2022-10-25T19:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7657",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.2.25.v20180606, 9.3.24.v20180605",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-444"
+                ],
+                "PublishedDate": "2018-06-26T16:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7658",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.2.25.v20180606, 9.3.24.v20180605, 9.4.11.v20180605",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-444"
+                ],
+                "PublishedDate": "2018-06-26T17:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-2080",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.2.9.v20150224",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2016-10-07T14:59:00Z",
+                "LastModifiedDate": "2019-03-08T11:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7656",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.3.24.v20180605, 9.4.11.v20180605",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-06-26T15:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-9735",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.4.6.v20170531, 9.3.20.v20170531, 9.2.22.v20170606",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2017-06-16T21:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-28165",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.4.39, 10.0.2, 11.0.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-755"
+                ],
+                "PublishedDate": "2021-04-01T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-10241",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.2.27.v20190403, 9.3.26.v20190403, 9.4.16.v20190411",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2019-04-22T20:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-10247",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.2.28.v20190418, 9.3.27.v20190418, 9.4.17.v20190418",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2019-04-22T20:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26048",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.4.51.v20230217, 10.0.14, 11.0.14",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-04-18T21:15:00Z",
+                "LastModifiedDate": "2023-09-30T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-34428",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.4.41, 10.0.3, 11.0.3",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-613"
+                ],
+                "PublishedDate": "2021-06-22T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26049",
+                "PkgName": "org.eclipse.jetty:jetty-server",
+                "InstalledVersion": "8.1.15.v20140411",
+                "Status": "fixed",
+                "FixedVersion": "9.4.51.v20230217, 10.0.14, 11.0.14, 12.0.0.beta0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-04-18T21:15:00Z",
+                "LastModifiedDate": "2023-09-30T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35043",
+                "PkgName": "org.owasp.antisamy:antisamy",
+                "InstalledVersion": "1.5.13",
+                "Status": "fixed",
+                "FixedVersion": "1.6.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2021-07-19T15:15:00Z",
+                "LastModifiedDate": "2022-10-29T02:49:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28367",
+                "PkgName": "org.owasp.antisamy:antisamy",
+                "InstalledVersion": "1.5.13",
+                "Status": "fixed",
+                "FixedVersion": "1.6.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2022-04-21T23:15:00Z",
+                "LastModifiedDate": "2022-05-03T20:49:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29577",
+                "PkgName": "org.owasp.antisamy:antisamy",
+                "InstalledVersion": "1.5.13",
+                "Status": "fixed",
+                "FixedVersion": "1.6.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2022-04-21T23:15:00Z",
+                "LastModifiedDate": "2023-02-23T18:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43643",
+                "PkgName": "org.owasp.antisamy:antisamy",
+                "InstalledVersion": "1.5.13",
+                "Status": "fixed",
+                "FixedVersion": "1.7.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-10-09T14:15:00Z",
+                "LastModifiedDate": "2023-10-13T17:35:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-7c2q-5qmr-v76q",
+                "PkgName": "org.owasp.esapi:esapi",
+                "InstalledVersion": "2.5.1.0",
+                "Status": "fixed",
+                "FixedVersion": "2.5.2.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

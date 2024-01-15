@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "mattermost/perseus:v0.0.2"
+        ],
+        "created": "2023-01-12T16:44:02.531823161Z"
+    },
+    {
+        "Target": "opt/perseus/bin/perseus",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.7",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            }
+        ]
+    }
+]

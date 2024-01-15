@@ -1,0 +1,56 @@
+[
+    {
+        "RepoTags": [
+            "rancher/harvester-node-manager:v0.1.8"
+        ],
+        "created": "2023-12-06T16:48:26.575921473Z"
+    },
+    {
+        "Target": "rancher/harvester-node-manager:v0.1.8 (suse linux enterprise server 15.4)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4659-1",
+                "PkgName": "curl",
+                "InstalledVersion": "8.0.1-150400.5.32.1",
+                "Status": "fixed",
+                "FixedVersion": "8.0.1-150400.5.36.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4659-1",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "8.0.1-150400.5.32.1",
+                "Status": "fixed",
+                "FixedVersion": "8.0.1-150400.5.36.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4672-1",
+                "PkgName": "suse-build-key",
+                "InstalledVersion": "12.0-150000.8.34.1",
+                "Status": "fixed",
+                "FixedVersion": "12.0-150000.8.37.1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

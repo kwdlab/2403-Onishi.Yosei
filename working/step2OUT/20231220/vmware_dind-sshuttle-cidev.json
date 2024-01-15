@@ -1,0 +1,1722 @@
+[
+    {
+        "RepoTags": [
+            "vmware/dind-sshuttle-ci:dev"
+        ],
+        "created": "2018-06-12T05:31:39.84374831Z"
+    },
+    {
+        "Target": "vmware/dind-sshuttle-ci:dev (alpine 3.7.0)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2018-6543",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-02-02T09:29:00.647Z",
+                "LastModifiedDate": "2019-10-31T01:15:15.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7208",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-02-18T04:29:00.277Z",
+                "LastModifiedDate": "2019-10-31T01:15:15.907Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7643",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-03-02T15:29:00.507Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.687Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6759",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-02-06T21:29:00.52Z",
+                "LastModifiedDate": "2019-10-31T01:15:15.593Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6872",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-02-09T06:29:00.35Z",
+                "LastModifiedDate": "2023-11-07T03:00:35.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7568",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-02-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.17Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7569",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-191"
+                ],
+                "PublishedDate": "2018-02-28T21:29:00.34Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.297Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7570",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-02-28T21:29:00.4Z",
+                "LastModifiedDate": "2023-11-07T03:01:03.29Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7642",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-03-02T15:29:00.447Z",
+                "LastModifiedDate": "2023-11-07T03:01:03.883Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-8945",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-03-22T21:29:00.697Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6543",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-02-02T09:29:00.647Z",
+                "LastModifiedDate": "2019-10-31T01:15:15.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7208",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-02-18T04:29:00.277Z",
+                "LastModifiedDate": "2019-10-31T01:15:15.907Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7643",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-03-02T15:29:00.507Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.687Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6759",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-02-06T21:29:00.52Z",
+                "LastModifiedDate": "2019-10-31T01:15:15.593Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6872",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-02-09T06:29:00.35Z",
+                "LastModifiedDate": "2023-11-07T03:00:35.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7568",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-02-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.17Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7569",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-191"
+                ],
+                "PublishedDate": "2018-02-28T21:29:00.34Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.297Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7570",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-02-28T21:29:00.4Z",
+                "LastModifiedDate": "2023-11-07T03:01:03.29Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7642",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-03-02T15:29:00.447Z",
+                "LastModifiedDate": "2023-11-07T03:01:03.883Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-8945",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.30-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-03-22T21:29:00.697Z",
+                "LastModifiedDate": "2019-10-31T01:15:16.81Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0500",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-07-11T13:29:00.317Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000300",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.60.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.337Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000301",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.60.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.383Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14618",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-122",
+                    "CWE-131"
+                ],
+                "PublishedDate": "2018-09-05T19:29:00.42Z",
+                "LastModifiedDate": "2019-04-22T17:48:00.643Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16839",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119",
+                    "CWE-122",
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-10-31T18:29:00.23Z",
+                "LastModifiedDate": "2023-11-07T02:53:56.41Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16840",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2018-10-31T18:29:00.307Z",
+                "LastModifiedDate": "2019-10-09T23:36:20.283Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16842",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-10-31T19:29:00.69Z",
+                "LastModifiedDate": "2019-08-06T17:15:28.757Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3822",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-121"
+                ],
+                "PublishedDate": "2019-02-06T20:29:00.353Z",
+                "LastModifiedDate": "2023-11-07T03:10:12.823Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5481",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2019-09-16T19:15:10.587Z",
+                "LastModifiedDate": "2023-11-07T03:11:36.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5482",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2019-09-16T19:15:10.633Z",
+                "LastModifiedDate": "2023-11-07T03:11:36.173Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16890",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-190"
+                ],
+                "PublishedDate": "2019-02-06T20:29:00.243Z",
+                "LastModifiedDate": "2023-11-07T02:53:57.803Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3823",
+                "PkgName": "curl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-02-06T20:29:00.4Z",
+                "LastModifiedDate": "2023-11-07T03:10:12.93Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "e2fsprogs",
+                "InstalledVersion": "1.43.7-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.43.7-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "e2fsprogs-extra",
+                "InstalledVersion": "1.43.7-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.43.7-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "e2fsprogs-libs",
+                "InstalledVersion": "1.43.7-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.43.7-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20843",
+                "PkgName": "expat",
+                "InstalledVersion": "2.2.5-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.2.7-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-611"
+                ],
+                "PublishedDate": "2019-06-24T17:15:09.98Z",
+                "LastModifiedDate": "2023-11-07T02:56:21.553Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-15903",
+                "PkgName": "expat",
+                "InstalledVersion": "2.2.5-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.2.7-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-776"
+                ],
+                "PublishedDate": "2019-09-04T06:15:10.877Z",
+                "LastModifiedDate": "2023-11-07T03:05:35.773Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15088",
+                "PkgName": "krb5-libs",
+                "InstalledVersion": "1.15.2-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.15.3-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119",
+                    "CWE-121"
+                ],
+                "PublishedDate": "2017-11-23T17:29:00.353Z",
+                "LastModifiedDate": "2021-01-26T15:28:49.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5709",
+                "PkgName": "krb5-libs",
+                "InstalledVersion": "1.15.2-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.15.3-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00.5Z",
+                "LastModifiedDate": "2023-11-07T02:58:49.07Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20217",
+                "PkgName": "krb5-libs",
+                "InstalledVersion": "1.15.2-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.15.4-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2018-12-26T21:29:02.543Z",
+                "LastModifiedDate": "2023-11-07T02:56:15.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5710",
+                "PkgName": "krb5-libs",
+                "InstalledVersion": "1.15.2-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.15.3-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00.53Z",
+                "LastModifiedDate": "2023-11-07T02:58:49.123Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12900",
+                "PkgName": "libbz2",
+                "InstalledVersion": "1.0.6-r6",
+                "Status": "fixed",
+                "FixedVersion": "1.0.6-r7",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-06-19T23:15:09.91Z",
+                "LastModifiedDate": "2023-11-07T03:03:43.19Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "libcom_err",
+                "InstalledVersion": "1.43.7-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.43.7-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0734",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-10-30T12:29:00.257Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5407",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2018-11-15T21:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:58:42.92Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1547",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2t-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-09-10T17:15:11.75Z",
+                "LastModifiedDate": "2023-11-07T03:08:28.083Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1559",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2r-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2019-02-27T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:08:30.953Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1563",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2t-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2019-09-10T17:15:11.89Z",
+                "LastModifiedDate": "2023-11-07T03:08:32.29Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0500",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-07-11T13:29:00.317Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000300",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.60.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.337Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000301",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.60.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.383Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14618",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-122",
+                    "CWE-131"
+                ],
+                "PublishedDate": "2018-09-05T19:29:00.42Z",
+                "LastModifiedDate": "2019-04-22T17:48:00.643Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16839",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119",
+                    "CWE-122",
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-10-31T18:29:00.23Z",
+                "LastModifiedDate": "2023-11-07T02:53:56.41Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16840",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2018-10-31T18:29:00.307Z",
+                "LastModifiedDate": "2019-10-09T23:36:20.283Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16842",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-10-31T19:29:00.69Z",
+                "LastModifiedDate": "2019-08-06T17:15:28.757Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3822",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-121"
+                ],
+                "PublishedDate": "2019-02-06T20:29:00.353Z",
+                "LastModifiedDate": "2023-11-07T03:10:12.823Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5481",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2019-09-16T19:15:10.587Z",
+                "LastModifiedDate": "2023-11-07T03:11:36.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5482",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2019-09-16T19:15:10.633Z",
+                "LastModifiedDate": "2023-11-07T03:11:36.173Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16890",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-190"
+                ],
+                "PublishedDate": "2019-02-06T20:29:00.243Z",
+                "LastModifiedDate": "2023-11-07T02:53:57.803Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3823",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.59.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.61.1-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-02-06T20:29:00.4Z",
+                "LastModifiedDate": "2023-11-07T03:10:12.93Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "libressl2.6-libcrypto",
+                "InstalledVersion": "2.6.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.6.5-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0495",
+                "PkgName": "libressl2.6-libcrypto",
+                "InstalledVersion": "2.6.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.6.5-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-06-13T23:29:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:51:03.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "libressl2.6-libssl",
+                "InstalledVersion": "2.6.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.6.5-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0495",
+                "PkgName": "libressl2.6-libssl",
+                "InstalledVersion": "2.6.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.6.5-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-06-13T23:29:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:51:03.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0734",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-10-30T12:29:00.257Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5407",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2018-11-15T21:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:58:42.92Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1547",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2t-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-09-10T17:15:11.75Z",
+                "LastModifiedDate": "2023-11-07T03:08:28.083Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1559",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2r-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2019-02-27T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:08:30.953Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1563",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2t-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2019-09-10T17:15:11.89Z",
+                "LastModifiedDate": "2023-11-07T03:08:32.29Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.18-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.18-r4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:11.72Z",
+                "LastModifiedDate": "2023-03-03T17:43:22.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl-dev",
+                "InstalledVersion": "1.1.18-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.18-r4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:11.72Z",
+                "LastModifiedDate": "2023-03-03T17:43:22.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.18-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.18-r4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:11.72Z",
+                "LastModifiedDate": "2023-03-03T17:43:22.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh-server-common",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh-server-common",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh-server-common",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh-server-common",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh-sftp-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh-sftp-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh-sftp-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh-sftp-server",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0734",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-10-30T12:29:00.257Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5407",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2018-11-15T21:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:58:42.92Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1547",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2t-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-09-10T17:15:11.75Z",
+                "LastModifiedDate": "2023-11-07T03:08:28.083Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1559",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2r-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2019-02-27T23:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T03:08:30.953Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1563",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2o-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2t-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2019-09-10T17:15:11.89Z",
+                "LastModifiedDate": "2023-11-07T03:08:32.29Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9636",
+                "PkgName": "python2",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-03-08T21:29:00.703Z",
+                "LastModifiedDate": "2023-11-07T03:13:44.45Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9948",
+                "PkgName": "python2",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-03-23T18:29:02.09Z",
+                "LastModifiedDate": "2023-11-07T03:13:49.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1060",
+                "PkgName": "python2",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-06-18T14:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:55:47.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1061",
+                "PkgName": "python2",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-06-19T12:29:00.22Z",
+                "LastModifiedDate": "2023-11-07T02:55:47.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14647",
+                "PkgName": "python2",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-909",
+                    "CWE-335",
+                    "CWE-665"
+                ],
+                "PublishedDate": "2018-09-25T00:29:00.703Z",
+                "LastModifiedDate": "2023-11-07T02:53:00.167Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9636",
+                "PkgName": "python2-dev",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-03-08T21:29:00.703Z",
+                "LastModifiedDate": "2023-11-07T03:13:44.45Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9948",
+                "PkgName": "python2-dev",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-03-23T18:29:02.09Z",
+                "LastModifiedDate": "2023-11-07T03:13:49.48Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1060",
+                "PkgName": "python2-dev",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-06-18T14:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:55:47.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1061",
+                "PkgName": "python2-dev",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-06-19T12:29:00.22Z",
+                "LastModifiedDate": "2023-11-07T02:55:47.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14647",
+                "PkgName": "python2-dev",
+                "InstalledVersion": "2.7.14-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-909",
+                    "CWE-335",
+                    "CWE-665"
+                ],
+                "PublishedDate": "2018-09-25T00:29:00.703Z",
+                "LastModifiedDate": "2023-11-07T02:53:00.167Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-8457",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.21.0-r1",
+                "Status": "fixed",
+                "FixedVersion": "3.25.3-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-05-30T16:29:01.84Z",
+                "LastModifiedDate": "2023-11-07T03:13:30.25Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20346",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.21.0-r1",
+                "Status": "fixed",
+                "FixedVersion": "3.25.3-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-12-21T21:29:00.243Z",
+                "LastModifiedDate": "2023-11-07T02:56:16.353Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12735",
+                "PkgName": "vim",
+                "InstalledVersion": "8.0.1359-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.0.1359-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2019-06-05T14:29:11.387Z",
+                "LastModifiedDate": "2023-11-07T03:03:40Z"
+            }
+        ]
+    }
+]

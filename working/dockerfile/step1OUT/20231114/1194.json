@@ -1,0 +1,241 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": "dockerfile/20231114/solr:9.2.1.Dockerfile",
+  "ArtifactType": "filesystem",
+  "Metadata": {
+    "ImageConfig": {
+      "architecture": "",
+      "created": "0001-01-01T00:00:00Z",
+      "os": "",
+      "rootfs": {
+        "type": "",
+        "diff_ids": null
+      },
+      "config": {}
+    }
+  },
+  "Results": [
+    {
+      "Target": "solr:9.2.1.Dockerfile",
+      "Class": "config",
+      "Type": "dockerfile",
+      "MisconfSummary": {
+        "Successes": 24,
+        "Failures": 3,
+        "Exceptions": 0
+      },
+      "Misconfigurations": [
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS026",
+          "AVDID": "AVD-DS-0026",
+          "Title": "No HEALTHCHECK defined",
+          "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers.",
+          "Message": "Add HEALTHCHECK instruction in your Dockerfile",
+          "Namespace": "builtin.dockerfile.DS026",
+          "Query": "data.builtin.dockerfile.DS026.deny",
+          "Resolution": "Add HEALTHCHECK instruction in Dockerfile",
+          "Severity": "LOW",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds026",
+          "References": [
+            "https://blog.aquasec.com/docker-security-best-practices",
+            "https://avd.aquasec.com/misconfig/ds026"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "Code": {
+              "Lines": null
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS029",
+          "AVDID": "AVD-DS-0029",
+          "Title": "'apt-get' missing '--no-install-recommends'",
+          "Description": "'apt-get' install should use '--no-install-recommends' to minimize image size.",
+          "Message": "'--no-install-recommends' flag is missed: 'set -ex;     apt-get update;     apt-get -y install acl lsof procps wget netcat gosu tini jattach;     rm -rf /var/lib/apt/lists/*;'",
+          "Namespace": "builtin.dockerfile.DS029",
+          "Query": "data.builtin.dockerfile.DS029.deny",
+          "Resolution": "Add '--no-install-recommends' flag to 'apt-get'",
+          "Severity": "HIGH",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds029",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+            "https://avd.aquasec.com/misconfig/ds029"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "StartLine": 130,
+            "EndLine": 133,
+            "Code": {
+              "Lines": [
+                {
+                  "Number": 130,
+                  "Content": "RUN set -ex; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": true,
+                  "LastCause": false
+                },
+                {
+                  "Number": 131,
+                  "Content": "    apt-get update; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 132,
+                  "Content": "    apt-get -y install acl lsof procps wget netcat gosu tini jattach; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 133,
+                  "Content": "    rm -rf /var/lib/apt/lists/*;",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Type": "Dockerfile Security Check",
+          "ID": "DS029",
+          "AVDID": "AVD-DS-0029",
+          "Title": "'apt-get' missing '--no-install-recommends'",
+          "Description": "'apt-get' install should use '--no-install-recommends' to minimize image size.",
+          "Message": "'--no-install-recommends' flag is missed: 'set -ex;   apt-get update;   apt-get -y install wget gpg dirmngr;   rm -rf /var/lib/apt/lists/*;   export GNUPGHOME=\"/tmp/gnupg_home\";   mkdir -p \"$GNUPGHOME\";   chmod 700 \"$GNUPGHOME\";   echo \"disable-ipv6\" \u003e\u003e \"$GNUPGHOME/dirmngr.conf\";   if [ -n \"$SOLR_KEYS\" ]; then     wget -nv \"https://downloads.apache.org/solr/KEYS\" -O- |       gpg --batch --import --key-origin 'url,https://downloads.apache.org/solr/KEYS';     release_keys=\"$(gpg --batch --export -a ${SOLR_KEYS})\";     rm -rf \"$GNUPGHOME\"/*;     echo \"${release_keys}\" | gpg --batch --import;   fi;   MAX_REDIRECTS=3;   if [ -n \"$SOLR_DOWNLOAD_URL\" ]; then     MAX_REDIRECTS=4;     SKIP_GPG_CHECK=true;   elif [ -n \"$SOLR_DOWNLOAD_SERVER\" ]; then     SOLR_DOWNLOAD_URL=\"$SOLR_DOWNLOAD_SERVER/$SOLR_VERSION/solr-$SOLR_VERSION.tgz\";   fi;   for url in $SOLR_DOWNLOAD_URL $SOLR_CLOSER_URL $SOLR_DIST_URL $SOLR_ARCHIVE_URL; do     if [ -f \"/opt/solr-$SOLR_VERSION.tgz\" ]; then break; fi;     echo \"downloading $url\";     if wget -t 10 --max-redirect $MAX_REDIRECTS --retry-connrefused -nv \"$url\" -O \"/opt/solr-$SOLR_VERSION.tgz\"; then break; else rm -f \"/opt/solr-$SOLR_VERSION.tgz\"; fi;   done;   if [ ! -f \"/opt/solr-$SOLR_VERSION.tgz\" ]; then echo \"failed all download attempts for solr-$SOLR_VERSION.tgz\"; exit 1; fi;   if [ -z \"$SKIP_GPG_CHECK\" ]; then     echo \"downloading $SOLR_ARCHIVE_URL.asc\";     wget -nv \"$SOLR_ARCHIVE_URL.asc\" -O \"/opt/solr-$SOLR_VERSION.tgz.asc\";     echo \"$SOLR_SHA512 */opt/solr-$SOLR_VERSION.tgz\" | sha512sum -c -;     (\u003e\u00262 ls -l \"/opt/solr-$SOLR_VERSION.tgz\" \"/opt/solr-$SOLR_VERSION.tgz.asc\");     gpg --batch --verify \"/opt/solr-$SOLR_VERSION.tgz.asc\" \"/opt/solr-$SOLR_VERSION.tgz\";   else     echo \"Skipping GPG validation due to non-Apache build\";   fi;   { command -v gpgconf; gpgconf --kill all || :; };   rm -r \"$GNUPGHOME\";   tar -C /opt --extract --preserve-permissions --file \"/opt/solr-$SOLR_VERSION.tgz\";   rm \"/opt/solr-$SOLR_VERSION.tgz\"*;   apt-get -y remove gpg dirmngr \u0026\u0026 apt-get -y autoremove;'",
+          "Namespace": "builtin.dockerfile.DS029",
+          "Query": "data.builtin.dockerfile.DS029.deny",
+          "Resolution": "Add '--no-install-recommends' flag to 'apt-get'",
+          "Severity": "HIGH",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/ds029",
+          "References": [
+            "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+            "https://avd.aquasec.com/misconfig/ds029"
+          ],
+          "Status": "FAIL",
+          "Layer": {},
+          "CauseMetadata": {
+            "Provider": "Dockerfile",
+            "Service": "general",
+            "StartLine": 39,
+            "EndLine": 84,
+            "Code": {
+              "Lines": [
+                {
+                  "Number": 39,
+                  "Content": "RUN set -ex; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": true,
+                  "LastCause": false
+                },
+                {
+                  "Number": 40,
+                  "Content": "  apt-get update; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 41,
+                  "Content": "  apt-get -y install wget gpg dirmngr; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 42,
+                  "Content": "  rm -rf /var/lib/apt/lists/*; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 43,
+                  "Content": "  export GNUPGHOME=\"/tmp/gnupg_home\"; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 44,
+                  "Content": "  mkdir -p \"$GNUPGHOME\"; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 45,
+                  "Content": "  chmod 700 \"$GNUPGHOME\"; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 46,
+                  "Content": "  echo \"disable-ipv6\" \u003e\u003e \"$GNUPGHOME/dirmngr.conf\"; \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": false
+                },
+                {
+                  "Number": 47,
+                  "Content": "  if [ -n \"$SOLR_KEYS\" ]; then \\",
+                  "IsCause": true,
+                  "Annotation": "",
+                  "Truncated": false,
+                  "FirstCause": false,
+                  "LastCause": true
+                },
+                {
+                  "Number": 48,
+                  "Content": "",
+                  "IsCause": false,
+                  "Annotation": "",
+                  "Truncated": true,
+                  "FirstCause": false,
+                  "LastCause": false
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

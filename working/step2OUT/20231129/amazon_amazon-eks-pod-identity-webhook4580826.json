@@ -1,0 +1,104 @@
+[
+    {
+        "RepoTags": [
+            "amazon/amazon-eks-pod-identity-webhook:4580826"
+        ],
+        "created": "2023-05-18T05:20:49.810284132Z"
+    },
+    {
+        "Target": "amazon/amazon-eks-pod-identity-webhook:4580826 (amazon 2 (Karoo))",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-32803",
+                "PkgName": "ca-certificates",
+                "InstalledVersion": "2021.2.50-72.amzn2.0.5",
+                "Status": "fixed",
+                "FixedVersion": "2021.2.50-72.amzn2.0.7",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-37920",
+                "PkgName": "ca-certificates",
+                "InstalledVersion": "2021.2.50-72.amzn2.0.5",
+                "Status": "fixed",
+                "FixedVersion": "2021.2.50-72.amzn2.0.8",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2023-07-25T21:15:00Z",
+                "LastModifiedDate": "2023-08-12T06:16:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "webhook",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.3.1-0.20221206200815-1e63c2f08a10",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.3.1-0.20221206200815-1e63c2f08a10",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.3.1-0.20221206200815-1e63c2f08a10",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.3.1-0.20221206200815-1e63c2f08a10",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            }
+        ]
+    }
+]

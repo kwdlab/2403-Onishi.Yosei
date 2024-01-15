@@ -1,0 +1,56 @@
+[
+    {
+        "RepoTags": [
+            "balenalib/i386-nlp-alpine:20191223"
+        ],
+        "created": "2021-04-17T05:50:35.231036044Z"
+    },
+    {
+        "Target": "balenalib/i386-nlp-alpine:20191223 (alpine 3.10.9)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-36159",
+                "PkgName": "apk-tools",
+                "InstalledVersion": "2.10.6-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.10.7-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-03T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22898",
+                "PkgName": "curl",
+                "InstalledVersion": "7.66.0-r3",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r4",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-909"
+                ],
+                "PublishedDate": "2021-06-11T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22898",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.66.0-r3",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r4",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-909"
+                ],
+                "PublishedDate": "2021-06-11T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            }
+        ]
+    }
+]

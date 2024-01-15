@@ -1,0 +1,1142 @@
+[
+    {
+        "RepoTags": [
+            "docker/labs-debug-tools-extension:0.0.44"
+        ],
+        "created": "2023-11-14T15:17:16.476994003Z"
+    },
+    {
+        "Target": "Node.js",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-44400",
+                "PkgName": "uptime-kuma",
+                "InstalledVersion": "1.18.5",
+                "Status": "fixed",
+                "FixedVersion": "1.23.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-384"
+                ],
+                "PublishedDate": "2023-10-09T16:15:00Z",
+                "LastModifiedDate": "2023-10-13T18:24:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/p1w6sp8s0c9y28s3mfwyx8zdwd0vkzvm-runc-1.1.4/bin/.runc-wrapped",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-6xv5-86q9-7xr8",
+                "PkgName": "github.com/cyphar/filepath-securejoin",
+                "InstalledVersion": "v0.2.3",
+                "Status": "fixed",
+                "FixedVersion": "0.2.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33194",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201224014010-6772e930b67b",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20210520170846-37e1c6afe023",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-05-26T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201224014010-6772e930b67b",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201224014010-6772e930b67b",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-20T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201224014010-6772e930b67b",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-20T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-31525",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201224014010-6772e930b67b",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20210428140749-89ef3d95e781",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2021-05-27T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201224014010-6772e930b67b",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201224014010-6772e930b67b",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-19T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20211116061358-0a5406a5449c",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/applications/backup/proxmox-backup-client/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-g98v-hv3f-hcfr",
+                "PkgName": "atty",
+                "InstalledVersion": "0.2.14",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-f85w-wvc7-crwc",
+                "PkgName": "bumpalo",
+                "InstalledVersion": "3.11.0",
+                "Status": "fixed",
+                "FixedVersion": "3.11.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-29929",
+                "PkgName": "endian_trait",
+                "InstalledVersion": "0.6.0",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2021-04-01T05:15:00Z",
+                "LastModifiedDate": "2021-04-01T18:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26964",
+                "PkgName": "h2",
+                "InstalledVersion": "0.3.14",
+                "Status": "fixed",
+                "FixedVersion": "0.3.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-04-11T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-45707",
+                "PkgName": "nix",
+                "InstalledVersion": "0.19.1",
+                "Status": "fixed",
+                "FixedVersion": "0.20.2, 0.21.2, 0.22.2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-12-27T00:15:00Z",
+                "LastModifiedDate": "2022-10-28T17:48:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-wgrg-5h56-jg27",
+                "PkgName": "nix",
+                "InstalledVersion": "0.19.1",
+                "Status": "fixed",
+                "FixedVersion": "0.20.2, 0.21.2, 0.22.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-6hcf-g6gr-hhcr",
+                "PkgName": "openssl",
+                "InstalledVersion": "0.10.41",
+                "Status": "fixed",
+                "FixedVersion": "0.10.48",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-9qwg-crg9-m2vc",
+                "PkgName": "openssl",
+                "InstalledVersion": "0.10.41",
+                "Status": "fixed",
+                "FixedVersion": "0.10.48",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-3gxf-9r58-2ghg",
+                "PkgName": "openssl",
+                "InstalledVersion": "0.10.41",
+                "Status": "fixed",
+                "FixedVersion": "0.10.48",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-xcf7-rvmh-g6q4",
+                "PkgName": "openssl",
+                "InstalledVersion": "0.10.41",
+                "Status": "fixed",
+                "FixedVersion": "0.10.55",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22466",
+                "PkgName": "tokio",
+                "InstalledVersion": "1.20.1",
+                "Status": "fixed",
+                "FixedVersion": "1.18.4, 1.20.3, 1.23.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-665"
+                ],
+                "PublishedDate": "2023-01-04T22:15:00Z",
+                "LastModifiedDate": "2023-01-11T02:09:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-4q83-7cq4-p6wg",
+                "PkgName": "tokio",
+                "InstalledVersion": "1.20.1",
+                "Status": "fixed",
+                "FixedVersion": "1.24.2, 1.20.4, 1.18.5",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/applications/version-management/fornalder/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-g98v-hv3f-hcfr",
+                "PkgName": "atty",
+                "InstalledVersion": "0.2.14",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35737",
+                "PkgName": "libsqlite3-sys",
+                "InstalledVersion": "0.20.1",
+                "Status": "fixed",
+                "FixedVersion": "0.25.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-129"
+                ],
+                "PublishedDate": "2022-08-03T06:15:00Z",
+                "LastModifiedDate": "2022-11-16T20:01:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-mc8h-8q98-g5hr",
+                "PkgName": "remove_dir_all",
+                "InstalledVersion": "0.5.3",
+                "Status": "fixed",
+                "FixedVersion": "0.8.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-26235",
+                "PkgName": "time",
+                "InstalledVersion": "0.1.44",
+                "Status": "fixed",
+                "FixedVersion": "0.2.23, 0.2.23",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-11-24T22:15:00Z",
+                "LastModifiedDate": "2020-12-03T19:42:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/build-support/node/fetch-npm-deps/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-f85w-wvc7-crwc",
+                "PkgName": "bumpalo",
+                "InstalledVersion": "3.11.0",
+                "Status": "fixed",
+                "FixedVersion": "3.11.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-mc8h-8q98-g5hr",
+                "PkgName": "remove_dir_all",
+                "InstalledVersion": "0.5.3",
+                "Status": "fixed",
+                "FixedVersion": "0.8.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-8qv2-5vq6-g2g7",
+                "PkgName": "webpki",
+                "InstalledVersion": "0.22.0",
+                "Status": "fixed",
+                "FixedVersion": "0.22.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/build-support/rust/test/import-cargo-lock/maturin/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-32810",
+                "PkgName": "crossbeam-deque",
+                "InstalledVersion": "0.8.0",
+                "Status": "fixed",
+                "FixedVersion": "0.7.4, 0.8.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2021-08-02T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23639",
+                "PkgName": "crossbeam-utils",
+                "InstalledVersion": "0.8.1",
+                "Status": "fixed",
+                "FixedVersion": "0.8.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2022-02-15T19:15:00Z",
+                "LastModifiedDate": "2023-02-10T16:28:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-36xm-35qq-795w",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.10",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-ghc8-5cgm-5rpf",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.10",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-wfg4-322g-9vqv",
+                "PkgName": "memoffset",
+                "InstalledVersion": "0.6.1",
+                "Status": "fixed",
+                "FixedVersion": "0.6.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/development/python-modules/chia-rs/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-f85w-wvc7-crwc",
+                "PkgName": "bumpalo",
+                "InstalledVersion": "3.10.0",
+                "Status": "fixed",
+                "FixedVersion": "3.11.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-36xm-35qq-795w",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.11",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-ghc8-5cgm-5rpf",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.11",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/development/python-modules/cmsis-pack-manager/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-g98v-hv3f-hcfr",
+                "PkgName": "atty",
+                "InstalledVersion": "0.2.14",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-f85w-wvc7-crwc",
+                "PkgName": "bumpalo",
+                "InstalledVersion": "3.10.0",
+                "Status": "fixed",
+                "FixedVersion": "3.11.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23639",
+                "PkgName": "crossbeam-utils",
+                "InstalledVersion": "0.7.2",
+                "Status": "fixed",
+                "FixedVersion": "0.8.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2022-02-15T19:15:00Z",
+                "LastModifiedDate": "2023-02-10T16:28:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-25010",
+                "PkgName": "failure",
+                "InstalledVersion": "0.1.8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-843"
+                ],
+                "PublishedDate": "2020-12-31T10:15:00Z",
+                "LastModifiedDate": "2021-01-06T20:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-25575",
+                "PkgName": "failure",
+                "InstalledVersion": "0.1.8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-843"
+                ],
+                "PublishedDate": "2020-09-14T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26964",
+                "PkgName": "h2",
+                "InstalledVersion": "0.1.26",
+                "Status": "fixed",
+                "FixedVersion": "0.3.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-04-11T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-f67m-9j94-qv9j",
+                "PkgName": "hyper",
+                "InstalledVersion": "0.12.36",
+                "Status": "fixed",
+                "FixedVersion": "0.14.12",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-32714",
+                "PkgName": "hyper",
+                "InstalledVersion": "0.12.36",
+                "Status": "fixed",
+                "FixedVersion": "0.14.10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-07-07T20:15:00Z",
+                "LastModifiedDate": "2021-07-22T12:40:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-32715",
+                "PkgName": "hyper",
+                "InstalledVersion": "0.12.36",
+                "Status": "fixed",
+                "FixedVersion": "0.14.10",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-444"
+                ],
+                "PublishedDate": "2021-07-07T20:15:00Z",
+                "LastModifiedDate": "2021-07-22T12:49:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35910",
+                "PkgName": "lock_api",
+                "InstalledVersion": "0.3.4",
+                "Status": "fixed",
+                "FixedVersion": "0.4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2020-12-31T09:15:00Z",
+                "LastModifiedDate": "2021-01-06T16:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35911",
+                "PkgName": "lock_api",
+                "InstalledVersion": "0.3.4",
+                "Status": "fixed",
+                "FixedVersion": "0.4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2020-12-31T09:15:00Z",
+                "LastModifiedDate": "2021-01-05T15:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35912",
+                "PkgName": "lock_api",
+                "InstalledVersion": "0.3.4",
+                "Status": "fixed",
+                "FixedVersion": "0.4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2020-12-31T09:15:00Z",
+                "LastModifiedDate": "2021-01-05T15:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35913",
+                "PkgName": "lock_api",
+                "InstalledVersion": "0.3.4",
+                "Status": "fixed",
+                "FixedVersion": "0.4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2020-12-31T09:15:00Z",
+                "LastModifiedDate": "2021-01-05T15:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35914",
+                "PkgName": "lock_api",
+                "InstalledVersion": "0.3.4",
+                "Status": "fixed",
+                "FixedVersion": "0.4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2020-12-31T09:15:00Z",
+                "LastModifiedDate": "2021-01-05T15:31:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-wfg4-322g-9vqv",
+                "PkgName": "memoffset",
+                "InstalledVersion": "0.5.6",
+                "Status": "fixed",
+                "FixedVersion": "0.6.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-26235",
+                "PkgName": "time",
+                "InstalledVersion": "0.1.44",
+                "Status": "fixed",
+                "FixedVersion": "0.2.23, 0.2.23",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-11-24T22:15:00Z",
+                "LastModifiedDate": "2020-12-03T19:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-45710",
+                "PkgName": "tokio",
+                "InstalledVersion": "0.1.22",
+                "Status": "fixed",
+                "FixedVersion": "1.8.4, 1.13.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2021-12-27T00:15:00Z",
+                "LastModifiedDate": "2022-11-01T16:06:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-8qv2-5vq6-g2g7",
+                "PkgName": "webpki",
+                "InstalledVersion": "0.21.4",
+                "Status": "fixed",
+                "FixedVersion": "0.22.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/development/python-modules/py-bip39-bindings/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-f85w-wvc7-crwc",
+                "PkgName": "bumpalo",
+                "InstalledVersion": "3.11.0",
+                "Status": "fixed",
+                "FixedVersion": "3.11.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-36xm-35qq-795w",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.11",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-ghc8-5cgm-5rpf",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.11",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/development/python-modules/py-sr25519-bindings/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-36xm-35qq-795w",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.11",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-ghc8-5cgm-5rpf",
+                "PkgName": "inventory",
+                "InstalledVersion": "0.1.11",
+                "Status": "fixed",
+                "FixedVersion": "0.2.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/development/python-modules/python-flirt/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-g98v-hv3f-hcfr",
+                "PkgName": "atty",
+                "InstalledVersion": "0.2.14",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-f85w-wvc7-crwc",
+                "PkgName": "bumpalo",
+                "InstalledVersion": "3.10.0",
+                "Status": "fixed",
+                "FixedVersion": "3.11.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-24713",
+                "PkgName": "regex",
+                "InstalledVersion": "0.1.80",
+                "Status": "fixed",
+                "FixedVersion": "1.5.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-03-08T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-9hpw-r23r-xgm5",
+                "PkgName": "thread_local",
+                "InstalledVersion": "0.2.7",
+                "Status": "fixed",
+                "FixedVersion": "1.1.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-26235",
+                "PkgName": "time",
+                "InstalledVersion": "0.1.44",
+                "Status": "fixed",
+                "FixedVersion": "0.2.23, 0.2.23",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-11-24T22:15:00Z",
+                "LastModifiedDate": "2020-12-03T19:42:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/development/tools/rust/cargo-bolero/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-g98v-hv3f-hcfr",
+                "PkgName": "atty",
+                "InstalledVersion": "0.2.14",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23639",
+                "PkgName": "crossbeam-utils",
+                "InstalledVersion": "0.7.2",
+                "Status": "fixed",
+                "FixedVersion": "0.8.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2022-02-15T19:15:00Z",
+                "LastModifiedDate": "2023-02-10T16:28:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-mc8h-8q98-g5hr",
+                "PkgName": "remove_dir_all",
+                "InstalledVersion": "0.5.3",
+                "Status": "fixed",
+                "FixedVersion": "0.8.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/servers/binserve/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-g98v-hv3f-hcfr",
+                "PkgName": "atty",
+                "InstalledVersion": "0.2.14",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-f85w-wvc7-crwc",
+                "PkgName": "bumpalo",
+                "InstalledVersion": "3.10.0",
+                "Status": "fixed",
+                "FixedVersion": "3.11.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26964",
+                "PkgName": "h2",
+                "InstalledVersion": "0.3.13",
+                "Status": "fixed",
+                "FixedVersion": "0.3.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-04-11T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22466",
+                "PkgName": "tokio",
+                "InstalledVersion": "1.19.2",
+                "Status": "fixed",
+                "FixedVersion": "1.18.4, 1.20.3, 1.23.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-665"
+                ],
+                "PublishedDate": "2023-01-04T22:15:00Z",
+                "LastModifiedDate": "2023-01-11T02:09:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-4q83-7cq4-p6wg",
+                "PkgName": "tokio",
+                "InstalledVersion": "1.19.2",
+                "Status": "fixed",
+                "FixedVersion": "1.24.2, 1.20.4, 1.18.5",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-8qv2-5vq6-g2g7",
+                "PkgName": "webpki",
+                "InstalledVersion": "0.22.0",
+                "Status": "fixed",
+                "FixedVersion": "0.22.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "nix/store/sz97qg3wgd5kmlns36vzna4rb75b8jnf-source/pkgs/tools/filesystems/dupe-krill/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-mc8h-8q98-g5hr",
+                "PkgName": "remove_dir_all",
+                "InstalledVersion": "0.5.3",
+                "Status": "fixed",
+                "FixedVersion": "0.8.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

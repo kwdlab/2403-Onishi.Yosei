@@ -1,0 +1,771 @@
+[
+    {
+        "RepoTags": [
+            "qualys/qagent-rhcos:4.2.1-5"
+        ],
+        "created": "2023-08-24T17:49:32.320121047Z"
+    },
+    {
+        "Target": "qualys/qagent-rhcos:4.2.1-5 (oracle 9.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "curl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9_3.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-11-16T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "curl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9_3.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-10-28T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27533",
+                "PkgName": "curl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27534",
+                "PkgName": "curl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27536",
+                "PkgName": "curl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27538",
+                "PkgName": "curl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-10-20T18:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29499",
+                "PkgName": "glib2",
+                "InstalledVersion": "2.68.4-6.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.68.4-11.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-09-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32611",
+                "PkgName": "glib2",
+                "InstalledVersion": "2.68.4-6.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.68.4-11.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-09-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32665",
+                "PkgName": "glib2",
+                "InstalledVersion": "2.68.4-6.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.68.4-11.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2023-09-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.34-60.0.2.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.34-60.0.3.el9_2.7",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43618",
+                "PkgName": "gmp",
+                "InstalledVersion": "1:6.2.0-10.el9",
+                "Status": "fixed",
+                "FixedVersion": "1:6.2.0-13.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-11-15T04:15:00Z",
+                "LastModifiedDate": "2023-09-29T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36054",
+                "PkgName": "krb5-libs",
+                "InstalledVersion": "1.20.1-9.0.1.el9_2",
+                "Status": "fixed",
+                "FixedVersion": "1.21.1-1.0.1.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-824"
+                ],
+                "PublishedDate": "2023-08-07T19:15:00Z",
+                "LastModifiedDate": "2023-11-15T03:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39975",
+                "PkgName": "krb5-libs",
+                "InstalledVersion": "1.20.1-9.0.1.el9_2",
+                "Status": "fixed",
+                "FixedVersion": "1.21.1-1.0.1.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2023-08-16T15:15:00Z",
+                "LastModifiedDate": "2023-09-15T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2602",
+                "PkgName": "libcap",
+                "InstalledVersion": "2.48-8.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.48-9.el9_2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-06-06T20:15:00Z",
+                "LastModifiedDate": "2023-06-14T18:07:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2603",
+                "PkgName": "libcap",
+                "InstalledVersion": "2.48-8.el9",
+                "Status": "fixed",
+                "FixedVersion": "2.48-9.el9_2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-06-06T20:15:00Z",
+                "LastModifiedDate": "2023-06-21T19:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9_3.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-11-16T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9_3.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-10-28T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27533",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27534",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27536",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27538",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.76.1-23.el9_2.2",
+                "Status": "fixed",
+                "FixedVersion": "7.76.1-26.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-03-30T20:15:00Z",
+                "LastModifiedDate": "2023-10-20T18:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-12762",
+                "PkgName": "libfastjson",
+                "InstalledVersion": "0.99.9-3.el9",
+                "Status": "fixed",
+                "FixedVersion": "0.99.9-5.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-190"
+                ],
+                "PublishedDate": "2020-05-09T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40982",
+                "PkgName": "libgcc",
+                "InstalledVersion": "11.3.1-4.3.0.1.el9",
+                "Status": "fixed",
+                "FixedVersion": "11.3.1-4.3.0.4.el9",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-08-11T03:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4039",
+                "PkgName": "libgcc",
+                "InstalledVersion": "11.3.1-4.3.0.1.el9",
+                "Status": "fixed",
+                "FixedVersion": "11.3.1-4.3.0.4.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-13T09:15:00Z",
+                "LastModifiedDate": "2023-09-14T20:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40982",
+                "PkgName": "libgomp",
+                "InstalledVersion": "11.3.1-4.3.0.1.el9",
+                "Status": "fixed",
+                "FixedVersion": "11.3.1-4.3.0.4.el9",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-08-11T03:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4039",
+                "PkgName": "libgomp",
+                "InstalledVersion": "11.3.1-4.3.0.1.el9",
+                "Status": "fixed",
+                "FixedVersion": "11.3.1-4.3.0.4.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-13T09:15:00Z",
+                "LastModifiedDate": "2023-09-14T20:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "libnghttp2",
+                "InstalledVersion": "1.43.0-5.el9",
+                "Status": "fixed",
+                "FixedVersion": "1.43.0-5.el9_3.1",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-19T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1667",
+                "PkgName": "libssh",
+                "InstalledVersion": "0.10.4-8.el9",
+                "Status": "fixed",
+                "FixedVersion": "0.10.4-11.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-05-26T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2283",
+                "PkgName": "libssh",
+                "InstalledVersion": "0.10.4-8.el9",
+                "Status": "fixed",
+                "FixedVersion": "0.10.4-11.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-05-26T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:12:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1667",
+                "PkgName": "libssh-config",
+                "InstalledVersion": "0.10.4-8.el9",
+                "Status": "fixed",
+                "FixedVersion": "0.10.4-11.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-05-26T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2283",
+                "PkgName": "libssh-config",
+                "InstalledVersion": "0.10.4-8.el9",
+                "Status": "fixed",
+                "FixedVersion": "0.10.4-11.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-05-26T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:12:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40982",
+                "PkgName": "libstdc++",
+                "InstalledVersion": "11.3.1-4.3.0.1.el9",
+                "Status": "fixed",
+                "FixedVersion": "11.3.1-4.3.0.4.el9",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-08-11T03:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4039",
+                "PkgName": "libstdc++",
+                "InstalledVersion": "11.3.1-4.3.0.1.el9",
+                "Status": "fixed",
+                "FixedVersion": "11.3.1-4.3.0.4.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-13T09:15:00Z",
+                "LastModifiedDate": "2023-09-14T20:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.2-8.20210508.el9",
+                "Status": "fixed",
+                "FixedVersion": "6.2-10.20210508.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.2-8.20210508.el9",
+                "Status": "fixed",
+                "FixedVersion": "6.2-10.20210508.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4016",
+                "PkgName": "procps-ng",
+                "InstalledVersion": "3.3.17-11.el9",
+                "Status": "fixed",
+                "FixedVersion": "3.3.17-13.0.1.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-02T05:15:00Z",
+                "LastModifiedDate": "2023-08-21T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3",
+                "InstalledVersion": "3.9.16-1.el9_2.1",
+                "Status": "fixed",
+                "FixedVersion": "3.9.16-1.el9_2.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2007-4559",
+                "PkgName": "python3",
+                "InstalledVersion": "3.9.16-1.el9_2.1",
+                "Status": "fixed",
+                "FixedVersion": "3.9.18-1.el9_3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2007-08-28T01:17:00Z",
+                "LastModifiedDate": "2023-09-17T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.9.16-1.el9_2.1",
+                "Status": "fixed",
+                "FixedVersion": "3.9.16-1.el9_2.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2007-4559",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.9.16-1.el9_2.1",
+                "Status": "fixed",
+                "FixedVersion": "3.9.18-1.el9_3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2007-08-28T01:17:00Z",
+                "LastModifiedDate": "2023-09-17T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2007-4559",
+                "PkgName": "python3-pip-wheel",
+                "InstalledVersion": "21.2.3-6.el9",
+                "Status": "fixed",
+                "FixedVersion": "21.2.3-7.el9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2007-08-28T01:17:00Z",
+                "LastModifiedDate": "2023-09-17T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4641",
+                "PkgName": "shadow-utils",
+                "InstalledVersion": "2:4.9-6.el9",
+                "Status": "fixed",
+                "FixedVersion": "2:4.9-8.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22745",
+                "PkgName": "tpm2-tss",
+                "InstalledVersion": "3.0.3-8.el9",
+                "Status": "fixed",
+                "FixedVersion": "3.2.2-2.el9",
+                "Severity": "LOW",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2023-01-19T23:15:00Z",
+                "LastModifiedDate": "2023-01-26T20:25:00Z"
+            }
+        ]
+    }
+]

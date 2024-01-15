@@ -1,0 +1,1528 @@
+[
+    {
+        "RepoTags": [
+            "bitnami/photon-base-buildpack:4-r6"
+        ],
+        "created": "2023-06-16T10:52:23.866193521Z"
+    },
+    {
+        "Target": "bitnami/photon-base-buildpack:4-r6 (photon 4.0)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-46174",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-11.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-25T19:40:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-12.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47673",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-11.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47696",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25584",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20197",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-9.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2021-03-26T17:15:00Z",
+                "LastModifiedDate": "2023-02-12T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35205",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-14.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-06T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-07T03:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-07T03:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-15T02:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25585",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-908"
+                ],
+                "PublishedDate": "2023-09-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25588",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-908"
+                ],
+                "PublishedDate": "2023-09-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35448",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-10.ph4",
+                "Severity": "LOW",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2020-12-27T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-46174",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-11.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-25T19:40:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-12.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47673",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-11.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47696",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25584",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20197",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-9.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2021-03-26T17:15:00Z",
+                "LastModifiedDate": "2023-02-12T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35205",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-14.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-06T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-08-26T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-07T03:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-07T03:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-13.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-15T02:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25585",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-908"
+                ],
+                "PublishedDate": "2023-09-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25588",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-8.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-908"
+                ],
+                "PublishedDate": "2023-09-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-35448",
+                "PkgName": "binutils-libs",
+                "InstalledVersion": "2.35-7.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.35-10.ph4",
+                "Severity": "LOW",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2020-12-27T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8659",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-01-12T19:59:00Z",
+                "LastModifiedDate": "2019-03-08T16:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-0755",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2016-01-29T20:59:00Z",
+                "LastModifiedDate": "2018-10-17T01:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5419",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-310"
+                ],
+                "PublishedDate": "2016-08-10T14:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5420",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-285"
+                ],
+                "PublishedDate": "2016-08-10T14:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5421",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2016-08-10T14:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5443",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-427"
+                ],
+                "PublishedDate": "2019-07-02T19:15:00Z",
+                "LastModifiedDate": "2021-11-03T18:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9511",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-08-13T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9513",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-08-13T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-11080",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-707"
+                ],
+                "PublishedDate": "2020-06-03T23:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2013-1944",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2013-04-29T22:55:00Z",
+                "LastModifiedDate": "2016-09-09T01:59:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2014-3613",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-310"
+                ],
+                "PublishedDate": "2014-11-18T15:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2014-3620",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-310"
+                ],
+                "PublishedDate": "2014-11-18T15:59:00Z",
+                "LastModifiedDate": "2022-05-11T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-3153",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2015-05-01T15:59:00Z",
+                "LastModifiedDate": "2018-10-17T01:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-8616",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-255"
+                ],
+                "PublishedDate": "2018-08-01T06:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-1544",
+                "PkgName": "cmake",
+                "InstalledVersion": "3.18.3-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.18.3-7.ph4",
+                "Severity": "LOW",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2020-02-06T15:15:00Z",
+                "LastModifiedDate": "2020-02-10T17:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-6.ph4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-11-16T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38039",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-5.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-09-15T04:15:00Z",
+                "LastModifiedDate": "2023-10-17T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28320",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-362",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-05-26T21:15:00Z",
+                "LastModifiedDate": "2023-10-20T18:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32001",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-2.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-26T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-6.ph4",
+                "Severity": "LOW",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-10-28T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "curl-libs",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-6.ph4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-11-16T02:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38039",
+                "PkgName": "curl-libs",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-5.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-09-15T04:15:00Z",
+                "LastModifiedDate": "2023-10-17T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28320",
+                "PkgName": "curl-libs",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-362",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-05-26T21:15:00Z",
+                "LastModifiedDate": "2023-10-20T18:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32001",
+                "PkgName": "curl-libs",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-2.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-26T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "curl-libs",
+                "InstalledVersion": "8.1.1-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "8.1.2-6.ph4",
+                "Severity": "LOW",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:00Z",
+                "LastModifiedDate": "2023-10-28T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33294",
+                "PkgName": "elfutils",
+                "InstalledVersion": "0.181-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "0.181-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-07-18T14:15:00Z",
+                "LastModifiedDate": "2023-07-27T15:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33294",
+                "PkgName": "elfutils-libelf",
+                "InstalledVersion": "0.181-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "0.181-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-07-18T14:15:00Z",
+                "LastModifiedDate": "2023-07-27T15:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4156",
+                "PkgName": "gawk",
+                "InstalledVersion": "5.1.0-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "5.1.1-1.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-25T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29499",
+                "PkgName": "glib",
+                "InstalledVersion": "2.68.0-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.68.4-1.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-09-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-27T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32643",
+                "PkgName": "glib",
+                "InstalledVersion": "2.68.0-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.68.4-1.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-09-14T20:15:00Z",
+                "LastModifiedDate": "2023-09-20T14:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36054",
+                "PkgName": "krb5",
+                "InstalledVersion": "1.17-9.ph4",
+                "Status": "fixed",
+                "FixedVersion": "1.17-10.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-824"
+                ],
+                "PublishedDate": "2023-08-07T19:15:00Z",
+                "LastModifiedDate": "2023-11-15T03:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36976",
+                "PkgName": "libarchive",
+                "InstalledVersion": "3.4.3-9.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.4.3-10.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-07-20T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-22218",
+                "PkgName": "libssh2",
+                "InstalledVersion": "1.10.0-1.ph4",
+                "Status": "fixed",
+                "FixedVersion": "1.11.0-1.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-06T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39615",
+                "PkgName": "libxml2",
+                "InstalledVersion": "2.9.12-9.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.9.12-11.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2023-08-29T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45322",
+                "PkgName": "libxml2",
+                "InstalledVersion": "2.9.12-9.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.9.12-12.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-10-06T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39615",
+                "PkgName": "libxml2-devel",
+                "InstalledVersion": "2.9.12-9.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.9.12-11.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2023-08-29T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45322",
+                "PkgName": "libxml2-devel",
+                "InstalledVersion": "2.9.12-9.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.9.12-12.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-10-06T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2953",
+                "PkgName": "openldap",
+                "InstalledVersion": "2.4.57-3.ph4",
+                "Status": "fixed",
+                "FixedVersion": "2.4.57-4.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-05-30T22:15:00Z",
+                "LastModifiedDate": "2023-08-02T16:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4807",
+                "PkgName": "openssl",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-6.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-08T12:15:00Z",
+                "LastModifiedDate": "2023-09-21T17:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "openssl",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:00Z",
+                "LastModifiedDate": "2023-10-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2975",
+                "PkgName": "openssl",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-2.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-07-14T12:15:00Z",
+                "LastModifiedDate": "2023-07-27T13:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "openssl",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-3.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:00Z",
+                "LastModifiedDate": "2023-10-03T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "openssl",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-4.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-06T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "openssl",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4807",
+                "PkgName": "openssl-devel",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-6.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-08T12:15:00Z",
+                "LastModifiedDate": "2023-09-21T17:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "openssl-devel",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:00Z",
+                "LastModifiedDate": "2023-10-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2975",
+                "PkgName": "openssl-devel",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-2.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-07-14T12:15:00Z",
+                "LastModifiedDate": "2023-07-27T13:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "openssl-devel",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-3.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:00Z",
+                "LastModifiedDate": "2023-10-03T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "openssl-devel",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-4.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-06T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "openssl-devel",
+                "InstalledVersion": "3.0.7-6.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.7-6.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:00Z",
+                "LastModifiedDate": "2023-11-09T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4807",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-6.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-08T12:15:00Z",
+                "LastModifiedDate": "2023-09-21T17:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.7-6.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:00Z",
+                "LastModifiedDate": "2023-06-08T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:00Z",
+                "LastModifiedDate": "2023-10-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2975",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-2.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-07-14T12:15:00Z",
+                "LastModifiedDate": "2023-07-27T13:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-3.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:00Z",
+                "LastModifiedDate": "2023-10-03T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-4.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-06T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "openssl-fips-provider",
+                "InstalledVersion": "3.0.7-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-7.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31486",
+                "PkgName": "perl",
+                "InstalledVersion": "5.30.1-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "5.30.1-6.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-04-29T00:15:00Z",
+                "LastModifiedDate": "2023-06-21T18:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2007-4559",
+                "PkgName": "python3",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-3.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2007-08-28T01:17:00Z",
+                "LastModifiedDate": "2023-09-17T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-24329",
+                "PkgName": "python3",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-3.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-02-17T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "python3",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "python3",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:00Z",
+                "LastModifiedDate": "2023-06-01T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2007-4559",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-3.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2007-08-28T01:17:00Z",
+                "LastModifiedDate": "2023-09-17T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-24329",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-3.ph4",
+                "Severity": "HIGH",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-02-17T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.10.0-11.ph4",
+                "Status": "fixed",
+                "FixedVersion": "3.10.11-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:00Z",
+                "LastModifiedDate": "2023-06-01T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2013-4235",
+                "PkgName": "shadow",
+                "InstalledVersion": "4.8.1-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "4.13-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-367"
+                ],
+                "PublishedDate": "2019-12-03T15:15:00Z",
+                "LastModifiedDate": "2023-02-13T00:28:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2013-4235",
+                "PkgName": "shadow-tools",
+                "InstalledVersion": "4.8.1-5.ph4",
+                "Status": "fixed",
+                "FixedVersion": "4.13-1.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-367"
+                ],
+                "PublishedDate": "2019-12-03T15:15:00Z",
+                "LastModifiedDate": "2023-02-13T00:28:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48303",
+                "PkgName": "tar",
+                "InstalledVersion": "1.34-2.ph4",
+                "Status": "fixed",
+                "FixedVersion": "1.34-3.ph4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-01-30T04:15:00Z",
+                "LastModifiedDate": "2023-05-30T17:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45853",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.11-4.ph4",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-6.ph4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-14T02:15:00Z",
+                "LastModifiedDate": "2023-11-28T01:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45853",
+                "PkgName": "zlib-devel",
+                "InstalledVersion": "1.2.11-4.ph4",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-6.ph4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "photon",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-14T02:15:00Z",
+                "LastModifiedDate": "2023-11-28T01:15:00Z"
+            }
+        ]
+    }
+]

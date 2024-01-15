@@ -1,0 +1,154 @@
+[
+    {
+        "RepoTags": [
+            "rancher/cli:v2.0.4"
+        ],
+        "created": "2018-08-10T00:42:56.976154138Z"
+    },
+    {
+        "Target": "rancher/cli:v2.0.4 (alpine 3.7.0)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.18-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.18-r4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:11.72Z",
+                "LastModifiedDate": "2023-03-03T17:43:22.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.18-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.18-r4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:11.72Z",
+                "LastModifiedDate": "2023-03-03T17:43:22.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15473",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-08-17T19:29:00.223Z",
+                "LastModifiedDate": "2023-02-23T23:13:42.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20685",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-01-10T21:29:00.377Z",
+                "LastModifiedDate": "2023-02-23T23:15:18.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6109",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.71Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.16Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6111",
+                "PkgName": "openssh-keygen",
+                "InstalledVersion": "7.5_p1-r8",
+                "Status": "fixed",
+                "FixedVersion": "7.5_p1-r10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2019-01-31T18:29:00.867Z",
+                "LastModifiedDate": "2023-11-07T03:13:05.61Z"
+            }
+        ]
+    }
+]

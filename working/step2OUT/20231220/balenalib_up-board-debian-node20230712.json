@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "balenalib/up-board-debian-node:20230712"
+        ],
+        "created": "2023-07-16T08:55:32.099387619Z"
+    },
+    {
+        "Target": "Node.js",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-25881",
+                "PkgName": "http-cache-semantics",
+                "InstalledVersion": "4.1.0",
+                "Status": "fixed",
+                "FixedVersion": "4.1.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-01-31T05:15:11.81Z",
+                "LastModifiedDate": "2023-11-07T03:44:51.8Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-25883",
+                "PkgName": "semver",
+                "InstalledVersion": "7.3.8",
+                "Status": "fixed",
+                "FixedVersion": "7.5.2, 6.3.1, 5.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-21T05:15:09.06Z",
+                "LastModifiedDate": "2023-11-07T03:44:51.993Z"
+            }
+        ]
+    }
+]

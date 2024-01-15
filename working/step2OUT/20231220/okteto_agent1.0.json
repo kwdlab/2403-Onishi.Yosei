@@ -1,0 +1,132 @@
+[
+    {
+        "RepoTags": [
+            "okteto/agent:1.0"
+        ],
+        "created": "2018-07-04T13:57:33.310376919Z"
+    },
+    {
+        "Target": "okteto/agent:1.0 (alpine 3.6.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2018-1060",
+                "PkgName": "python2",
+                "InstalledVersion": "2.7.14-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-06-18T14:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:55:47.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1061",
+                "PkgName": "python2",
+                "InstalledVersion": "2.7.14-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.7.15-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-06-19T12:29:00.22Z",
+                "LastModifiedDate": "2023-11-07T02:55:47.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20346",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.20.1-r2",
+                "Status": "fixed",
+                "FixedVersion": "3.25.3-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-12-21T21:29:00.243Z",
+                "LastModifiedDate": "2023-11-07T02:56:16.353Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-18342",
+                "PkgName": "PyYAML",
+                "InstalledVersion": "3.12",
+                "Status": "fixed",
+                "FixedVersion": "4.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-06-27T12:29:00.21Z",
+                "LastModifiedDate": "2023-11-07T02:41:54.27Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-14343",
+                "PkgName": "PyYAML",
+                "InstalledVersion": "3.12",
+                "Status": "fixed",
+                "FixedVersion": "5.4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-02-09T21:15:12.707Z",
+                "LastModifiedDate": "2023-07-06T18:15:10.193Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1747",
+                "PkgName": "PyYAML",
+                "InstalledVersion": "3.12",
+                "Status": "fixed",
+                "FixedVersion": "5.3.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2020-03-24T15:15:12.293Z",
+                "LastModifiedDate": "2023-11-07T03:19:32.76Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-18074",
+                "PkgName": "requests",
+                "InstalledVersion": "2.11.1",
+                "Status": "fixed",
+                "FixedVersion": "2.20.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-522"
+                ],
+                "PublishedDate": "2018-10-09T17:29:01.897Z",
+                "LastModifiedDate": "2022-07-25T18:15:14.467Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32681",
+                "PkgName": "requests",
+                "InstalledVersion": "2.11.1",
+                "Status": "fixed",
+                "FixedVersion": "2.31.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-05-26T18:15:14.147Z",
+                "LastModifiedDate": "2023-09-17T09:15:12.327Z"
+            }
+        ]
+    }
+]

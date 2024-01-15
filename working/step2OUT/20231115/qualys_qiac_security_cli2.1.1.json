@@ -1,0 +1,160 @@
+[
+    {
+        "RepoTags": [
+            "qualys/qiac_security_cli:2.1.1"
+        ],
+        "created": "2023-11-01T06:19:12.754645401Z"
+    },
+    {
+        "Target": "qualys/qiac_security_cli:2.1.1 (oracle 8.8)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-20231",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-03-12T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20232",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-03-12T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3580",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-08-05T21:15:00Z",
+                "LastModifiedDate": "2021-11-26T21:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-40528",
+                "PkgName": "libgcrypt",
+                "InstalledVersion": "1.8.5-7.el8_6",
+                "Status": "fixed",
+                "FixedVersion": "10:1.8.5-7.el8_6_fips",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-09-06T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33560",
+                "PkgName": "libgcrypt",
+                "InstalledVersion": "1.8.5-7.el8_6",
+                "Status": "fixed",
+                "FixedVersion": "10:1.8.5-6.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2021-06-08T11:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "platform-python",
+                "InstalledVersion": "3.6.8-51.0.1.el8_8.1",
+                "Status": "fixed",
+                "FixedVersion": "3.6.8-51.0.1.el8_8.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.6.8-51.0.1.el8_8.1",
+                "Status": "fixed",
+                "FixedVersion": "3.6.8-51.0.1.el8_8.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-5cpq-8wj7-hf2v",
+                "PkgName": "cryptography",
+                "InstalledVersion": "39.0.1",
+                "Status": "fixed",
+                "FixedVersion": "41.0.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-jm77-qphf-c4w8",
+                "PkgName": "cryptography",
+                "InstalledVersion": "39.0.1",
+                "Status": "fixed",
+                "FixedVersion": "41.0.3",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-v8gr-m533-ghj9",
+                "PkgName": "cryptography",
+                "InstalledVersion": "39.0.1",
+                "Status": "fixed",
+                "FixedVersion": "41.0.4",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

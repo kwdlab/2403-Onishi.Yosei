@@ -1,0 +1,43 @@
+[
+    {
+        "RepoTags": [
+            "grafana/snyk_exporter:v1.12"
+        ],
+        "created": "2023-02-06T17:18:52.307560471Z"
+    },
+    {
+        "Target": "snyk_exporter",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-21698",
+                "PkgName": "github.com/prometheus/client_golang",
+                "InstalledVersion": "v1.8.0",
+                "Status": "fixed",
+                "FixedVersion": "1.11.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2022-02-15T16:15:08.527Z",
+                "LastModifiedDate": "2023-11-07T03:43:41.337Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20201204225414-ed752295db88",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:12.747Z",
+                "LastModifiedDate": "2023-11-07T03:46:03.463Z"
+            }
+        ]
+    }
+]

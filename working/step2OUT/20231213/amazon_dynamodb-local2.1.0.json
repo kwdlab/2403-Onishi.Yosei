@@ -1,0 +1,272 @@
+[
+    {
+        "RepoTags": [
+            "amazon/dynamodb-local:2.1.0"
+        ],
+        "created": "2023-10-24T17:33:15.41537468Z"
+    },
+    {
+        "Target": "amazon/dynamodb-local:2.1.0 (amazon 2023 (Amazon Linux))",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.34-52.amzn2023.0.6",
+                "Status": "fixed",
+                "FixedVersion": "2.34-52.amzn2023.0.7",
+                "Severity": "LOW",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-12-10T12:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.34-52.amzn2023.0.6",
+                "Status": "fixed",
+                "FixedVersion": "2.34-52.amzn2023.0.7",
+                "Severity": "LOW",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-12-10T12:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.34-52.amzn2023.0.6",
+                "Status": "fixed",
+                "FixedVersion": "2.34-52.amzn2023.0.7",
+                "Severity": "LOW",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-12-10T12:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40433",
+                "PkgName": "java-11-amazon-corretto-devel",
+                "InstalledVersion": "1:11.0.20+9-1.amzn2023",
+                "Status": "fixed",
+                "FixedVersion": "1:11.0.21+9-1.amzn2023",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-12-06T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22081",
+                "PkgName": "java-11-amazon-corretto-devel",
+                "InstalledVersion": "1:11.0.20+9-1.amzn2023",
+                "Status": "fixed",
+                "FixedVersion": "1:11.0.21+9-1.amzn2023",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:00Z",
+                "LastModifiedDate": "2023-11-08T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40433",
+                "PkgName": "java-11-amazon-corretto-headless",
+                "InstalledVersion": "1:11.0.20+9-1.amzn2023",
+                "Status": "fixed",
+                "FixedVersion": "1:11.0.21+9-1.amzn2023",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-12-06T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22081",
+                "PkgName": "java-11-amazon-corretto-headless",
+                "InstalledVersion": "1:11.0.20+9-1.amzn2023",
+                "Status": "fixed",
+                "FixedVersion": "1:11.0.21+9-1.amzn2023",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:00Z",
+                "LastModifiedDate": "2023-11-08T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43785",
+                "PkgName": "libX11",
+                "InstalledVersion": "1.7.2-3.amzn2023.0.3",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-3.amzn2023.0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43786",
+                "PkgName": "libX11",
+                "InstalledVersion": "1.7.2-3.amzn2023.0.3",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-3.amzn2023.0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43787",
+                "PkgName": "libX11",
+                "InstalledVersion": "1.7.2-3.amzn2023.0.3",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-3.amzn2023.0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43785",
+                "PkgName": "libX11-common",
+                "InstalledVersion": "1.7.2-3.amzn2023.0.3",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-3.amzn2023.0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43786",
+                "PkgName": "libX11-common",
+                "InstalledVersion": "1.7.2-3.amzn2023.0.3",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-3.amzn2023.0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43787",
+                "PkgName": "libX11-common",
+                "InstalledVersion": "1.7.2-3.amzn2023.0.3",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-3.amzn2023.0.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "libnghttp2",
+                "InstalledVersion": "1.55.1-1.amzn2023.0.4",
+                "Status": "fixed",
+                "FixedVersion": "1.57.0-1.amzn2023.0.1",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45322",
+                "PkgName": "libxml2",
+                "InstalledVersion": "2.10.4-1.amzn2023.0.5",
+                "Status": "fixed",
+                "FixedVersion": "2.10.4-1.amzn2023.0.6",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-10-06T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:3.0.8-1.amzn2023.0.7",
+                "Status": "fixed",
+                "FixedVersion": "1:3.0.8-1.amzn2023.0.9",
+                "Severity": "HIGH",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45853",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.11-33.amzn2023.0.4",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-33.amzn2023.0.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-14T02:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-1471",
+                "PkgName": "org.yaml:snakeyaml",
+                "InstalledVersion": "1.33",
+                "Status": "fixed",
+                "FixedVersion": "2.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-12-01T11:15:00Z",
+                "LastModifiedDate": "2023-11-19T15:15:00Z"
+            }
+        ]
+    }
+]

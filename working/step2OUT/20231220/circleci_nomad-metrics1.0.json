@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "circleci/nomad-metrics:1.0"
+        ],
+        "created": "2020-11-17T14:04:46.315682959Z"
+    },
+    {
+        "Target": "app/nomad-metrics",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20200812155832-6a926be9bd1d",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:12.747Z",
+                "LastModifiedDate": "2023-11-07T03:46:03.463Z"
+            }
+        ]
+    }
+]

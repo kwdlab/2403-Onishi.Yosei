@@ -1,0 +1,76 @@
+[
+    {
+        "RepoTags": [
+            "rancher/opni-python-base:3.9"
+        ],
+        "created": "2023-12-04T15:40:42.635941254Z"
+    },
+    {
+        "Target": "rancher/opni-python-base:3.9 (suse linux enterprise server 15.3)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4807-1",
+                "PkgName": "container-suseconnect",
+                "InstalledVersion": "2.4.0-150000.4.44.1",
+                "Status": "fixed",
+                "FixedVersion": "2.4.0-150000.4.46.1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4672-1",
+                "PkgName": "suse-build-key",
+                "InstalledVersion": "12.0-150000.8.34.1",
+                "Status": "fixed",
+                "FixedVersion": "12.0-150000.8.37.1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5752",
+                "PkgName": "pip",
+                "InstalledVersion": "23.0.1",
+                "Status": "fixed",
+                "FixedVersion": "23.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-77"
+                ],
+                "PublishedDate": "2023-10-25T18:17:44.867Z",
+                "LastModifiedDate": "2023-11-03T14:55:50.973Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "setuptools",
+                "InstalledVersion": "58.1.0",
+                "Status": "fixed",
+                "FixedVersion": "65.5.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:13.987Z",
+                "LastModifiedDate": "2023-11-07T03:52:38.44Z"
+            }
+        ]
+    }
+]

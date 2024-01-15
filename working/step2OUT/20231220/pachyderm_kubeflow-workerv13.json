@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "pachyderm/kubeflow-worker:v13"
+        ],
+        "created": "2018-03-28T21:00:41.648963365Z"
+    },
+    {
+        "Target": "pachyderm/kubeflow-worker:v13 (alpine 3.6.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2016-4074",
+                "PkgName": "jq",
+                "InstalledVersion": "1.5-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.5-r4",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2016-05-06T17:59:07.303Z",
+                "LastModifiedDate": "2022-06-05T03:46:28.927Z"
+            }
+        ]
+    }
+]

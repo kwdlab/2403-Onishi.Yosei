@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "sysdig/workload-agent:3.0.1-experimental"
+        ],
+        "created": "2022-07-27T17:30:24.385691683Z"
+    },
+    {
+        "Target": "opt/draios/bin/instrument",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-42248",
+                "PkgName": "github.com/tidwall/gjson",
+                "InstalledVersion": "v1.9.1",
+                "Status": "fixed",
+                "FixedVersion": "1.9.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-05-24T15:15:07.457Z",
+                "LastModifiedDate": "2023-08-08T14:22:24.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-42836",
+                "PkgName": "github.com/tidwall/gjson",
+                "InstalledVersion": "v1.9.1",
+                "Status": "fixed",
+                "FixedVersion": "1.9.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2021-10-22T18:15:14.897Z",
+                "LastModifiedDate": "2022-05-03T16:04:40.443Z"
+            }
+        ]
+    }
+]

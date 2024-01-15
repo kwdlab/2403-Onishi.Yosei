@@ -1,0 +1,160 @@
+[
+    {
+        "RepoTags": [
+            "qualys/jira-client-for-jira-integration:1.2.0"
+        ],
+        "created": "2023-10-13T09:33:44.759631278Z"
+    },
+    {
+        "Target": "qualys/jira-client-for-jira-integration:1.2.0 (oracle 8.8)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-20231",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-03-12T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20232",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-03-12T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3580",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-08-05T21:15:00Z",
+                "LastModifiedDate": "2021-11-26T21:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-40528",
+                "PkgName": "libgcrypt",
+                "InstalledVersion": "1.8.5-7.el8_6",
+                "Status": "fixed",
+                "FixedVersion": "10:1.8.5-7.el8_6_fips",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-09-06T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33560",
+                "PkgName": "libgcrypt",
+                "InstalledVersion": "1.8.5-7.el8_6",
+                "Status": "fixed",
+                "FixedVersion": "10:1.8.5-6.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2021-06-08T11:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "libnghttp2",
+                "InstalledVersion": "1.33.0-3.el8_2.1",
+                "Status": "fixed",
+                "FixedVersion": "1.33.0-5.el8_8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "platform-python",
+                "InstalledVersion": "3.6.8-51.0.1.el8_8.1",
+                "Status": "fixed",
+                "FixedVersion": "3.6.8-51.0.1.el8_8.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.6.8-51.0.1.el8_8.1",
+                "Status": "fixed",
+                "FixedVersion": "3.6.8-51.0.1.el8_8.2",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-41080",
+                "PkgName": "org.apache.tomcat.embed:tomcat-embed-core",
+                "InstalledVersion": "10.1.4",
+                "Status": "fixed",
+                "FixedVersion": "8.5.93, 9.0.80, 10.1.13, 11.0.0-M11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-601"
+                ],
+                "PublishedDate": "2023-08-25T21:15:00Z",
+                "LastModifiedDate": "2023-11-03T19:00:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-4jq9-2xhw-jpx7",
+                "PkgName": "org.json:json",
+                "InstalledVersion": "20230227",
+                "Status": "fixed",
+                "FixedVersion": "20231013",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

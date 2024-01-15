@@ -1,0 +1,2795 @@
+[
+    {
+        "RepoTags": [
+            "rancher/calico-node:v3.18.1"
+        ],
+        "created": "2021-03-11T00:33:30.074089767Z"
+    },
+    {
+        "Target": "rancher/calico-node:v3.18.1 (redhat 8.3)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2019-18276",
+                "PkgName": "bash",
+                "InstalledVersion": "4.4.19-12.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.4.19-14.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-273"
+                ],
+                "PublishedDate": "2019-11-28T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-37920",
+                "PkgName": "ca-certificates",
+                "InstalledVersion": "2020.2.41-80.0.el8_2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2023-07-25T21:15:00Z",
+                "LastModifiedDate": "2023-08-12T06:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-4122",
+                "PkgName": "cryptsetup-libs",
+                "InstalledVersion": "2.3.3-2.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.3.3-4.el8_5.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2022-08-24T16:15:00Z",
+                "LastModifiedDate": "2022-08-29T14:28:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33294",
+                "PkgName": "elfutils-libelf",
+                "InstalledVersion": "0.180-1.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-07-18T14:15:00Z",
+                "LastModifiedDate": "2023-07-27T15:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-25013",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-01-04T18:15:00Z",
+                "LastModifiedDate": "2023-11-09T14:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9169",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-02-26T02:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3326",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2021-01-27T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35942",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-07-22T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3999",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-08-24T16:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23218",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23219",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-10228",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-03-02T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-27618",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-02-26T23:15:00Z",
+                "LastModifiedDate": "2022-10-28T20:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-27645",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2021-02-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:31:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33574",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-05-25T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-25013",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-01-04T18:15:00Z",
+                "LastModifiedDate": "2023-11-09T14:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9169",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-02-26T02:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3326",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2021-01-27T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35942",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-07-22T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3999",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-08-24T16:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23218",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23219",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-10228",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-03-02T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-27618",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-02-26T23:15:00Z",
+                "LastModifiedDate": "2022-10-28T20:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-27645",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2021-02-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:31:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33574",
+                "PkgName": "glibc-common",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-05-25T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-25013",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-01-04T18:15:00Z",
+                "LastModifiedDate": "2023-11-09T14:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9169",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-02-26T02:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3326",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2021-01-27T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35942",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-07-22T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3999",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-08-24T16:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23218",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23219",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-10228",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-03-02T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-27618",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-02-26T23:15:00Z",
+                "LastModifiedDate": "2022-10-28T20:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-27645",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2021-02-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:31:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33574",
+                "PkgName": "glibc-langpack-en",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-05-25T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4911",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-03T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-25013",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-01-04T18:15:00Z",
+                "LastModifiedDate": "2023-11-09T14:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9169",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-02-26T02:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3326",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2021-01-27T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35942",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-07-22T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3999",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-08-24T16:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23218",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23219",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8_5.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2022-01-14T07:15:00Z",
+                "LastModifiedDate": "2022-11-08T13:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4527",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-225.el8_8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-10228",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-03-02T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-27618",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-151.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-02-26T23:15:00Z",
+                "LastModifiedDate": "2022-10-28T20:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-27645",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2021-02-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:31:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33574",
+                "PkgName": "glibc-minimal-langpack",
+                "InstalledVersion": "2.28-127.el8_3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.28-164.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-05-25T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1271",
+                "PkgName": "gzip",
+                "InstalledVersion": "1.9-9.el8",
+                "Status": "fixed",
+                "FixedVersion": "1.9-13.el8_5",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-08-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2603",
+                "PkgName": "libcap",
+                "InstalledVersion": "2.26-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.48-5.el8_8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-06-06T20:15:00Z",
+                "LastModifiedDate": "2023-06-21T19:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2602",
+                "PkgName": "libcap",
+                "InstalledVersion": "2.26-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "2.48-5.el8_8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-06-06T20:15:00Z",
+                "LastModifiedDate": "2023-06-14T18:07:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-42574",
+                "PkgName": "libgcc",
+                "InstalledVersion": "8.3.1-5.1.el8",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-4.el8_5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2021-11-01T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-42694",
+                "PkgName": "libgcc",
+                "InstalledVersion": "8.3.1-5.1.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-11-01T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20657",
+                "PkgName": "libgcc",
+                "InstalledVersion": "8.3.1-5.1.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2019-01-02T14:29:00Z",
+                "LastModifiedDate": "2019-11-06T01:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20673",
+                "PkgName": "libgcc",
+                "InstalledVersion": "8.3.1-5.1.el8",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-3.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-190"
+                ],
+                "PublishedDate": "2019-01-04T18:29:00Z",
+                "LastModifiedDate": "2020-08-24T17:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14250",
+                "PkgName": "libgcc",
+                "InstalledVersion": "8.3.1-5.1.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-190"
+                ],
+                "PublishedDate": "2019-07-24T04:15:00Z",
+                "LastModifiedDate": "2023-03-01T18:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libgcc",
+                "InstalledVersion": "8.3.1-5.1.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-24032",
+                "PkgName": "libzstd",
+                "InstalledVersion": "1.4.4-1.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-276"
+                ],
+                "PublishedDate": "2021-03-04T21:15:00Z",
+                "LastModifiedDate": "2021-04-28T20:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:00Z",
+                "LastModifiedDate": "2021-02-10T15:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:00Z",
+                "LastModifiedDate": "2021-02-08T20:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8_8.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00Z",
+                "LastModifiedDate": "2019-04-23T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19217",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19185",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:00Z",
+                "LastModifiedDate": "2023-10-20T21:07:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19186",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:00Z",
+                "LastModifiedDate": "2023-10-20T21:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19187",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:00Z",
+                "LastModifiedDate": "2023-10-20T21:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19188",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-20T21:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19189",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-20T21:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19190",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-20T21:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:00Z",
+                "LastModifiedDate": "2023-04-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:00Z",
+                "LastModifiedDate": "2021-02-10T15:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:00Z",
+                "LastModifiedDate": "2021-02-08T20:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29491",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "fixed",
+                "FixedVersion": "6.1-9.20180224.el8_8.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-04-14T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00Z",
+                "LastModifiedDate": "2019-04-23T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19217",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19185",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:00Z",
+                "LastModifiedDate": "2023-10-20T21:07:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19186",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:00Z",
+                "LastModifiedDate": "2023-10-20T21:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19187",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:15:00Z",
+                "LastModifiedDate": "2023-10-20T21:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19188",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-20T21:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19189",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-20T21:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-19190",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-20T21:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-39537",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.1-7.20180224.el8",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2021-09-20T16:15:00Z",
+                "LastModifiedDate": "2023-04-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3449",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1g-15.el8_3",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3450",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1g-15.el8_3",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-0778",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-6.el8_5",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2022-03-15T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0286",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-9.el8_7",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-843"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:00:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-4.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-4.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3712",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-5.el8_5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1292",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-7.el8_6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2022-05-03T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2068",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-7.el8_6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2022-06-21T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2097",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-7.el8_6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2022-07-05T11:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4304",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-9.el8_7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4450",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-9.el8_7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0215",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "fixed",
+                "FixedVersion": "1:1.1.1k-9.el8_7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-07-19T00:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:00Z",
+                "LastModifiedDate": "2023-11-09T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:00Z",
+                "LastModifiedDate": "2023-06-08T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0466",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:00Z",
+                "LastModifiedDate": "2023-09-28T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:00Z",
+                "LastModifiedDate": "2023-10-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:00Z",
+                "LastModifiedDate": "2023-10-03T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-06T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.1.1g-12.el8_3",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-14T17:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-29361",
+                "PkgName": "p11-kit-trust",
+                "InstalledVersion": "0.23.14-5.el8_0",
+                "Status": "fixed",
+                "FixedVersion": "0.23.22-1.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2020-12-16T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-29362",
+                "PkgName": "p11-kit-trust",
+                "InstalledVersion": "0.23.14-5.el8_0",
+                "Status": "fixed",
+                "FixedVersion": "0.23.22-1.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2020-12-16T14:15:00Z",
+                "LastModifiedDate": "2021-01-11T16:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-29363",
+                "PkgName": "p11-kit-trust",
+                "InstalledVersion": "0.23.14-5.el8_0",
+                "Status": "fixed",
+                "FixedVersion": "0.23.22-1.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-12-16T14:15:00Z",
+                "LastModifiedDate": "2022-05-12T14:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-20838",
+                "PkgName": "pcre",
+                "InstalledVersion": "8.42-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "8.42-6.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2020-06-15T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-14155",
+                "PkgName": "pcre",
+                "InstalledVersion": "8.42-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "8.42-6.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2020-06-15T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1586",
+                "PkgName": "pcre2",
+                "InstalledVersion": "10.32-2.el8",
+                "Status": "fixed",
+                "FixedVersion": "10.32-3.el8_6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-05-16T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "platform-python-setuptools",
+                "InstalledVersion": "39.2.0-6.el8",
+                "Status": "fixed",
+                "FixedVersion": "39.2.0-6.el8_7.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "python3-setuptools-wheel",
+                "InstalledVersion": "39.2.0-6.el8",
+                "Status": "fixed",
+                "FixedVersion": "39.2.0-6.el8_7.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20271",
+                "PkgName": "rpm",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-14.el8_4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2021-03-26T17:15:00Z",
+                "LastModifiedDate": "2023-02-12T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3421",
+                "PkgName": "rpm",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-14.el8_4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-347"
+                ],
+                "PublishedDate": "2021-05-19T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3521",
+                "PkgName": "rpm",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-19.el8_5.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-347"
+                ],
+                "PublishedDate": "2022-08-22T15:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35937",
+                "PkgName": "rpm",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-367"
+                ],
+                "PublishedDate": "2022-08-25T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35938",
+                "PkgName": "rpm",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2022-08-25T20:15:00Z",
+                "LastModifiedDate": "2022-11-29T18:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35939",
+                "PkgName": "rpm",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2022-08-26T16:15:00Z",
+                "LastModifiedDate": "2023-02-04T01:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20266",
+                "PkgName": "rpm",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-19.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-04-30T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20271",
+                "PkgName": "rpm-libs",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-14.el8_4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2021-03-26T17:15:00Z",
+                "LastModifiedDate": "2023-02-12T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3421",
+                "PkgName": "rpm-libs",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-14.el8_4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-347"
+                ],
+                "PublishedDate": "2021-05-19T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3521",
+                "PkgName": "rpm-libs",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-19.el8_5.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-347"
+                ],
+                "PublishedDate": "2022-08-22T15:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35937",
+                "PkgName": "rpm-libs",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-367"
+                ],
+                "PublishedDate": "2022-08-25T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35938",
+                "PkgName": "rpm-libs",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2022-08-25T20:15:00Z",
+                "LastModifiedDate": "2022-11-29T18:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-35939",
+                "PkgName": "rpm-libs",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2022-08-26T16:15:00Z",
+                "LastModifiedDate": "2023-02-04T01:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20266",
+                "PkgName": "rpm-libs",
+                "InstalledVersion": "4.14.3-4.el8",
+                "Status": "fixed",
+                "FixedVersion": "4.14.3-19.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-04-30T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4641",
+                "PkgName": "shadow-utils",
+                "InstalledVersion": "2:4.6-11.el8",
+                "Status": "fixed",
+                "FixedVersion": "2:4.6-19.el8",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33910",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-45.el8_4.2",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2021-07-20T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2526",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-58.el8_6.4",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2022-09-09T15:15:00Z",
+                "LastModifiedDate": "2023-01-20T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20839",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2019-05-17T04:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3842",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-45.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-04-09T21:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13776",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-45.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2020-06-03T03:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3821",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-68.el8_7.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-08T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4415",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-68.el8_7.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-01-11T15:15:00Z",
+                "LastModifiedDate": "2023-02-02T16:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26604",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-74.el8_8.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-03-03T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3997",
+                "PkgName": "systemd-libs",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-08-23T20:15:00Z",
+                "LastModifiedDate": "2023-05-03T12:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33910",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-45.el8_4.2",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2021-07-20T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2526",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-58.el8_6.4",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2022-09-09T15:15:00Z",
+                "LastModifiedDate": "2023-01-20T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20839",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2019-05-17T04:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3842",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-45.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2019-04-09T21:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13776",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-45.el8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2020-06-03T03:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3821",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-68.el8_7.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2022-11-08T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4415",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-68.el8_7.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-01-11T15:15:00Z",
+                "LastModifiedDate": "2023-02-02T16:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-26604",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "fixed",
+                "FixedVersion": "239-74.el8_8.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-03-03T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3997",
+                "PkgName": "systemd-pam",
+                "InstalledVersion": "239-41.el8_3.1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-08-23T20:15:00Z",
+                "LastModifiedDate": "2023-05-03T12:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1271",
+                "PkgName": "xz-libs",
+                "InstalledVersion": "5.2.4-3.el8",
+                "Status": "fixed",
+                "FixedVersion": "5.2.4-4.el8_6",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-08-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-25032",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.11-16.el8_2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-18.el8_5",
+                "Severity": "HIGH",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-03-25T09:15:00Z",
+                "LastModifiedDate": "2023-11-07T02:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-37434",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.11-16.el8_2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-19.el8_6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "redhat",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-08-05T07:15:00Z",
+                "LastModifiedDate": "2023-07-19T00:56:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/bin/calico-node",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2020-26160",
+                "PkgName": "github.com/dgrijalva/jwt-go",
+                "InstalledVersion": "v3.2.0+incompatible",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-755"
+                ],
+                "PublishedDate": "2020-09-30T18:15:00Z",
+                "LastModifiedDate": "2021-07-21T11:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3121",
+                "PkgName": "github.com/gogo/protobuf",
+                "InstalledVersion": "v1.3.1",
+                "Status": "fixed",
+                "FixedVersion": "1.3.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-129"
+                ],
+                "PublishedDate": "2021-01-11T06:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-21698",
+                "PkgName": "github.com/prometheus/client_golang",
+                "InstalledVersion": "v1.0.0",
+                "Status": "fixed",
+                "FixedVersion": "1.11.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-15T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1099",
+                "PkgName": "go.etcd.io/etcd",
+                "InstalledVersion": "v0.5.0-alpha.5.0.20201125193152-8a03d2e9614b",
+                "Status": "fixed",
+                "FixedVersion": "3.4.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-04-03T16:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-29652",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20200622213623-75b288015ac9",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20201216223049-8b5274cf687f",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-12-17T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43565",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20200622213623-75b288015ac9",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20211202192323-5770296d904e",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27191",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20200622213623-75b288015ac9",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220314234659-1baeb1ce4c0b",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-03-18T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33194",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201110031124-69a78807bb2b",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20210520170846-37e1c6afe023",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-05-26T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201110031124-69a78807bb2b",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201110031124-69a78807bb2b",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-20T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201110031124-69a78807bb2b",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-20T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-31525",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201110031124-69a78807bb2b",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20210428140749-89ef3d95e781",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2021-05-27T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201110031124-69a78807bb2b",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20201110031124-69a78807bb2b",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-19T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20201112073958-5cba982894dd",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-38561",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.3",
+                "Status": "fixed",
+                "FixedVersion": "0.3.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-12-26T06:15:00Z",
+                "LastModifiedDate": "2023-01-05T04:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.3",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.27.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.27.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-19T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8565",
+                "PkgName": "k8s.io/client-go",
+                "InstalledVersion": "v0.18.12",
+                "Status": "fixed",
+                "FixedVersion": "0.19.6, 0.20.0-alpha.2, 0.18.14, 0.17.16",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2020-12-07T22:15:00Z",
+                "LastModifiedDate": "2020-12-08T19:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-25741",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.19.15, 1.20.11, 1.21.5, 1.22.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-552"
+                ],
+                "PublishedDate": "2021-09-20T17:15:00Z",
+                "LastModifiedDate": "2021-11-30T22:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3676",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.28.1, 1.27.5, 1.26.8, 1.25.13, 1.24.17",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-10-31T21:15:00Z",
+                "LastModifiedDate": "2023-11-08T18:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3955",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.28.1, 1.27.5, 1.26.8, 1.25.13, 1.24.17",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-10-31T21:15:00Z",
+                "LastModifiedDate": "2023-11-08T18:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5528",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.28.4, 1.27.8, 1.26.11, 1.25.16",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-14T21:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8554",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-01-21T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8561",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-610"
+                ],
+                "PublishedDate": "2021-09-20T17:15:00Z",
+                "LastModifiedDate": "2021-11-06T03:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8564",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.20.0-alpha.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2020-12-07T22:15:00Z",
+                "LastModifiedDate": "2021-03-29T19:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-25735",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.20.6, 1.19.10, 1.18.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-09-06T12:15:00Z",
+                "LastModifiedDate": "2023-06-26T19:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-25736",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.21",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-30T03:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-25737",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.18.19, 1.19.11, 1.20.7, 1.21.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-601"
+                ],
+                "PublishedDate": "2021-09-06T12:15:00Z",
+                "LastModifiedDate": "2021-10-07T17:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2431",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.24.14, 1.25.10, 1.26.5, 1.27.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-16T08:15:00Z",
+                "LastModifiedDate": "2023-07-01T06:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2727",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.27.3, 1.26.6, 1.25.11, 1.24.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-03T21:15:00Z",
+                "LastModifiedDate": "2023-08-03T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2728",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.27.3, 1.26.6, 1.25.11, 1.24.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-03T21:15:00Z",
+                "LastModifiedDate": "2023-08-03T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8562",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.21.1, 1.20.7, 1.19.11, 1.18.19",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-367"
+                ],
+                "PublishedDate": "2022-02-01T11:15:00Z",
+                "LastModifiedDate": "2022-03-29T16:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-25740",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-610"
+                ],
+                "PublishedDate": "2021-09-20T17:15:00Z",
+                "LastModifiedDate": "2021-11-06T02:49:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-25743",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.18.12",
+                "Status": "fixed",
+                "FixedVersion": "1.26.0-alpha.3",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-01-07T00:15:00Z",
+                "LastModifiedDate": "2022-02-28T15:22:00Z"
+            }
+        ]
+    }
+]

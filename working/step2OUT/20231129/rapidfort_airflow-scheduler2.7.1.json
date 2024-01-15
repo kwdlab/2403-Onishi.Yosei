@@ -1,0 +1,944 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/airflow-scheduler:2.7.1"
+        ],
+        "created": "2023-11-17T18:11:12.022084975Z"
+    },
+    {
+        "Target": "rapidfort/airflow-scheduler:2.7.1 (debian 11.8)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-3715",
+                "PkgName": "bash",
+                "InstalledVersion": "5.1-2+deb11u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-01-05T15:15:00Z",
+                "LastModifiedDate": "2023-02-24T18:38:00Z"
+            },
+            {
+                "VulnerabilityID": "TEMP-0841856-B18BAF",
+                "PkgName": "bash",
+                "InstalledVersion": "5.1-2+deb11u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1304",
+                "PkgName": "comerr-dev",
+                "InstalledVersion": "2.1-1.46.2-2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2781",
+                "PkgName": "coreutils",
+                "InstalledVersion": "8.32-4+b1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-18018",
+                "PkgName": "coreutils",
+                "InstalledVersion": "8.32-4+b1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-01-04T04:29:00Z",
+                "LastModifiedDate": "2018-01-19T15:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5709",
+                "PkgName": "krb5-multidev",
+                "InstalledVersion": "1.18.3-6+deb11u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2010-4756",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-399"
+                ],
+                "PublishedDate": "2011-03-02T20:00:00Z",
+                "LastModifiedDate": "2021-09-01T12:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20796",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2019-02-26T02:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010022",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010023",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010024",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010025",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-330"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9192",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2019-02-26T18:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2010-4756",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-399"
+                ],
+                "PublishedDate": "2011-03-02T20:00:00Z",
+                "LastModifiedDate": "2021-09-01T12:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20796",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2019-02-26T02:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:56:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010022",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010023",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010024",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010025",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-330"
+                ],
+                "PublishedDate": "2019-07-15T04:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9192",
+                "PkgName": "libc6-dev",
+                "InstalledVersion": "2.31-13+deb11u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2019-02-26T18:29:00Z",
+                "LastModifiedDate": "2023-11-07T03:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1304",
+                "PkgName": "libcom-err2",
+                "InstalledVersion": "1.46.2-2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-04-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4039",
+                "PkgName": "libgcc-s1",
+                "InstalledVersion": "10.2.1-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-13T09:15:00Z",
+                "LastModifiedDate": "2023-09-14T20:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5709",
+                "PkgName": "libgssapi-krb5-2",
+                "InstalledVersion": "1.18.3-6+deb11u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5709",
+                "PkgName": "libk5crypto3",
+                "InstalledVersion": "1.18.3-6+deb11u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5709",
+                "PkgName": "libkrb5-3",
+                "InstalledVersion": "1.18.3-6+deb11u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5709",
+                "PkgName": "libkrb5-dev",
+                "InstalledVersion": "1.18.3-6+deb11u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5709",
+                "PkgName": "libkrb5support0",
+                "InstalledVersion": "1.18.3-6+deb11u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-01-16T09:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41409",
+                "PkgName": "libpcre2-8-0",
+                "InstalledVersion": "10.36-2+deb11u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-07-18T14:15:00Z",
+                "LastModifiedDate": "2023-07-27T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11164",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2017-07-11T03:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-16231",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2019-03-21T15:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:40:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7245",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-03-23T21:59:00Z",
+                "LastModifiedDate": "2018-08-17T10:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7246",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-03-23T21:59:00Z",
+                "LastModifiedDate": "2018-08-17T10:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-20838",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2020-06-15T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-31239",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.34.1-3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-05-09T02:15:00Z",
+                "LastModifiedDate": "2023-11-24T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-36690",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.34.1-3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-08-24T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-45346",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.34.1-3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2022-02-14T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-35737",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.34.1-3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-129"
+                ],
+                "PublishedDate": "2022-08-03T06:15:00Z",
+                "LastModifiedDate": "2022-11-16T20:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1w-0+deb11u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-21T16:54:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2007-6755",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1w-0+deb11u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2013-10-11T22:55:00Z",
+                "LastModifiedDate": "2022-11-01T14:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2010-0928",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1w-0+deb11u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-310"
+                ],
+                "PublishedDate": "2010-03-05T19:30:00Z",
+                "LastModifiedDate": "2023-11-07T02:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4039",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "10.2.1-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-09-13T09:15:00Z",
+                "LastModifiedDate": "2023-09-14T20:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2005-2541",
+                "PkgName": "tar",
+                "InstalledVersion": "1.34+dfsg-1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2005-08-10T04:00:00Z",
+                "LastModifiedDate": "2023-11-07T01:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48303",
+                "PkgName": "tar",
+                "InstalledVersion": "1.34+dfsg-1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-01-30T04:15:00Z",
+                "LastModifiedDate": "2023-05-30T17:16:00Z"
+            },
+            {
+                "VulnerabilityID": "TEMP-0290435-0B57B5",
+                "PkgName": "tar",
+                "InstalledVersion": "1.34+dfsg-1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45853",
+                "PkgName": "zlib1g",
+                "InstalledVersion": "1:1.2.11.dfsg-2+deb11u2",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-14T02:15:00Z",
+                "LastModifiedDate": "2023-11-28T01:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-46136",
+                "PkgName": "Werkzeug",
+                "InstalledVersion": "2.2.3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.1, 2.3.8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-24T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47627",
+                "PkgName": "aiohttp",
+                "InstalledVersion": "3.8.5",
+                "Status": "fixed",
+                "FixedVersion": "3.8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-22T22:40:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-pjjw-qhg8-p2p9",
+                "PkgName": "aiohttp",
+                "InstalledVersion": "3.8.5",
+                "Status": "fixed",
+                "FixedVersion": "3.8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-49081",
+                "PkgName": "aiohttp",
+                "InstalledVersion": "3.8.5",
+                "Status": "fixed",
+                "FixedVersion": "3.9.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-49082",
+                "PkgName": "aiohttp",
+                "InstalledVersion": "3.8.5",
+                "Status": "fixed",
+                "FixedVersion": "3.9.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-42663",
+                "PkgName": "apache-airflow",
+                "InstalledVersion": "2.7.1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-14T10:15:00Z",
+                "LastModifiedDate": "2023-11-12T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-42780",
+                "PkgName": "apache-airflow",
+                "InstalledVersion": "2.7.1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-14T10:15:00Z",
+                "LastModifiedDate": "2023-10-18T18:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-42781",
+                "PkgName": "apache-airflow",
+                "InstalledVersion": "2.7.1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-12T14:15:00Z",
+                "LastModifiedDate": "2023-11-20T19:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-42792",
+                "PkgName": "apache-airflow",
+                "InstalledVersion": "2.7.1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-668"
+                ],
+                "PublishedDate": "2023-10-14T10:15:00Z",
+                "LastModifiedDate": "2023-10-18T18:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45348",
+                "PkgName": "apache-airflow",
+                "InstalledVersion": "2.7.1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-14T10:15:00Z",
+                "LastModifiedDate": "2023-11-16T02:22:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46288",
+                "PkgName": "apache-airflow",
+                "InstalledVersion": "2.7.1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-23T19:15:00Z",
+                "LastModifiedDate": "2023-10-28T03:24:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47037",
+                "PkgName": "apache-airflow",
+                "InstalledVersion": "2.7.1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-11-12T14:15:00Z",
+                "LastModifiedDate": "2023-11-20T19:31:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46215",
+                "PkgName": "apache-airflow-providers-celery",
+                "InstalledVersion": "3.3.3",
+                "Status": "fixed",
+                "FixedVersion": "3.4.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2023-10-28T08:15:00Z",
+                "LastModifiedDate": "2023-11-08T00:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-49083",
+                "PkgName": "cryptography",
+                "InstalledVersion": "41.0.3",
+                "Status": "fixed",
+                "FixedVersion": "41.0.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-v8gr-m533-ghj9",
+                "PkgName": "cryptography",
+                "InstalledVersion": "41.0.3",
+                "Status": "fixed",
+                "FixedVersion": "41.0.4",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43804",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.26.16",
+                "Status": "fixed",
+                "FixedVersion": "2.0.6, 1.26.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-04T17:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45803",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.26.16",
+                "Status": "fixed",
+                "FixedVersion": "2.0.7, 1.26.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-17T20:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            }
+        ]
+    }
+]

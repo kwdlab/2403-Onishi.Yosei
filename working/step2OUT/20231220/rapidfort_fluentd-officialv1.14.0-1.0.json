@@ -1,0 +1,56 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/fluentd-official:v1.14.0-1.0"
+        ],
+        "created": "2023-06-16T04:33:42.426048544Z"
+    },
+    {
+        "Target": "Ruby",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-41186",
+                "PkgName": "fluentd",
+                "InstalledVersion": "1.14.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.14.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2021-10-29T14:15:07.73Z",
+                "LastModifiedDate": "2021-11-03T00:11:22.107Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-39379",
+                "PkgName": "fluentd",
+                "InstalledVersion": "1.14.0",
+                "Status": "fixed",
+                "FixedVersion": ">= 1.15.3",
+                "Severity": "LOW",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-11-02T13:15:13.583Z",
+                "LastModifiedDate": "2023-11-07T03:50:28.803Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38697",
+                "PkgName": "protocol-http1",
+                "InstalledVersion": "0.13.2",
+                "Status": "fixed",
+                "FixedVersion": ">= 0.15.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-444"
+                ],
+                "PublishedDate": "2023-08-04T18:15:15.01Z",
+                "LastModifiedDate": "2023-08-10T15:34:39.31Z"
+            }
+        ]
+    }
+]

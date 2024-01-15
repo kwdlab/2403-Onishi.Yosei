@@ -1,0 +1,958 @@
+[
+    {
+        "RepoTags": [
+            "rancher/swarm-agent:v0.1.3"
+        ],
+        "created": "2016-07-13T23:55:15.371877628Z"
+    },
+    {
+        "Target": "rancher/swarm-agent:v0.1.3 (ubuntu 15.10)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2016-2856",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2016-03-14T01:59:00Z",
+                "LastModifiedDate": "2016-11-28T20:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2013-2207",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2013-10-09T22:55:00Z",
+                "LastModifiedDate": "2017-07-01T01:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2014-8121",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-17"
+                ],
+                "PublishedDate": "2015-03-27T14:59:00Z",
+                "LastModifiedDate": "2023-02-13T00:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-1781",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-09-28T20:59:00Z",
+                "LastModifiedDate": "2023-02-13T00:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8776",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-189"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8777",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-254"
+                ],
+                "PublishedDate": "2016-01-20T05:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8778",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8779",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-3075",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-06-01T20:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2856",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2016-03-14T01:59:00Z",
+                "LastModifiedDate": "2016-11-28T20:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2013-2207",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2013-10-09T22:55:00Z",
+                "LastModifiedDate": "2017-07-01T01:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2014-8121",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-17"
+                ],
+                "PublishedDate": "2015-03-27T14:59:00Z",
+                "LastModifiedDate": "2023-02-13T00:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-1781",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-09-28T20:59:00Z",
+                "LastModifiedDate": "2023-02-13T00:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8776",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-189"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8777",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-254"
+                ],
+                "PublishedDate": "2016-01-20T05:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8778",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8779",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-3075",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-06-01T20:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2012-6702",
+                "PkgName": "libexpat1",
+                "InstalledVersion": "2.1.0-7",
+                "Status": "fixed",
+                "FixedVersion": "2.1.0-7ubuntu0.15.10.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-310"
+                ],
+                "PublishedDate": "2016-06-16T18:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-0718",
+                "PkgName": "libexpat1",
+                "InstalledVersion": "2.1.0-7",
+                "Status": "fixed",
+                "FixedVersion": "2.1.0-7ubuntu0.15.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-05-26T16:59:00Z",
+                "LastModifiedDate": "2023-02-12T23:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5300",
+                "PkgName": "libexpat1",
+                "InstalledVersion": "2.1.0-7",
+                "Status": "fixed",
+                "FixedVersion": "2.1.0-7ubuntu0.15.10.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-399"
+                ],
+                "PublishedDate": "2016-06-16T18:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2014-9769",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-03-28T16:59:00Z",
+                "LastModifiedDate": "2016-12-03T03:02:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-3210",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-12-13T16:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-1283",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-01-03T00:59:00Z",
+                "LastModifiedDate": "2022-07-20T16:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-3191",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-03-17T23:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-2325",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-01-14T17:15:00Z",
+                "LastModifiedDate": "2022-08-05T14:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-2326",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2020-01-14T17:15:00Z",
+                "LastModifiedDate": "2023-01-19T16:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-2327",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-2328",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-19"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2019-12-27T16:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-5073",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2016-12-13T16:59:00Z",
+                "LastModifiedDate": "2018-05-18T01:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8380",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2017-07-01T01:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8381",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8382",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:28:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8383",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8384",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8385",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2019-12-27T16:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8386",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8387",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8388",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119",
+                    "CWE-185"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2019-12-27T16:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8389",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119",
+                    "CWE-185"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8390",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-908"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8391",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8392",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8393",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8394",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2023-02-16T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8395",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-7.1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "2:8.35-7.1ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-12-02T01:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2107",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-310",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2108",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2109",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-399"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2105",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2106",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-189"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-4008",
+                "PkgName": "libtasn1-6",
+                "InstalledVersion": "4.5-2",
+                "Status": "fixed",
+                "FixedVersion": "4.5-2ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-399"
+                ],
+                "PublishedDate": "2016-05-05T18:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2856",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2016-03-14T01:59:00Z",
+                "LastModifiedDate": "2016-11-28T20:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2013-2207",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2013-10-09T22:55:00Z",
+                "LastModifiedDate": "2017-07-01T01:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2014-8121",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-17"
+                ],
+                "PublishedDate": "2015-03-27T14:59:00Z",
+                "LastModifiedDate": "2023-02-13T00:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-1781",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2015-09-28T20:59:00Z",
+                "LastModifiedDate": "2023-02-13T00:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8776",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-189"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8777",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-254"
+                ],
+                "PublishedDate": "2016-01-20T05:59:00Z",
+                "LastModifiedDate": "2018-01-05T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8778",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-8779",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-04-19T21:59:00Z",
+                "LastModifiedDate": "2018-10-30T16:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-3075",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.21-0ubuntu4.1",
+                "Status": "fixed",
+                "FixedVersion": "2.21-0ubuntu4.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-06-01T20:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2107",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-310",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2108",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2109",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-399"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2105",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2106",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2d-0ubuntu1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2d-0ubuntu1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-189"
+                ],
+                "PublishedDate": "2016-05-05T01:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-4971",
+                "PkgName": "wget",
+                "InstalledVersion": "1.16.1-1ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1.16.1-1ubuntu1.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2016-06-30T17:59:00Z",
+                "LastModifiedDate": "2023-02-12T23:22:00Z"
+            }
+        ]
+    }
+]

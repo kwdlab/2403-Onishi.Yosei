@@ -1,0 +1,120 @@
+[
+    {
+        "RepoTags": [
+            "opensearchproject/opensearch-dashboards:2.11.0"
+        ],
+        "created": "2023-11-09T23:42:15.546708152Z"
+    },
+    {
+        "Target": "opensearchproject/opensearch-dashboards:2.11.0 (amazon 2023 (Amazon Linux))",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:3.0.8-1.amzn2023.0.9",
+                "Status": "fixed",
+                "FixedVersion": "1:3.0.8-1.amzn2023.0.10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5752",
+                "PkgName": "python3-pip-wheel",
+                "InstalledVersion": "21.3.1-2.amzn2023.0.5",
+                "Status": "fixed",
+                "FixedVersion": "21.3.1-2.amzn2023.0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-77"
+                ],
+                "PublishedDate": "2023-10-25T18:17:44.867Z",
+                "LastModifiedDate": "2023-11-03T14:55:50.973Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4641",
+                "PkgName": "shadow-utils",
+                "InstalledVersion": "2:4.9-12.amzn2023.0.2",
+                "Status": "fixed",
+                "FixedVersion": "2:4.9-12.amzn2023.0.4",
+                "Severity": "LOW",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "Node.js",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-45133",
+                "PkgName": "@babel/traverse",
+                "InstalledVersion": "7.17.3",
+                "Status": "fixed",
+                "FixedVersion": "7.23.2, 8.0.0-alpha.4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-697",
+                    "CWE-184"
+                ],
+                "PublishedDate": "2023-10-12T17:15:09.797Z",
+                "LastModifiedDate": "2023-10-24T16:52:20.437Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45133",
+                "PkgName": "@babel/traverse",
+                "InstalledVersion": "7.21.2",
+                "Status": "fixed",
+                "FixedVersion": "7.23.2, 8.0.0-alpha.4",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-697",
+                    "CWE-184"
+                ],
+                "PublishedDate": "2023-10-12T17:15:09.797Z",
+                "LastModifiedDate": "2023-10-24T16:52:20.437Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45857",
+                "PkgName": "axios",
+                "InstalledVersion": "0.27.2",
+                "Status": "fixed",
+                "FixedVersion": "1.6.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-352"
+                ],
+                "PublishedDate": "2023-11-08T21:15:08.55Z",
+                "LastModifiedDate": "2023-11-16T17:35:34.107Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-16137",
+                "PkgName": "debug",
+                "InstalledVersion": "4.1.1",
+                "Status": "fixed",
+                "FixedVersion": "2.6.9, 3.1.0, 3.2.7, 4.3.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2018-06-07T02:29:03.817Z",
+                "LastModifiedDate": "2023-11-07T02:40:28.13Z"
+            }
+        ]
+    }
+]

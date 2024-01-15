@@ -1,0 +1,188 @@
+[
+    {
+        "RepoTags": [
+            "kasmweb/parrotos-5-desktop:1.14.0"
+        ],
+        "created": "2023-09-14T16:01:07.27691855Z"
+    },
+    {
+        "Target": "Node.js",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-38900",
+                "PkgName": "decode-uri-component",
+                "InstalledVersion": "0.2.0",
+                "Status": "fixed",
+                "FixedVersion": "0.2.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2022-11-28T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:50:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-21670",
+                "PkgName": "markdown-it",
+                "InstalledVersion": "12.0.2",
+                "Status": "fixed",
+                "FixedVersion": "12.3.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-01-10T21:15:00Z",
+                "LastModifiedDate": "2023-07-24T13:54:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3517",
+                "PkgName": "minimatch",
+                "InstalledVersion": "3.0.4",
+                "Status": "fixed",
+                "FixedVersion": "3.0.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-10-17T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:51:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23343",
+                "PkgName": "path-parse",
+                "InstalledVersion": "1.0.6",
+                "Status": "fixed",
+                "FixedVersion": "1.0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-05-04T09:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-25883",
+                "PkgName": "semver",
+                "InstalledVersion": "5.7.1",
+                "Status": "fixed",
+                "FixedVersion": "7.5.2, 6.3.1, 5.7.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-21T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "opt/microsoft/powershell/7/pwsh.deps.json",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-29331",
+                "PkgName": "Microsoft.Windows.Compatibility",
+                "InstalledVersion": "6.0.0",
+                "Status": "fixed",
+                "FixedVersion": "7.0.3, 6.0.6",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-14T15:15:00Z",
+                "LastModifiedDate": "2023-06-22T20:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41064",
+                "PkgName": "System.Data.SqlClient",
+                "InstalledVersion": "4.8.3",
+                "Status": "fixed",
+                "FixedVersion": "4.8.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-11-09T22:15:00Z",
+                "LastModifiedDate": "2023-10-17T19:01:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-0980",
+                "PkgName": "System.Private.Uri",
+                "InstalledVersion": "4.3.0",
+                "Status": "fixed",
+                "FixedVersion": "4.3.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-19"
+                ],
+                "PublishedDate": "2019-05-16T19:29:00Z",
+                "LastModifiedDate": "2019-05-22T13:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-0981",
+                "PkgName": "System.Private.Uri",
+                "InstalledVersion": "4.3.0",
+                "Status": "fixed",
+                "FixedVersion": "4.3.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-19"
+                ],
+                "PublishedDate": "2019-05-16T19:29:00Z",
+                "LastModifiedDate": "2019-05-22T13:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-0657",
+                "PkgName": "System.Private.Uri",
+                "InstalledVersion": "4.3.0",
+                "Status": "fixed",
+                "FixedVersion": "4.3.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2019-03-05T23:29:00Z",
+                "LastModifiedDate": "2019-03-07T16:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29331",
+                "PkgName": "System.Security.Cryptography.Pkcs",
+                "InstalledVersion": "6.0.0",
+                "Status": "fixed",
+                "FixedVersion": "7.0.2, 6.0.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-14T15:15:00Z",
+                "LastModifiedDate": "2023-06-22T20:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-34716",
+                "PkgName": "System.Security.Cryptography.Xml",
+                "InstalledVersion": "6.0.0",
+                "Status": "fixed",
+                "FixedVersion": "4.7.1, 6.0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-08-09T20:15:00Z",
+                "LastModifiedDate": "2023-05-31T19:15:00Z"
+            }
+        ]
+    }
+]
