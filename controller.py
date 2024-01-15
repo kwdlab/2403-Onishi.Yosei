@@ -27,9 +27,7 @@ def main():
         mkdir("./dockerfile/step2OUT/"+date)
         mkdir("./dockerfile/step3OUT/"+date)
         subprocess.run(["python3", "./docsStep.py", date])
-        subprocess.run(["python3", "./dockerStep.py", date])
-        subprocess.run(["python3", "./dockerStep2.py", date])
-        subprocess.run(["python3", "./dockerStep3.py", date])
+        subprocess.run(["python3", "./dockerDownload.py", date])
 
     def ScrImages():
         mkdir("./targetList/"+date)
@@ -60,7 +58,7 @@ def main():
         for target, cnt in zip(line, nameList):
             runTrivy(target, cnt)
 
-    def flag1test(before, after):
+    def flag1check(before, after):
         outputDir = "./step1OUT/"
         passedListB = [int(os.path.splitext(os.path.basename(file))[0]) for file in glob.glob(outputDir+before+"/*.*")]
         passedListA = [int(os.path.splitext(os.path.basename(file))[0]) for file in glob.glob(outputDir+after+"/*.*")]
@@ -93,39 +91,43 @@ def main():
             print(target)
             runTrivy(target, cnt)
 
+    def dockerStep2(tmp):
+        subprocess.run(["python3", "./dockerStep2.py", tmp])
 
-    if (flag=="dockerfile"): #ターゲット名を集める (実行に応じて自動的にdate算出)
+    def dockerStep3(tmp):
+        subprocess.run(["python3", "./dockerStep3.py", tmp])
+
+
+    if (flag=="dockerfile"): #ターゲットを集める (実行に応じて自動的にdate算出)
         ScrDockerfile()
 
     elif (flag=="images"): #ターゲット名を集める (実行に応じて自動的にdate算出)
         ScrImages()
 
-    elif (flag=="1"): #ターゲット名に従いtrivyを実行する (実行に応じて自動的にdate算出)
+    elif (flag=="images1"): #ターゲット名に従いtrivyを実行する (実行に応じて自動的にdate算出)
         flag1()
 
-    elif (flag=="test"):
-        flag1test(sys.argv[2], sys.argv[3])
+    elif (flag=="check"):
+        flag1check(sys.argv[2], sys.argv[3])
 
-    elif (flag=="2"): #生の出力からデータを切り出す (要date指定)
+    elif (flag=="images2"): #生の出力からデータを切り出す (要date指定)
         flag2(sys.argv[2])
 
-    elif (flag=="3"): #データをさらに切り出し、集計する (要date指定)
+    elif (flag=="images3"): #データをさらに切り出し、集計する (要date指定)
         flag3(sys.argv[2])
     
-    elif (flag=="4"): #集計した2dateを比較する (要date指定 * 2)
+    elif (flag=="images4"): #集計した2dateを比較する (要date指定 * 2)
         flag4(sys.argv[2], sys.argv[3])
 
-    elif (flag=="scan"): #DockerfileScan (要date指定)
+    elif (flag=="dockerfile1"): #DockerfileScan (要date指定)
         dockerfileScan(sys.argv[2])
+    
+    elif (flag=="dockerfile2"):
+        dockerStep2(sys.argv[2])
+
+    elif (flag=="dockerfile3"):
+        dockerStep3(sys.argv[2])
 
     return
 
 main()
-
-#python3 controler.py 0 
-#python3 controler.py 1
-#python3 controler.py test date date
-#python3 controler.py 2 date
-#python3 controler.py 3 date
-#python3 controler.py 4 date date
-#python3 controler.py scan date
