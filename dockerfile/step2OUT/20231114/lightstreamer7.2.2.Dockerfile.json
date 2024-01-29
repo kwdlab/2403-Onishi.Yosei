@@ -1,0 +1,31 @@
+[
+    {
+        "Target": "lightstreamer:7.2.2.Dockerfile",
+        "Class": "config",
+        "MisconfSummary": {
+            "Successes": 23,
+            "Failures": 3,
+            "Exceptions": 0
+        },
+        "Misconfigurations": [
+            {
+                "AVDID": "AVD-DS-0013",
+                "Severity": "MEDIUM",
+                "Title": "'RUN cd ...' to change directory",
+                "Description": "Use WORKDIR instead of proliferating instructions like 'RUN cd \u2026 && do-something', which are hard to read, troubleshoot, and maintain."
+            },
+            {
+                "AVDID": "AVD-DS-0026",
+                "Severity": "LOW",
+                "Title": "No HEALTHCHECK defined",
+                "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
+            },
+            {
+                "AVDID": "AVD-DS-0029",
+                "Severity": "HIGH",
+                "Title": "'apt-get' missing '--no-install-recommends'",
+                "Description": "'apt-get' install should use '--no-install-recommends' to minimize image size."
+            }
+        ]
+    }
+]

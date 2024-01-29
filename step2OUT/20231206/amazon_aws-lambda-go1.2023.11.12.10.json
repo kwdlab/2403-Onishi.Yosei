@@ -1,0 +1,56 @@
+[
+    {
+        "RepoTags": [
+            "amazon/aws-lambda-go:1.2023.11.12.10"
+        ],
+        "created": "2023-11-12T10:10:05Z"
+    },
+    {
+        "Target": "amazon/aws-lambda-go:1.2023.11.12.10 (amazon AMI release 2018.03)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-43786",
+                "PkgName": "libX11",
+                "InstalledVersion": "1.6.0-2.2.16.amzn1",
+                "Status": "fixed",
+                "FixedVersion": "1.6.0-2.2.17.amzn1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43786",
+                "PkgName": "libX11-common",
+                "InstalledVersion": "1.6.0-2.2.16.amzn1",
+                "Status": "fixed",
+                "FixedVersion": "1.6.0-2.2.17.amzn1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "openssl",
+                "InstalledVersion": "1:1.0.2k-16.164.amzn1",
+                "Status": "fixed",
+                "FixedVersion": "1:1.0.2k-16.165.amzn1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "amazon",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            }
+        ]
+    }
+]

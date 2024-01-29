@@ -1,0 +1,112 @@
+[
+    {
+        "RepoTags": [
+            "circleci/k8s-release-agent:0.1.206"
+        ],
+        "created": "2023-11-10T11:14:33.002102427Z"
+    },
+    {
+        "Target": "manager",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-jq35-85cj-fj4p",
+                "PkgName": "github.com/docker/docker",
+                "InstalledVersion": "v24.0.6+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "24.0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.44.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:00Z",
+                "LastModifiedDate": "2023-11-20T19:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.16.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.16.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.58.2",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.58.2",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5528",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.28.2",
+                "Status": "fixed",
+                "FixedVersion": "1.28.4, 1.27.8, 1.26.11, 1.25.16",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-28T03:15:00Z"
+            }
+        ]
+    }
+]

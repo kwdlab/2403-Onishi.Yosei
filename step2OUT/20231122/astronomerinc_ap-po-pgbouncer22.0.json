@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "astronomerinc/ap-po-pgbouncer:22.0"
+        ],
+        "created": "2022-07-18T16:44:28.409607605Z"
+    },
+    {
+        "Target": "astronomerinc/ap-po-pgbouncer:22.0 (alpine 3.12.11)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-37434",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.12-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.2.12-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-08-05T07:15:00Z",
+                "LastModifiedDate": "2023-07-19T00:56:00Z"
+            }
+        ]
+    }
+]

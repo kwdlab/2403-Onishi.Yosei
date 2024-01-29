@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "okteto/supervisor:1.0.0"
+        ],
+        "created": "2021-04-16T10:07:01.043094813Z"
+    },
+    {
+        "Target": "usr/local/bin/supervisor",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20210316164454-77fc1eacc6aa",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            }
+        ]
+    }
+]

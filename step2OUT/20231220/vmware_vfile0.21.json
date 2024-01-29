@@ -1,0 +1,381 @@
+[
+    {
+        "RepoTags": [
+            "vmware/vfile:0.21"
+        ],
+        "created": "0001-01-01T00:00:00Z"
+    },
+    {
+        "Target": "vmware/vfile:0.21 (alpine 3.5.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-16544",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.25.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.25.1-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2017-11-20T15:29:00.387Z",
+                "LastModifiedDate": "2022-10-28T19:29:45.977Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15873",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.25.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.25.1-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-10-24T20:29:00.28Z",
+                "LastModifiedDate": "2021-02-18T14:43:58.987Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0733",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-03-27T21:29:00.61Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0734",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-10-30T12:29:00.257Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0739",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2018-03-27T21:29:00.673Z",
+                "LastModifiedDate": "2023-11-07T02:51:06.07Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5407",
+                "PkgName": "libcrypto1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2018-11-15T21:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:58:42.92Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0733",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-03-27T21:29:00.61Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0734",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-10-30T12:29:00.257Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0739",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2018-03-27T21:29:00.673Z",
+                "LastModifiedDate": "2023-11-07T02:51:06.07Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5407",
+                "PkgName": "libssl1.0",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2018-11-15T21:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:58:42.92Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.15-r6",
+                "Status": "fixed",
+                "FixedVersion": "1.1.15-r8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.15-r6",
+                "Status": "fixed",
+                "FixedVersion": "1.1.15-r8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0733",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-03-27T21:29:00.61Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0734",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-10-30T12:29:00.257Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.217Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0739",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2o-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2018-03-27T21:29:00.673Z",
+                "LastModifiedDate": "2023-11-07T02:51:06.07Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-5407",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2n-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2q-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2018-11-15T21:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:58:42.92Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9841",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.743Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.093Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9843",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.9Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.807Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9840",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.667Z",
+                "LastModifiedDate": "2023-11-07T02:37:35.78Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9842",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.837Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.463Z"
+            }
+        ]
+    }
+]

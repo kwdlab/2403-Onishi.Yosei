@@ -1,0 +1,598 @@
+[
+    {
+        "RepoTags": [
+            "rancher/rke-tools:v0.1.96"
+        ],
+        "created": "2023-10-30T07:01:59.373654706Z"
+    },
+    {
+        "Target": "rancher/rke-tools:v0.1.96 (alpine 3.17.5)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.12-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.12-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43787",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43785",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43786",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "opt/rke-tools/bin/cri-dockerd",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-6xv5-86q9-7xr8",
+                "PkgName": "github.com/cyphar/filepath-securejoin",
+                "InstalledVersion": "v0.2.3",
+                "Status": "fixed",
+                "FixedVersion": "0.2.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-jq35-85cj-fj4p",
+                "PkgName": "github.com/docker/docker",
+                "InstalledVersion": "v23.0.3+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "24.0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.20.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:00Z",
+                "LastModifiedDate": "2023-11-20T19:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45142",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+                "InstalledVersion": "v0.20.0",
+                "Status": "fixed",
+                "FixedVersion": "0.44.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:00Z",
+                "LastModifiedDate": "2023-10-18T18:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-12-01T06:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.51.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.51.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3676",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.22.8",
+                "Status": "fixed",
+                "FixedVersion": "1.28.1, 1.27.5, 1.26.8, 1.25.13, 1.24.17",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-10-31T21:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3955",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.22.8",
+                "Status": "fixed",
+                "FixedVersion": "1.28.1, 1.27.5, 1.26.8, 1.25.13, 1.24.17",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-10-31T21:15:00Z",
+                "LastModifiedDate": "2023-11-08T18:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5528",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.22.8",
+                "Status": "fixed",
+                "FixedVersion": "1.28.4, 1.27.8, 1.26.11, 1.25.16",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-14T21:15:00Z",
+                "LastModifiedDate": "2023-11-30T15:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2431",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.22.8",
+                "Status": "fixed",
+                "FixedVersion": "1.24.14, 1.25.10, 1.26.5, 1.27.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-06-16T08:15:00Z",
+                "LastModifiedDate": "2023-07-01T06:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2727",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.22.8",
+                "Status": "fixed",
+                "FixedVersion": "1.27.3, 1.26.6, 1.25.11, 1.24.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-03T21:15:00Z",
+                "LastModifiedDate": "2023-08-03T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2728",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.22.8",
+                "Status": "fixed",
+                "FixedVersion": "1.27.3, 1.26.6, 1.25.11, 1.24.15",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-03T21:15:00Z",
+                "LastModifiedDate": "2023-08-03T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-25743",
+                "PkgName": "k8s.io/kubernetes",
+                "InstalledVersion": "v1.22.8",
+                "Status": "fixed",
+                "FixedVersion": "1.26.0-alpha.3",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-01-07T00:15:00Z",
+                "LastModifiedDate": "2022-02-28T15:22:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "opt/rke-tools/rke-etcd-backup",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-12-01T06:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/bin/confd",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-12-01T06:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.7.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.26.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.26.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/local/bin/etcdctl",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.25.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:00Z",
+                "LastModifiedDate": "2023-11-20T19:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211112202133-69e39bad7dc2",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211112202133-69e39bad7dc2",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211112202133-69e39bad7dc2",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-12-01T06:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211112202133-69e39bad7dc2",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211112202133-69e39bad7dc2",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20210615035016-665e8c7367d1",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-38561",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.6",
+                "Status": "fixed",
+                "FixedVersion": "0.3.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-12-26T06:15:00Z",
+                "LastModifiedDate": "2023-01-05T04:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.6",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.41.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.41.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            }
+        ]
+    }
+]

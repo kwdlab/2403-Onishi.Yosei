@@ -1,0 +1,126 @@
+[
+    {
+        "RepoTags": [
+            "docker/buildx-bin:0.12.0-rc2"
+        ],
+        "created": "2023-11-14T19:20:16.437739735Z"
+    },
+    {
+        "Target": "buildx",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-7ww5-4wqc-m92c",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.7.7",
+                "Status": "fixed",
+                "FixedVersion": "1.6.26, 1.7.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-jq35-85cj-fj4p",
+                "PkgName": "github.com/docker/docker",
+                "InstalledVersion": "v24.0.5+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "24.0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.40.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-11-10T19:15:16.41Z",
+                "LastModifiedDate": "2023-11-20T19:34:26.493Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45142",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
+                "InstalledVersion": "v0.40.0",
+                "Status": "fixed",
+                "FixedVersion": "0.44.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:09.99Z",
+                "LastModifiedDate": "2023-10-18T18:27:50.437Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45142",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+                "InstalledVersion": "v0.40.0",
+                "Status": "fixed",
+                "FixedVersion": "0.44.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:09.99Z",
+                "LastModifiedDate": "2023-10-18T18:27:50.437Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.14.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.53.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.53.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:10.883Z",
+                "LastModifiedDate": "2023-12-02T01:15:08.373Z"
+            }
+        ]
+    }
+]

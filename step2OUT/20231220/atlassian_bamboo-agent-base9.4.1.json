@@ -1,0 +1,1921 @@
+[
+    {
+        "RepoTags": [
+            "atlassian/bamboo-agent-base:9.4.1"
+        ],
+        "created": "2023-12-14T00:32:14.724009291Z"
+    },
+    {
+        "Target": "atlassian/bamboo-agent-base:9.4.1 (ubuntu 22.04)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-3715",
+                "PkgName": "bash",
+                "InstalledVersion": "5.1-6ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-119"
+                ],
+                "PublishedDate": "2023-01-05T15:15:10.41Z",
+                "LastModifiedDate": "2023-02-24T18:38:10.793Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.01Z",
+                "LastModifiedDate": "2023-08-26T02:14:18.737Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45703",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.22Z",
+                "LastModifiedDate": "2023-10-06T15:15:13.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.293Z",
+                "LastModifiedDate": "2023-08-26T02:14:04.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.35Z",
+                "LastModifiedDate": "2023-08-26T02:14:43.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.41Z",
+                "LastModifiedDate": "2023-08-26T02:14:35.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.49Z",
+                "LastModifiedDate": "2023-08-26T02:14:29.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.743Z",
+                "LastModifiedDate": "2023-08-26T02:14:58.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.867Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:31.013Z",
+                "LastModifiedDate": "2023-11-15T02:36:07.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13716",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2017-08-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20657",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2019-01-02T14:29:00.313Z",
+                "LastModifiedDate": "2019-11-06T01:15:17.87Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010204",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2019-07-23T14:15:13.373Z",
+                "LastModifiedDate": "2023-11-07T03:02:17.51Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "binutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.937Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.01Z",
+                "LastModifiedDate": "2023-08-26T02:14:18.737Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45703",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.22Z",
+                "LastModifiedDate": "2023-10-06T15:15:13.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.293Z",
+                "LastModifiedDate": "2023-08-26T02:14:04.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.35Z",
+                "LastModifiedDate": "2023-08-26T02:14:43.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.41Z",
+                "LastModifiedDate": "2023-08-26T02:14:35.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.49Z",
+                "LastModifiedDate": "2023-08-26T02:14:29.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.743Z",
+                "LastModifiedDate": "2023-08-26T02:14:58.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.867Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:31.013Z",
+                "LastModifiedDate": "2023-11-15T02:36:07.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13716",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2017-08-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20657",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2019-01-02T14:29:00.313Z",
+                "LastModifiedDate": "2019-11-06T01:15:17.87Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010204",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2019-07-23T14:15:13.373Z",
+                "LastModifiedDate": "2023-11-07T03:02:17.51Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "binutils-common",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.937Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.01Z",
+                "LastModifiedDate": "2023-08-26T02:14:18.737Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45703",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.22Z",
+                "LastModifiedDate": "2023-10-06T15:15:13.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.293Z",
+                "LastModifiedDate": "2023-08-26T02:14:04.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.35Z",
+                "LastModifiedDate": "2023-08-26T02:14:43.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.41Z",
+                "LastModifiedDate": "2023-08-26T02:14:35.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.49Z",
+                "LastModifiedDate": "2023-08-26T02:14:29.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.743Z",
+                "LastModifiedDate": "2023-08-26T02:14:58.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.867Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:31.013Z",
+                "LastModifiedDate": "2023-11-15T02:36:07.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13716",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2017-08-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20657",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2019-01-02T14:29:00.313Z",
+                "LastModifiedDate": "2019-11-06T01:15:17.87Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010204",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2019-07-23T14:15:13.373Z",
+                "LastModifiedDate": "2023-11-07T03:02:17.51Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "binutils-x86-64-linux-gnu",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.937Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2781",
+                "PkgName": "coreutils",
+                "InstalledVersion": "8.32-4.1ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:32:03.347Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "gcc-12-base",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000021",
+                "PkgName": "git",
+                "InstalledVersion": "1:2.34.1-1ubuntu1.10",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-02-09T23:29:00.557Z",
+                "LastModifiedDate": "2018-03-06T19:34:06.18Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000021",
+                "PkgName": "git-man",
+                "InstalledVersion": "1:2.34.1-1ubuntu1.10",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-02-09T23:29:00.557Z",
+                "LastModifiedDate": "2018-03-06T19:34:06.18Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3219",
+                "PkgName": "gpgv",
+                "InstalledVersion": "2.2.27-3ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-02-23T20:15:12.393Z",
+                "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.01Z",
+                "LastModifiedDate": "2023-08-26T02:14:18.737Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45703",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.22Z",
+                "LastModifiedDate": "2023-10-06T15:15:13.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.293Z",
+                "LastModifiedDate": "2023-08-26T02:14:04.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.35Z",
+                "LastModifiedDate": "2023-08-26T02:14:43.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.41Z",
+                "LastModifiedDate": "2023-08-26T02:14:35.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.49Z",
+                "LastModifiedDate": "2023-08-26T02:14:29.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.743Z",
+                "LastModifiedDate": "2023-08-26T02:14:58.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.867Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:31.013Z",
+                "LastModifiedDate": "2023-11-15T02:36:07.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13716",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2017-08-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20657",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2019-01-02T14:29:00.313Z",
+                "LastModifiedDate": "2019-11-06T01:15:17.87Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010204",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2019-07-23T14:15:13.373Z",
+                "LastModifiedDate": "2023-11-07T03:02:17.51Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "libbinutils",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.937Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.5",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:09.413Z",
+                "LastModifiedDate": "2022-03-03T16:43:19.667Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.5",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:09.413Z",
+                "LastModifiedDate": "2022-03-03T16:43:19.667Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.01Z",
+                "LastModifiedDate": "2023-08-26T02:14:18.737Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45703",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.22Z",
+                "LastModifiedDate": "2023-10-06T15:15:13.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.293Z",
+                "LastModifiedDate": "2023-08-26T02:14:04.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.35Z",
+                "LastModifiedDate": "2023-08-26T02:14:43.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.41Z",
+                "LastModifiedDate": "2023-08-26T02:14:35.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.49Z",
+                "LastModifiedDate": "2023-08-26T02:14:29.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.743Z",
+                "LastModifiedDate": "2023-08-26T02:14:58.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.867Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:31.013Z",
+                "LastModifiedDate": "2023-11-15T02:36:07.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13716",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2017-08-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20657",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2019-01-02T14:29:00.313Z",
+                "LastModifiedDate": "2019-11-06T01:15:17.87Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010204",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2019-07-23T14:15:13.373Z",
+                "LastModifiedDate": "2023-11-07T03:02:17.51Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "libctf-nobfd0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.937Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-44840",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.01Z",
+                "LastModifiedDate": "2023-08-26T02:14:18.737Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45703",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.22Z",
+                "LastModifiedDate": "2023-10-06T15:15:13.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47007",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.293Z",
+                "LastModifiedDate": "2023-08-26T02:14:04.787Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47008",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.35Z",
+                "LastModifiedDate": "2023-08-26T02:14:43.023Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47010",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.41Z",
+                "LastModifiedDate": "2023-08-26T02:14:35.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47011",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.49Z",
+                "LastModifiedDate": "2023-08-26T02:14:29.77Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-47695",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.743Z",
+                "LastModifiedDate": "2023-08-26T02:14:58.653Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48063",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.867Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.04Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48065",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-08-22T19:16:31.013Z",
+                "LastModifiedDate": "2023-11-15T02:36:07.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13716",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2017-08-28T21:29:00.293Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20657",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2019-01-02T14:29:00.313Z",
+                "LastModifiedDate": "2019-11-06T01:15:17.87Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1010204",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-681"
+                ],
+                "PublishedDate": "2019-07-23T14:15:13.373Z",
+                "LastModifiedDate": "2023-11-07T03:02:17.51Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48064",
+                "PkgName": "libctf0",
+                "InstalledVersion": "2.38-4ubuntu2.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-08-22T19:16:30.937Z",
+                "LastModifiedDate": "2023-11-07T03:56:28.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libgcc-s1",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2953",
+                "PkgName": "libldap-2.5-0",
+                "InstalledVersion": "2.5.16+dfsg-0ubuntu0.22.04.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-05-30T22:15:10.613Z",
+                "LastModifiedDate": "2023-08-02T16:46:03.663Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-22916",
+                "PkgName": "liblzma5",
+                "InstalledVersion": "5.2.5-2ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:19.407Z",
+                "LastModifiedDate": "2023-11-07T03:19:47.47Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11164",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13ubuntu0.22.04.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2017-07-11T03:29:00.277Z",
+                "LastModifiedDate": "2023-11-07T02:38:10.98Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3857",
+                "PkgName": "libpng16-16",
+                "InstalledVersion": "1.6.37-3build5",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-06T23:15:11.087Z",
+                "LastModifiedDate": "2023-04-06T13:15:08.467Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "libpython3.10-minimal",
+                "InstalledVersion": "3.10.12-1~22.04.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:07.973Z",
+                "LastModifiedDate": "2023-06-01T14:15:11.143Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "libpython3.10-stdlib",
+                "InstalledVersion": "3.10.12-1~22.04.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:07.973Z",
+                "LastModifiedDate": "2023-06-01T14:15:11.143Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-46908",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.37.2-2ubuntu0.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-12T06:15:10.793Z",
+                "LastModifiedDate": "2023-11-24T14:15:08.22Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "libssh-4",
+                "InstalledVersion": "0.9.6-2ubuntu0.22.04.1",
+                "Status": "fixed",
+                "FixedVersion": "0.9.6-2ubuntu0.22.04.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:07.9Z",
+                "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4899",
+                "PkgName": "libzstd1",
+                "InstalledVersion": "1.4.8+dfsg-3build1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-03-31T20:15:07.213Z",
+                "LastModifiedDate": "2023-11-07T03:59:16.09Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "locales",
+                "InstalledVersion": "2.35-0ubuntu3.5",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:09.413Z",
+                "LastModifiedDate": "2022-03-03T16:43:19.667Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.8.1-2ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:07.68Z",
+                "LastModifiedDate": "2023-04-24T18:05:30.313Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "1:8.9p1-3ubuntu0.4",
+                "Status": "fixed",
+                "FixedVersion": "1:8.9p1-3ubuntu0.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28531",
+                "PkgName": "openssh-client",
+                "InstalledVersion": "1:8.9p1-3ubuntu0.4",
+                "Status": "fixed",
+                "FixedVersion": "1:8.9p1-3ubuntu0.5",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-03-17T04:15:14.553Z",
+                "LastModifiedDate": "2023-07-21T19:21:51.437Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.8.1-2ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:07.68Z",
+                "LastModifiedDate": "2023-04-24T18:05:30.313Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "python3.10",
+                "InstalledVersion": "3.10.12-1~22.04.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:07.973Z",
+                "LastModifiedDate": "2023-06-01T14:15:11.143Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "python3.10-minimal",
+                "InstalledVersion": "3.10.12-1~22.04.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:07.973Z",
+                "LastModifiedDate": "2023-06-01T14:15:11.143Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-31879",
+                "PkgName": "wget",
+                "InstalledVersion": "1.21.2-2ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-601"
+                ],
+                "PublishedDate": "2021-04-29T05:15:08.707Z",
+                "LastModifiedDate": "2022-05-13T20:52:24.793Z"
+            }
+        ]
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-2976",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "25.1-android",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-552"
+                ],
+                "PublishedDate": "2023-06-14T18:15:09.513Z",
+                "LastModifiedDate": "2023-08-18T14:15:21.533Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2976",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "25.1-android",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-552"
+                ],
+                "PublishedDate": "2023-06-14T18:15:09.513Z",
+                "LastModifiedDate": "2023-08-18T14:15:21.533Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8908",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "25.1-android",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-732",
+                    "CWE-378"
+                ],
+                "PublishedDate": "2020-12-10T23:15:13.973Z",
+                "LastModifiedDate": "2023-08-02T17:30:47.58Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8908",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "25.1-android",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-732",
+                    "CWE-378"
+                ],
+                "PublishedDate": "2020-12-10T23:15:13.973Z",
+                "LastModifiedDate": "2023-08-02T17:30:47.58Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-29425",
+                "PkgName": "commons-io:commons-io",
+                "InstalledVersion": "2.5",
+                "Status": "fixed",
+                "FixedVersion": "2.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-04-13T07:15:12.327Z",
+                "LastModifiedDate": "2023-11-07T03:32:35.503Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-29425",
+                "PkgName": "commons-io:commons-io",
+                "InstalledVersion": "2.5",
+                "Status": "fixed",
+                "FixedVersion": "2.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-04-13T07:15:12.327Z",
+                "LastModifiedDate": "2023-11-07T03:32:35.503Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-29425",
+                "PkgName": "commons-io:commons-io",
+                "InstalledVersion": "2.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-04-13T07:15:12.327Z",
+                "LastModifiedDate": "2023-11-07T03:32:35.503Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-29425",
+                "PkgName": "commons-io:commons-io",
+                "InstalledVersion": "2.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-04-13T07:15:12.327Z",
+                "LastModifiedDate": "2023-11-07T03:32:35.503Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13956",
+                "PkgName": "org.apache.httpcomponents:httpclient",
+                "InstalledVersion": "4.5.9",
+                "Status": "fixed",
+                "FixedVersion": "4.5.13, 5.0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2020-12-02T17:15:14.547Z",
+                "LastModifiedDate": "2023-11-07T03:17:03.59Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13956",
+                "PkgName": "org.apache.httpcomponents:httpclient",
+                "InstalledVersion": "4.5.9",
+                "Status": "fixed",
+                "FixedVersion": "4.5.13, 5.0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2020-12-02T17:15:14.547Z",
+                "LastModifiedDate": "2023-11-07T03:17:03.59Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29599",
+                "PkgName": "org.apache.maven.shared:maven-shared-utils",
+                "InstalledVersion": "3.2.1",
+                "Status": "fixed",
+                "FixedVersion": "3.3.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2022-05-23T11:16:10.877Z",
+                "LastModifiedDate": "2023-09-28T09:15:11.267Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29599",
+                "PkgName": "org.apache.maven.shared:maven-shared-utils",
+                "InstalledVersion": "3.2.1",
+                "Status": "fixed",
+                "FixedVersion": "3.3.3",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2022-05-23T11:16:10.877Z",
+                "LastModifiedDate": "2023-09-28T09:15:11.267Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-26291",
+                "PkgName": "org.apache.maven:maven-compat",
+                "InstalledVersion": "3.6.3",
+                "Status": "fixed",
+                "FixedVersion": "3.8.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-346"
+                ],
+                "PublishedDate": "2021-04-23T15:15:09.387Z",
+                "LastModifiedDate": "2023-11-07T03:31:41.13Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-26291",
+                "PkgName": "org.apache.maven:maven-compat",
+                "InstalledVersion": "3.6.3",
+                "Status": "fixed",
+                "FixedVersion": "3.8.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-346"
+                ],
+                "PublishedDate": "2021-04-23T15:15:09.387Z",
+                "LastModifiedDate": "2023-11-07T03:31:41.13Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-26291",
+                "PkgName": "org.apache.maven:maven-core",
+                "InstalledVersion": "3.6.3",
+                "Status": "fixed",
+                "FixedVersion": "3.8.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-346"
+                ],
+                "PublishedDate": "2021-04-23T15:15:09.387Z",
+                "LastModifiedDate": "2023-11-07T03:31:41.13Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-26291",
+                "PkgName": "org.apache.maven:maven-core",
+                "InstalledVersion": "3.6.3",
+                "Status": "fixed",
+                "FixedVersion": "3.8.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-346"
+                ],
+                "PublishedDate": "2021-04-23T15:15:09.387Z",
+                "LastModifiedDate": "2023-11-07T03:31:41.13Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37714",
+                "PkgName": "org.jsoup:jsoup",
+                "InstalledVersion": "1.12.1",
+                "Status": "fixed",
+                "FixedVersion": "1.14.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-248",
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-08-18T15:15:08.023Z",
+                "LastModifiedDate": "2023-11-07T03:37:01.44Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37714",
+                "PkgName": "org.jsoup:jsoup",
+                "InstalledVersion": "1.12.1",
+                "Status": "fixed",
+                "FixedVersion": "1.14.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-248",
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-08-18T15:15:08.023Z",
+                "LastModifiedDate": "2023-11-07T03:37:01.44Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37714",
+                "PkgName": "org.jsoup:jsoup",
+                "InstalledVersion": "1.12.1",
+                "Status": "fixed",
+                "FixedVersion": "1.14.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-248",
+                    "CWE-835"
+                ],
+                "PublishedDate": "2021-08-18T15:15:08.023Z",
+                "LastModifiedDate": "2023-11-07T03:37:01.44Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-36033",
+                "PkgName": "org.jsoup:jsoup",
+                "InstalledVersion": "1.12.1",
+                "Status": "fixed",
+                "FixedVersion": "1.15.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79",
+                    "CWE-87"
+                ],
+                "PublishedDate": "2022-08-29T17:15:08.523Z",
+                "LastModifiedDate": "2022-12-08T03:48:04.673Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-36033",
+                "PkgName": "org.jsoup:jsoup",
+                "InstalledVersion": "1.12.1",
+                "Status": "fixed",
+                "FixedVersion": "1.15.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79",
+                    "CWE-87"
+                ],
+                "PublishedDate": "2022-08-29T17:15:08.523Z",
+                "LastModifiedDate": "2022-12-08T03:48:04.673Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-36033",
+                "PkgName": "org.jsoup:jsoup",
+                "InstalledVersion": "1.12.1",
+                "Status": "fixed",
+                "FixedVersion": "1.15.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79",
+                    "CWE-87"
+                ],
+                "PublishedDate": "2022-08-29T17:15:08.523Z",
+                "LastModifiedDate": "2022-12-08T03:48:04.673Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-42771",
+                "PkgName": "Babel",
+                "InstalledVersion": "2.8.0",
+                "Status": "fixed",
+                "FixedVersion": "2.9.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2021-10-20T21:15:07.93Z",
+                "LastModifiedDate": "2021-12-14T21:22:17.273Z"
+            }
+        ]
+    }
+]

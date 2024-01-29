@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "objectscale/kubectl:v1.25.15"
+        ],
+        "created": "2023-11-03T16:49:11.414880467Z"
+    },
+    {
+        "Target": "usr/local/bin/kubectl",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-2253",
+                "PkgName": "github.com/docker/distribution",
+                "InstalledVersion": "v2.8.1+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "2.8.2-beta.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-06-06T20:15:00Z",
+                "LastModifiedDate": "2023-06-29T16:15:00Z"
+            }
+        ]
+    }
+]

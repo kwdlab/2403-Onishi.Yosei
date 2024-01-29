@@ -1,0 +1,252 @@
+[
+    {
+        "RepoTags": [
+            "google/apigee-prometheus-adapter:v0.9.1"
+        ],
+        "created": "2021-10-15T14:15:15.334690304Z"
+    },
+    {
+        "Target": "adapter",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-1996",
+                "PkgName": "github.com/emicklei/go-restful",
+                "InstalledVersion": "v2.15.0+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "2.16.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-639"
+                ],
+                "PublishedDate": "2022-06-08T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-21698",
+                "PkgName": "github.com/prometheus/client_golang",
+                "InstalledVersion": "v1.11.0",
+                "Status": "fixed",
+                "FixedVersion": "1.11.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-15T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47108",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+                "InstalledVersion": "v0.20.0",
+                "Status": "fixed",
+                "FixedVersion": "0.46.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-10T19:15:00Z",
+                "LastModifiedDate": "2023-11-13T03:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45142",
+                "PkgName": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+                "InstalledVersion": "v0.20.0",
+                "Status": "fixed",
+                "FixedVersion": "0.44.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:00Z",
+                "LastModifiedDate": "2023-10-18T18:27:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43565",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20210220033148-5ea612d1eb83",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20211202192323-5770296d904e",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27191",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20210220033148-5ea612d1eb83",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220314234659-1baeb1ce4c0b",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-03-18T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20210520170846-37e1c6afe023",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20210520170846-37e1c6afe023",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-08T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20210520170846-37e1c6afe023",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20210520170846-37e1c6afe023",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20210520170846-37e1c6afe023",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20210616094352-59db8d763f22",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-38561",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.6",
+                "Status": "fixed",
+                "FixedVersion": "0.3.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-12-26T06:15:00Z",
+                "LastModifiedDate": "2023-01-05T04:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.6",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.38.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.38.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28948",
+                "PkgName": "gopkg.in/yaml.v3",
+                "InstalledVersion": "v3.0.0-20210107192922-496545a6307b",
+                "Status": "fixed",
+                "FixedVersion": "3.0.0-20220521103104-8f96da9f5d5e",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-05-19T20:15:00Z",
+                "LastModifiedDate": "2022-10-28T19:06:00Z"
+            }
+        ]
+    }
+]

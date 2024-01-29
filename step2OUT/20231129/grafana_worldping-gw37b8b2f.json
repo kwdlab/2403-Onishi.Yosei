@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "grafana/worldping-gw:37b8b2f"
+        ],
+        "created": "2017-11-23T08:43:58.227648711Z"
+    },
+    {
+        "Target": "grafana/worldping-gw:37b8b2f (alpine 3.6.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-16544",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.26.2-r7",
+                "Status": "fixed",
+                "FixedVersion": "1.26.2-r9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2017-11-20T15:29:00Z",
+                "LastModifiedDate": "2022-10-28T19:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15873",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.26.2-r7",
+                "Status": "fixed",
+                "FixedVersion": "1.26.2-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-10-24T20:29:00Z",
+                "LastModifiedDate": "2021-02-18T14:43:00Z"
+            }
+        ]
+    }
+]

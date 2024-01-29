@@ -1,0 +1,1067 @@
+[
+    {
+        "RepoTags": [
+            "mattermost/mattermost-apps-cloud-deployer:8951213"
+        ],
+        "created": "2023-03-20T00:47:45.458223269Z"
+    },
+    {
+        "Target": "mattermost/mattermost-apps-cloud-deployer:8951213 (alpine 3.14.9)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1t-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:00Z",
+                "LastModifiedDate": "2023-11-09T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1t-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:00Z",
+                "LastModifiedDate": "2023-06-08T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1t-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:00Z",
+                "LastModifiedDate": "2023-11-09T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1t-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:00Z",
+                "LastModifiedDate": "2023-06-08T19:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "mattermost-apps-cloud-deployer/main",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2020-26160",
+                "PkgName": "github.com/dgrijalva/jwt-go",
+                "InstalledVersion": "v3.2.0+incompatible",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-287",
+                    "CWE-755"
+                ],
+                "PublishedDate": "2020-09-30T18:15:00Z",
+                "LastModifiedDate": "2021-07-21T11:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-26945",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.5",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2023-08-08T14:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-30321",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.5",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22",
+                    "CWE-59",
+                    "CWE-77"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2023-08-08T14:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-30322",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.5",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2022-11-21T16:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-30323",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.5",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2022-11-21T16:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29810",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.5",
+                "Status": "fixed",
+                "FixedVersion": "1.5.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2022-04-27T06:15:00Z",
+                "LastModifiedDate": "2022-10-06T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0475",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.5",
+                "Status": "fixed",
+                "FixedVersion": "1.7.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-16T19:15:00Z",
+                "LastModifiedDate": "2023-02-27T18:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-37860",
+                "PkgName": "github.com/mattermost/mattermost-server/v5",
+                "InstalledVersion": "v5.24.0",
+                "Status": "fixed",
+                "FixedVersion": "5.39.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2021-09-22T17:15:00Z",
+                "LastModifiedDate": "2021-10-05T17:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-1332",
+                "PkgName": "github.com/mattermost/mattermost-server/v5",
+                "InstalledVersion": "v5.24.0",
+                "Status": "fixed",
+                "FixedVersion": "5.37.9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-04-13T18:15:00Z",
+                "LastModifiedDate": "2022-04-20T19:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1774",
+                "PkgName": "github.com/mattermost/mattermost-server/v5",
+                "InstalledVersion": "v5.24.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-862"
+                ],
+                "PublishedDate": "2023-03-31T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1775",
+                "PkgName": "github.com/mattermost/mattermost-server/v5",
+                "InstalledVersion": "v5.24.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-668"
+                ],
+                "PublishedDate": "2023-03-31T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1776",
+                "PkgName": "github.com/mattermost/mattermost-server/v5",
+                "InstalledVersion": "v5.24.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-03-31T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2515",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.8, 7.7.4, 7.8.3, 7.9.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-05-12T09:15:00Z",
+                "LastModifiedDate": "2023-05-23T19:53:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-2401",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "6.3.9, 6.5.2, 6.6.2, 6.7.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2022-07-14T18:15:00Z",
+                "LastModifiedDate": "2022-07-20T11:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1774",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-862"
+                ],
+                "PublishedDate": "2023-03-31T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1775",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-668"
+                ],
+                "PublishedDate": "2023-03-31T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1776",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.6, 7.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-03-31T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1777",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-668"
+                ],
+                "PublishedDate": "2023-03-31T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:04:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2783",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.10.1, 7.9.4, 7.8.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-862"
+                ],
+                "PublishedDate": "2023-06-16T09:15:00Z",
+                "LastModifiedDate": "2023-06-22T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40703",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4106",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.9.6, 7.10.4, 7.8.8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-862"
+                ],
+                "PublishedDate": "2023-08-11T07:15:00Z",
+                "LastModifiedDate": "2023-08-15T20:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4107",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.8, 7.9.6, 7.10.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-08-11T07:15:00Z",
+                "LastModifiedDate": "2023-08-15T20:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4108",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.8, 7.9.6, 7.10.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2023-08-11T07:15:00Z",
+                "LastModifiedDate": "2023-08-15T20:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43754",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45223",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47168",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47865",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T09:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48268",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48369",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5194",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-09-29T10:15:00Z",
+                "LastModifiedDate": "2023-10-03T17:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5195",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-09-29T10:15:00Z",
+                "LastModifiedDate": "2023-10-03T17:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5196",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-09-29T10:15:00Z",
+                "LastModifiedDate": "2023-10-03T18:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5967",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.12",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-14T17:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5968",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.12",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-116"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-14T17:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5969",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.12",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-14T17:13:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-6202",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-35075",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.13",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-27T10:15:00Z",
+                "LastModifiedDate": "2023-11-27T13:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4105",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.9.6, 7.10.4, 7.8.8",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-862"
+                ],
+                "PublishedDate": "2023-08-11T07:15:00Z",
+                "LastModifiedDate": "2023-08-15T20:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5159",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.10",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-09-29T10:15:00Z",
+                "LastModifiedDate": "2023-10-03T17:18:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5193",
+                "PkgName": "github.com/mattermost/mattermost-server/v6",
+                "InstalledVersion": "v6.6.0",
+                "Status": "fixed",
+                "FixedVersion": "7.8.10",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-09-29T10:15:00Z",
+                "LastModifiedDate": "2023-10-03T17:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27191",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20220214200702-86341886e292",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220314234659-1baeb1ce4c0b",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-03-18T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20220227234510-4e6760a101f9",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.7",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.44.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.44.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/local/bin/terraform",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-4238",
+                "PkgName": "github.com/Masterminds/goutils",
+                "InstalledVersion": "v1.1.0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-331"
+                ],
+                "PublishedDate": "2022-12-27T22:15:00Z",
+                "LastModifiedDate": "2023-01-05T04:43:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-xg2h-wx96-xgxr",
+                "PkgName": "github.com/Masterminds/goutils",
+                "InstalledVersion": "v1.1.0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-26945",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2023-08-08T14:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-30321",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22",
+                    "CWE-59",
+                    "CWE-77"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2023-08-08T14:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-30322",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2022-11-21T16:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-30323",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.6.1, 2.1.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-05-25T12:15:00Z",
+                "LastModifiedDate": "2022-11-21T16:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29810",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.5.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2022-04-27T06:15:00Z",
+                "LastModifiedDate": "2022-10-06T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0475",
+                "PkgName": "github.com/hashicorp/go-getter",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.7.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-16T19:15:00Z",
+                "LastModifiedDate": "2023-02-27T18:33:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1099",
+                "PkgName": "go.etcd.io/etcd",
+                "InstalledVersion": "v0.5.0-alpha.5.0.20210428180535-15715dcf1ace",
+                "Status": "fixed",
+                "FixedVersion": "3.4.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-04-03T16:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43565",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20211108221036-ceb1ce70b4fa",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20211202192323-5770296d904e",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27191",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20211108221036-ceb1ce70b4fa",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220314234659-1baeb1ce4c0b",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-03-18T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211216030914-fe4d6282115f",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211216030914-fe4d6282115f",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211216030914-fe4d6282115f",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211216030914-fe4d6282115f",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20211216030914-fe4d6282115f",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20211019181941-9d821ace8654",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.7",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.27.1",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.27.1",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            }
+        ]
+    }
+]

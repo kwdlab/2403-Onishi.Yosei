@@ -1,0 +1,440 @@
+[
+    {
+        "RepoTags": [
+            "mattermost/fleet-controller:7549599"
+        ],
+        "created": "2022-09-16T13:37:06.196058259Z"
+    },
+    {
+        "Target": "mattermost/fleet-controller:7549599 (alpine 3.15.6)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-4450",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0215",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-07-19T00:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0286",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-843"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:00:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:00Z",
+                "LastModifiedDate": "2023-11-09T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4304",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:00Z",
+                "LastModifiedDate": "2023-06-08T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1u-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:00Z",
+                "LastModifiedDate": "2023-10-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1u-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:00Z",
+                "LastModifiedDate": "2023-10-03T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1v-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-06T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1w-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-21T16:54:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4450",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-415"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0215",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-07-19T00:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0286",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-843"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:00:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0464",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-22T17:15:00Z",
+                "LastModifiedDate": "2023-11-09T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4304",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2023-02-08T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-0465",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1t-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-03-28T15:15:00Z",
+                "LastModifiedDate": "2023-06-08T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1u-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:00Z",
+                "LastModifiedDate": "2023-10-27T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1u-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:00Z",
+                "LastModifiedDate": "2023-10-03T15:48:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1v-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:00Z",
+                "LastModifiedDate": "2023-11-06T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1q-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1w-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-21T16:54:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "fleet-controller",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-1996",
+                "PkgName": "github.com/emicklei/go-restful",
+                "InstalledVersion": "v2.15.0+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "2.16.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-639"
+                ],
+                "PublishedDate": "2022-06-08T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:42:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27191",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20220208233918-bba287dce954",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220314234659-1baeb1ce4c0b",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-03-18T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220225172249-27dd8689420f",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-25T11:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20220207234003-57398862261d",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.7",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28948",
+                "PkgName": "gopkg.in/yaml.v3",
+                "InstalledVersion": "v3.0.0-20210107192922-496545a6307b",
+                "Status": "fixed",
+                "FixedVersion": "3.0.0-20220521103104-8f96da9f5d5e",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-05-19T20:15:00Z",
+                "LastModifiedDate": "2022-10-28T19:06:00Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "RepoTags": [
+            "mirantis/k8s-daemonupgradecontroller:1.5"
+        ],
+        "created": "2017-06-02T08:15:11.156006015Z"
+    },
+    {
+        "Target": "mirantis/k8s-daemonupgradecontroller:1.5 (alpine 3.6.0)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-16544",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.26.2-r4",
+                "Status": "fixed",
+                "FixedVersion": "1.26.2-r9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2017-11-20T15:29:00Z",
+                "LastModifiedDate": "2022-10-28T19:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15873",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.26.2-r4",
+                "Status": "fixed",
+                "FixedVersion": "1.26.2-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-10-24T20:29:00Z",
+                "LastModifiedDate": "2021-02-18T14:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.16-r9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.16-r14",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00Z",
+                "LastModifiedDate": "2017-11-08T16:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.16-r9",
+                "Status": "fixed",
+                "FixedVersion": "1.1.16-r14",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00Z",
+                "LastModifiedDate": "2017-11-08T16:21:00Z"
+            }
+        ]
+    }
+]

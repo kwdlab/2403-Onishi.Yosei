@@ -1,0 +1,1230 @@
+[
+    {
+        "RepoTags": [
+            "docker/cluster:v1.3.0"
+        ],
+        "created": "2020-04-20T20:30:35.116290161Z"
+    },
+    {
+        "Target": "docker/cluster:v1.3.0 (alpine 3.10.4)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-36159",
+                "PkgName": "apk-tools",
+                "InstalledVersion": "2.10.4-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.10.7-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-03T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-30139",
+                "PkgName": "apk-tools",
+                "InstalledVersion": "2.10.4-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.10.6-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-04-21T16:15:00Z",
+                "LastModifiedDate": "2021-04-22T18:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-28831",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.30.1-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.30.1-r5",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-755"
+                ],
+                "PublishedDate": "2021-03-19T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8169",
+                "PkgName": "curl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2022-04-19T15:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8177",
+                "PkgName": "curl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2022-06-17T18:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8231",
+                "PkgName": "curl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8285",
+                "PkgName": "curl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-674"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8286",
+                "PkgName": "curl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22898",
+                "PkgName": "curl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r4",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-909"
+                ],
+                "PublishedDate": "2021-06-11T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1967",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1g-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-04-21T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3450",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1971",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1i-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-12-08T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3449",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23839",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8169",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2022-04-19T15:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8177",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2022-06-17T18:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8231",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8285",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-674"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8286",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2020-12-14T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-22898",
+                "PkgName": "libcurl",
+                "InstalledVersion": "7.66.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "7.66.0-r4",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-909"
+                ],
+                "PublishedDate": "2021-06-11T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1967",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1g-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-04-21T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3450",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1971",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1i-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-12-08T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3449",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23839",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-28928",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.22-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.22-r4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-11-24T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-28928",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.22-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.22-r4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-11-24T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-11080",
+                "PkgName": "nghttp2-libs",
+                "InstalledVersion": "1.39.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.39.2-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-707"
+                ],
+                "PublishedDate": "2020-06-03T23:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1967",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1g-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-04-21T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3450",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1971",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1i-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-12-08T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3449",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23839",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1967",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1g-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-04-21T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3450",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1971",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1i-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-12-08T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3449",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23839",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "1.1.1d-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3177",
+                "PkgName": "python3",
+                "InstalledVersion": "3.7.5-r1",
+                "Status": "fixed",
+                "FixedVersion": "3.7.7-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2021-01-19T06:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:37:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-14422",
+                "PkgName": "python3",
+                "InstalledVersion": "3.7.5-r1",
+                "Status": "fixed",
+                "FixedVersion": "3.7.7-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-682",
+                    "CWE-330"
+                ],
+                "PublishedDate": "2020-06-18T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8315",
+                "PkgName": "python3",
+                "InstalledVersion": "3.7.5-r1",
+                "Status": "fixed",
+                "FixedVersion": "3.7.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-427"
+                ],
+                "PublishedDate": "2020-01-28T19:15:00Z",
+                "LastModifiedDate": "2021-07-21T11:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8492",
+                "PkgName": "python3",
+                "InstalledVersion": "3.7.5-r1",
+                "Status": "fixed",
+                "FixedVersion": "3.7.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2020-01-30T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:26:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-11655",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.28.0-r2",
+                "Status": "fixed",
+                "FixedVersion": "3.28.0-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-665"
+                ],
+                "PublishedDate": "2020-04-09T03:15:00Z",
+                "LastModifiedDate": "2022-04-08T10:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-28831",
+                "PkgName": "ssl_client",
+                "InstalledVersion": "1.30.1-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.30.1-r5",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-755"
+                ],
+                "PublishedDate": "2021-03-19T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20193",
+                "PkgName": "tar",
+                "InstalledVersion": "1.32-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.32-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-401"
+                ],
+                "PublishedDate": "2021-03-26T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:28:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2020-14365",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.8.15, 2.9.13",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-347"
+                ],
+                "PublishedDate": "2020-09-23T13:15:00Z",
+                "LastModifiedDate": "2022-04-05T15:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1734",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2020-03-03T22:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:40:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1737",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.18, 2.8.10, 2.9.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2020-03-09T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20228",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.10.7, 2.9.18, 2.8.19",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2021-04-29T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3583",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "4.2.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2021-09-22T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3697",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "7.0.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-10-28T16:15:00Z",
+                "LastModifiedDate": "2022-11-01T18:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10691",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.9.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2020-04-30T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10744",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2020-05-15T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-14330",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.10.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2020-09-11T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-14332",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.8.14, 2.9.12",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-117"
+                ],
+                "PublishedDate": "2020-09-11T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1733",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.18, 2.8.10, 2.9.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2020-03-11T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1735",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.9.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2020-03-16T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1738",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-88"
+                ],
+                "PublishedDate": "2020-03-16T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1746",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.17, 2.8.11, 2.9.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2020-05-12T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1753",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.17, 2.8.11, 2.9.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200",
+                    "CWE-532",
+                    "CWE-214"
+                ],
+                "PublishedDate": "2020-03-16T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20178",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.9.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2021-05-26T12:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:28:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20180",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.8.19, 2.9.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2022-03-16T15:15:00Z",
+                "LastModifiedDate": "2022-03-22T15:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20191",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.9.18, 2.8.19, 2.10.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2021-05-26T21:15:00Z",
+                "LastModifiedDate": "2021-06-03T13:59:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3620",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.9.27",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-209"
+                ],
+                "PublishedDate": "2022-03-03T19:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:41:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-10685",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.17, 2.8.11, 2.9.7",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-459"
+                ],
+                "PublishedDate": "2020-05-11T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1736",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-732"
+                ],
+                "PublishedDate": "2020-03-16T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1739",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.9.7, 2.8.9, 2.7.17",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2020-03-12T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1740",
+                "PkgName": "ansible",
+                "InstalledVersion": "2.9.6",
+                "Status": "fixed",
+                "FixedVersion": "2.7.17, 2.8.11, 2.9.7",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-377"
+                ],
+                "PublishedDate": "2020-03-16T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-37920",
+                "PkgName": "certifi",
+                "InstalledVersion": "2020.4.5.1",
+                "Status": "fixed",
+                "FixedVersion": "2023.7.22",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2023-07-25T21:15:00Z",
+                "LastModifiedDate": "2023-08-12T06:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23491",
+                "PkgName": "certifi",
+                "InstalledVersion": "2020.4.5.1",
+                "Status": "fixed",
+                "FixedVersion": "2022.12.07",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2022-12-07T22:15:00Z",
+                "LastModifiedDate": "2023-03-24T18:12:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3572",
+                "PkgName": "pip",
+                "InstalledVersion": "20.0.2",
+                "Status": "fixed",
+                "FixedVersion": "21.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-11-10T18:15:00Z",
+                "LastModifiedDate": "2022-10-05T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5752",
+                "PkgName": "pip",
+                "InstalledVersion": "20.0.2",
+                "Status": "fixed",
+                "FixedVersion": "23.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-77"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-03T14:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32681",
+                "PkgName": "requests",
+                "InstalledVersion": "2.23.0",
+                "Status": "fixed",
+                "FixedVersion": "2.31.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-05-26T18:15:00Z",
+                "LastModifiedDate": "2023-09-17T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13757",
+                "PkgName": "rsa",
+                "InstalledVersion": "3.4.2",
+                "Status": "fixed",
+                "FixedVersion": "4.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2020-06-01T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-25658",
+                "PkgName": "rsa",
+                "InstalledVersion": "3.4.2",
+                "Status": "fixed",
+                "FixedVersion": "4.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-385"
+                ],
+                "PublishedDate": "2020-11-12T14:15:00Z",
+                "LastModifiedDate": "2023-02-12T23:40:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33503",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.25.9",
+                "Status": "fixed",
+                "FixedVersion": "1.26.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2021-06-29T11:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43804",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.25.9",
+                "Status": "fixed",
+                "FixedVersion": "2.0.6, 1.26.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-04T17:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45803",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.25.9",
+                "Status": "fixed",
+                "FixedVersion": "2.0.7, 1.26.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-17T20:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            }
+        ]
+    }
+]

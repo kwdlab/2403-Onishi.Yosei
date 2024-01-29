@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "atlassian/artifactory-sidekick:staging-linux-arm64v8"
+        ],
+        "created": "0001-01-01T00:00:00Z"
+    },
+    {
+        "Target": "ko-app/sidekick",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-38561",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.4",
+                "Status": "fixed",
+                "FixedVersion": "0.3.7",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2022-12-26T06:15:00Z",
+                "LastModifiedDate": "2023-01-05T04:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.4",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            }
+        ]
+    }
+]

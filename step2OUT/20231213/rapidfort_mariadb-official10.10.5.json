@@ -1,0 +1,98 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/mariadb-official:10.10.5"
+        ],
+        "created": "2023-06-09T22:30:01.44784365Z"
+    },
+    {
+        "Target": "usr/local/bin/gosu",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-27561",
+                "PkgName": "github.com/opencontainers/runc",
+                "InstalledVersion": "v1.0.1",
+                "Status": "fixed",
+                "FixedVersion": "1.1.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-706"
+                ],
+                "PublishedDate": "2023-03-03T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43784",
+                "PkgName": "github.com/opencontainers/runc",
+                "InstalledVersion": "v1.0.1",
+                "Status": "fixed",
+                "FixedVersion": "1.0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-12-06T18:15:00Z",
+                "LastModifiedDate": "2021-12-08T18:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29162",
+                "PkgName": "github.com/opencontainers/runc",
+                "InstalledVersion": "v1.0.1",
+                "Status": "fixed",
+                "FixedVersion": "1.1.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-276"
+                ],
+                "PublishedDate": "2022-05-17T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28642",
+                "PkgName": "github.com/opencontainers/runc",
+                "InstalledVersion": "v1.0.1",
+                "Status": "fixed",
+                "FixedVersion": "1.1.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2023-03-29T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25809",
+                "PkgName": "github.com/opencontainers/runc",
+                "InstalledVersion": "v1.0.1",
+                "Status": "fixed",
+                "FixedVersion": "1.1.5",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-281"
+                ],
+                "PublishedDate": "2023-03-29T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:09:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20210817142637-7d9622a276b7",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            }
+        ]
+    }
+]

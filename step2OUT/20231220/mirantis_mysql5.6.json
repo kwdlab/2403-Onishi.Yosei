@@ -1,0 +1,2345 @@
+[
+    {
+        "RepoTags": [
+            "mirantis/mysql:5.6"
+        ],
+        "created": "2018-09-19T13:16:13.263485929Z"
+    },
+    {
+        "Target": "mirantis/mysql:5.6 (debian 8.11)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2019-3462",
+                "PkgName": "apt",
+                "InstalledVersion": "1.0.9.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.9.8.5",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-01-28T21:29:00.3Z",
+                "LastModifiedDate": "2023-11-07T03:09:47.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-3810",
+                "PkgName": "apt",
+                "InstalledVersion": "1.0.9.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.9.8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2020-05-15T14:15:11.887Z",
+                "LastModifiedDate": "2023-11-07T03:23:04.667Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-9924",
+                "PkgName": "bash",
+                "InstalledVersion": "4.3-11+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "4.3-11+deb8u2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-862"
+                ],
+                "PublishedDate": "2019-03-22T08:29:00.467Z",
+                "LastModifiedDate": "2022-04-05T20:11:00.32Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9401",
+                "PkgName": "bash",
+                "InstalledVersion": "4.3-11+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "4.3-11+deb8u2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2017-01-23T21:59:02.987Z",
+                "LastModifiedDate": "2020-09-14T18:32:28.977Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2779",
+                "PkgName": "bsdutils",
+                "InstalledVersion": "1:2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.287Z",
+                "LastModifiedDate": "2019-01-04T14:14:12.293Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5011",
+                "PkgName": "bsdutils",
+                "InstalledVersion": "1:2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-04-11T15:59:00.183Z",
+                "LastModifiedDate": "2020-09-11T15:22:28.257Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2781",
+                "PkgName": "coreutils",
+                "InstalledVersion": "8.23-4",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:32:03.347Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8991",
+                "PkgName": "dmsetup",
+                "InstalledVersion": "2:1.02.90-2.2+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2020-02-14T05:15:13.573Z",
+                "LastModifiedDate": "2023-11-07T03:26:48.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "e2fslibs",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5188",
+                "PkgName": "e2fslibs",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-01-08T16:15:11.5Z",
+                "LastModifiedDate": "2023-11-07T03:11:27.53Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "e2fsprogs",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5188",
+                "PkgName": "e2fsprogs",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-01-08T16:15:11.5Z",
+                "LastModifiedDate": "2023-11-07T03:11:27.53Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12886",
+                "PkgName": "gcc-4.8-base",
+                "InstalledVersion": "4.8.4-1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-209"
+                ],
+                "PublishedDate": "2019-05-22T19:29:00.297Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11671",
+                "PkgName": "gcc-4.8-base",
+                "InstalledVersion": "4.8.4-1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-338"
+                ],
+                "PublishedDate": "2017-07-26T21:29:00.207Z",
+                "LastModifiedDate": "2018-04-12T01:29:01.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12886",
+                "PkgName": "gcc-4.9-base",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-209"
+                ],
+                "PublishedDate": "2019-05-22T19:29:00.297Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-5276",
+                "PkgName": "gcc-4.9-base",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2015-11-17T15:59:04.357Z",
+                "LastModifiedDate": "2019-02-12T19:05:51.137Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11671",
+                "PkgName": "gcc-4.9-base",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-338"
+                ],
+                "PublishedDate": "2017-07-26T21:29:00.207Z",
+                "LastModifiedDate": "2018-04-12T01:29:01.66Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1606-1",
+                "PkgName": "gcc-4.9-base",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "4.9.2-10+deb8u2",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14855",
+                "PkgName": "gnupg",
+                "InstalledVersion": "1.4.18-7+deb8u5",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-326"
+                ],
+                "PublishedDate": "2020-03-20T16:15:14.68Z",
+                "LastModifiedDate": "2022-11-08T02:28:51.273Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14855",
+                "PkgName": "gpgv",
+                "InstalledVersion": "1.4.18-7+deb8u5",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-326"
+                ],
+                "PublishedDate": "2020-03-20T16:15:14.68Z",
+                "LastModifiedDate": "2022-11-08T02:28:51.273Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3462",
+                "PkgName": "libapt-pkg4.12",
+                "InstalledVersion": "1.0.9.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.9.8.5",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-01-28T21:29:00.3Z",
+                "LastModifiedDate": "2023-11-07T03:09:47.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-3810",
+                "PkgName": "libapt-pkg4.12",
+                "InstalledVersion": "1.0.9.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.0.9.8.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-20"
+                ],
+                "PublishedDate": "2020-05-15T14:15:11.887Z",
+                "LastModifiedDate": "2023-11-07T03:23:04.667Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2779",
+                "PkgName": "libblkid1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.287Z",
+                "LastModifiedDate": "2019-01-04T14:14:12.293Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5011",
+                "PkgName": "libblkid1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-04-11T15:59:00.183Z",
+                "LastModifiedDate": "2020-09-11T15:22:28.257Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-12900",
+                "PkgName": "libbz2-1.0",
+                "InstalledVersion": "1.0.6-7+b3",
+                "Status": "fixed",
+                "FixedVersion": "1.0.6-7+deb8u1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-06-19T23:15:09.91Z",
+                "LastModifiedDate": "2023-11-07T03:03:43.19Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-3189",
+                "PkgName": "libbz2-1.0",
+                "InstalledVersion": "1.0.6-7+b3",
+                "Status": "fixed",
+                "FixedVersion": "1.0.6-7+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2016-06-30T17:59:01.47Z",
+                "LastModifiedDate": "2023-11-07T02:32:12.723Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1833-2",
+                "PkgName": "libbz2-1.0",
+                "InstalledVersion": "1.0.6-7+b3",
+                "Status": "fixed",
+                "FixedVersion": "1.0.6-7+deb8u2",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "libcomerr2",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5188",
+                "PkgName": "libcomerr2",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-01-08T16:15:11.5Z",
+                "LastModifiedDate": "2023-11-07T03:11:27.53Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8991",
+                "PkgName": "libdevmapper1.02.1",
+                "InstalledVersion": "2:1.02.90-2.2+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2020-02-14T05:15:13.573Z",
+                "LastModifiedDate": "2023-11-07T03:26:48.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12886",
+                "PkgName": "libgcc1",
+                "InstalledVersion": "1:4.9.2-10+deb8u1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-209"
+                ],
+                "PublishedDate": "2019-05-22T19:29:00.297Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-5276",
+                "PkgName": "libgcc1",
+                "InstalledVersion": "1:4.9.2-10+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2015-11-17T15:59:04.357Z",
+                "LastModifiedDate": "2019-02-12T19:05:51.137Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11671",
+                "PkgName": "libgcc1",
+                "InstalledVersion": "1:4.9.2-10+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-338"
+                ],
+                "PublishedDate": "2017-07-26T21:29:00.207Z",
+                "LastModifiedDate": "2018-04-12T01:29:01.66Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1606-1",
+                "PkgName": "libgcc1",
+                "InstalledVersion": "1:4.9.2-10+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "4.9.2-10+deb8u2",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0495",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.6.3-2+deb8u4",
+                "Status": "fixed",
+                "FixedVersion": "1.6.3-2+deb8u5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-06-13T23:29:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:51:03.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-13627",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.6.3-2+deb8u4",
+                "Status": "fixed",
+                "FixedVersion": "1.6.3-2+deb8u8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2019-09-25T15:15:11.877Z",
+                "LastModifiedDate": "2021-07-21T11:39:23.747Z"
+            },
+            {
+                "VulnerabilityID": "TEMP-0000000-96B2E9",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.6.3-2+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-10844",
+                "PkgName": "libgnutls-deb0-28",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "3.3.30-0+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-385",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-08-22T13:29:00.317Z",
+                "LastModifiedDate": "2023-02-13T04:50:20.3Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-10845",
+                "PkgName": "libgnutls-deb0-28",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "3.3.30-0+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-385",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-08-22T13:29:00.44Z",
+                "LastModifiedDate": "2023-02-13T04:50:30Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-10846",
+                "PkgName": "libgnutls-deb0-28",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "3.3.30-0+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-385",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-08-22T13:29:00.627Z",
+                "LastModifiedDate": "2023-02-13T04:50:48.793Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16868",
+                "PkgName": "libgnutls-deb0-28",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-12-03T14:29:00.333Z",
+                "LastModifiedDate": "2022-11-30T21:20:28.313Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-10844",
+                "PkgName": "libgnutls-openssl27",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "3.3.30-0+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-385",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-08-22T13:29:00.317Z",
+                "LastModifiedDate": "2023-02-13T04:50:20.3Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-10845",
+                "PkgName": "libgnutls-openssl27",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "3.3.30-0+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-385",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-08-22T13:29:00.44Z",
+                "LastModifiedDate": "2023-02-13T04:50:30Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-10846",
+                "PkgName": "libgnutls-openssl27",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "3.3.30-0+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-385",
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-08-22T13:29:00.627Z",
+                "LastModifiedDate": "2023-02-13T04:50:48.793Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16868",
+                "PkgName": "libgnutls-openssl27",
+                "InstalledVersion": "3.3.8-6+deb8u7",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-12-03T14:29:00.333Z",
+                "LastModifiedDate": "2022-11-30T21:20:28.313Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16869",
+                "PkgName": "libhogweed2",
+                "InstalledVersion": "2.7.1-5+deb8u2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-12-03T14:29:00.38Z",
+                "LastModifiedDate": "2023-02-03T14:25:21.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2779",
+                "PkgName": "libmount1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.287Z",
+                "LastModifiedDate": "2019-01-04T14:14:12.293Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5011",
+                "PkgName": "libmount1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-04-11T15:59:00.183Z",
+                "LastModifiedDate": "2020-09-11T15:22:28.257Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.347Z",
+                "LastModifiedDate": "2019-04-23T13:15:28.213Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "libncurses5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.347Z",
+                "LastModifiedDate": "2019-04-23T13:15:28.213Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "libncursesw5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16869",
+                "PkgName": "libnettle4",
+                "InstalledVersion": "2.7.1-5+deb8u2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-12-03T14:29:00.38Z",
+                "LastModifiedDate": "2023-02-03T14:25:21.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-3217",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-3.3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-12-13T16:59:02.22Z",
+                "LastModifiedDate": "2018-05-18T01:29:00.37Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7186",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-3.3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-03-20T00:59:00.19Z",
+                "LastModifiedDate": "2018-08-17T10:29:02.847Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7244",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-3.3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2017-03-23T21:59:00.147Z",
+                "LastModifiedDate": "2018-08-17T10:29:02.927Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-14155",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-3.3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2020-06-15T17:15:10.777Z",
+                "LastModifiedDate": "2023-11-07T03:17:06.843Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7245",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-3.3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-03-23T21:59:00.193Z",
+                "LastModifiedDate": "2018-08-17T10:29:03.003Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7246",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-3.3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-03-23T21:59:00.223Z",
+                "LastModifiedDate": "2018-08-17T10:29:03.08Z"
+            },
+            {
+                "VulnerabilityID": "TEMP-0827564-93E4E3",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.35-3.3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2779",
+                "PkgName": "libsmartcols1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.287Z",
+                "LastModifiedDate": "2019-01-04T14:14:12.293Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5011",
+                "PkgName": "libsmartcols1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-04-11T15:59:00.183Z",
+                "LastModifiedDate": "2020-09-11T15:22:28.257Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "libss2",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:13.247Z",
+                "LastModifiedDate": "2023-11-07T03:11:26.453Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5188",
+                "PkgName": "libss2",
+                "InstalledVersion": "1.42.12-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1.42.12-2+deb8u2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-01-08T16:15:11.5Z",
+                "LastModifiedDate": "2023-11-07T03:11:27.53Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12886",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-209"
+                ],
+                "PublishedDate": "2019-05-22T19:29:00.297Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2015-5276",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2015-11-17T15:59:04.357Z",
+                "LastModifiedDate": "2019-02-12T19:05:51.137Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11671",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-338"
+                ],
+                "PublishedDate": "2017-07-26T21:29:00.207Z",
+                "LastModifiedDate": "2018-04-12T01:29:01.66Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1606-1",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "4.9.2-10+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "4.9.2-10+deb8u2",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-18078",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-01-29T05:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:41:50.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15686",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.613Z",
+                "LastModifiedDate": "2023-11-07T02:53:18.49Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15688",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.897Z",
+                "LastModifiedDate": "2022-01-31T18:30:19.75Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16864",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T20:29:00.277Z",
+                "LastModifiedDate": "2023-02-13T04:51:52.133Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16865",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T21:29:00.257Z",
+                "LastModifiedDate": "2023-02-13T04:52:11.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3842",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863",
+                    "CWE-285"
+                ],
+                "PublishedDate": "2019-04-09T21:29:03.443Z",
+                "LastModifiedDate": "2023-11-07T03:10:13.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1049",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-02-16T21:29:00.377Z",
+                "LastModifiedDate": "2022-01-31T18:26:17.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6454",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-03-21T16:01:08.203Z",
+                "LastModifiedDate": "2023-11-07T03:13:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16888",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-269",
+                    "CWE-250"
+                ],
+                "PublishedDate": "2019-01-14T22:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:53:57.71Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6954",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fix_deferred",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-02-13T20:29:00.547Z",
+                "LastModifiedDate": "2023-11-07T03:00:35.947Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3815",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u11",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2019-01-28T15:29:00.307Z",
+                "LastModifiedDate": "2023-02-12T23:38:20.187Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1762-2",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u13",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10790",
+                "PkgName": "libtasn1-6",
+                "InstalledVersion": "4.2-3+deb8u3",
+                "Status": "fixed",
+                "FixedVersion": "4.2-3+deb8u4",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2017-07-02T03:29:00.183Z",
+                "LastModifiedDate": "2023-11-07T02:38:06.733Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.347Z",
+                "LastModifiedDate": "2019-04-23T13:15:28.213Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "libtinfo5",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-18078",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-01-29T05:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:41:50.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15686",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.613Z",
+                "LastModifiedDate": "2023-11-07T02:53:18.49Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15688",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.897Z",
+                "LastModifiedDate": "2022-01-31T18:30:19.75Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16864",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T20:29:00.277Z",
+                "LastModifiedDate": "2023-02-13T04:51:52.133Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16865",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T21:29:00.257Z",
+                "LastModifiedDate": "2023-02-13T04:52:11.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3842",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863",
+                    "CWE-285"
+                ],
+                "PublishedDate": "2019-04-09T21:29:03.443Z",
+                "LastModifiedDate": "2023-11-07T03:10:13.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1049",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-02-16T21:29:00.377Z",
+                "LastModifiedDate": "2022-01-31T18:26:17.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6454",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-03-21T16:01:08.203Z",
+                "LastModifiedDate": "2023-11-07T03:13:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16888",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-269",
+                    "CWE-250"
+                ],
+                "PublishedDate": "2019-01-14T22:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:53:57.71Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6954",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fix_deferred",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-02-13T20:29:00.547Z",
+                "LastModifiedDate": "2023-11-07T03:00:35.947Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3815",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u11",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2019-01-28T15:29:00.307Z",
+                "LastModifiedDate": "2023-02-12T23:38:20.187Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1762-2",
+                "PkgName": "libudev1",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u13",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2779",
+                "PkgName": "libuuid1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.287Z",
+                "LastModifiedDate": "2019-01-04T14:14:12.293Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5011",
+                "PkgName": "libuuid1",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-04-11T15:59:00.183Z",
+                "LastModifiedDate": "2020-09-11T15:22:28.257Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-12424",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.2-3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-04T09:29:00.187Z",
+                "LastModifiedDate": "2021-03-23T20:02:18.717Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7169",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.2-3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-732"
+                ],
+                "PublishedDate": "2018-02-15T20:29:00.867Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2779",
+                "PkgName": "mount",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.287Z",
+                "LastModifiedDate": "2019-01-04T14:14:12.293Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5011",
+                "PkgName": "mount",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-04-11T15:59:00.183Z",
+                "LastModifiedDate": "2020-09-11T15:22:28.257Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.347Z",
+                "LastModifiedDate": "2019-04-23T13:15:28.213Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "ncurses-base",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-19211",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-11-12T19:29:00.347Z",
+                "LastModifiedDate": "2019-04-23T13:15:28.213Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17594",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.347Z",
+                "LastModifiedDate": "2021-02-10T15:13:31.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-17595",
+                "PkgName": "ncurses-bin",
+                "InstalledVersion": "5.9+20140913-1+deb8u3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2019-10-14T21:15:11.427Z",
+                "LastModifiedDate": "2021-02-08T20:52:19.6Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-12424",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.2-3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-04T09:29:00.187Z",
+                "LastModifiedDate": "2021-03-23T20:02:18.717Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-7169",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.2-3+deb8u4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-732"
+                ],
+                "PublishedDate": "2018-02-15T20:29:00.867Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-18311",
+                "PkgName": "perl",
+                "InstalledVersion": "5.20.2-3+deb8u11",
+                "Status": "fixed",
+                "FixedVersion": "5.20.2-3+deb8u12",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-12-07T21:29:00.407Z",
+                "LastModifiedDate": "2023-11-07T02:55:02.103Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6797",
+                "PkgName": "perl",
+                "InstalledVersion": "5.20.2-3+deb8u11",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-04-17T20:29:00.52Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-18311",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.20.2-3+deb8u11",
+                "Status": "fixed",
+                "FixedVersion": "5.20.2-3+deb8u12",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-12-07T21:29:00.407Z",
+                "LastModifiedDate": "2023-11-07T02:55:02.103Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6797",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.20.2-3+deb8u11",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-04-17T20:29:00.52Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-18311",
+                "PkgName": "perl-modules",
+                "InstalledVersion": "5.20.2-3+deb8u11",
+                "Status": "fixed",
+                "FixedVersion": "5.20.2-3+deb8u12",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-12-07T21:29:00.407Z",
+                "LastModifiedDate": "2023-11-07T02:55:02.103Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6797",
+                "PkgName": "perl-modules",
+                "InstalledVersion": "5.20.2-3+deb8u11",
+                "Status": "will_not_fix",
+                "FixedVersion": "null",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-04-17T20:29:00.52Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-18078",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-01-29T05:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:41:50.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15686",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.613Z",
+                "LastModifiedDate": "2023-11-07T02:53:18.49Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15688",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.897Z",
+                "LastModifiedDate": "2022-01-31T18:30:19.75Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16864",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T20:29:00.277Z",
+                "LastModifiedDate": "2023-02-13T04:51:52.133Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16865",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T21:29:00.257Z",
+                "LastModifiedDate": "2023-02-13T04:52:11.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3842",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863",
+                    "CWE-285"
+                ],
+                "PublishedDate": "2019-04-09T21:29:03.443Z",
+                "LastModifiedDate": "2023-11-07T03:10:13.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1049",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-02-16T21:29:00.377Z",
+                "LastModifiedDate": "2022-01-31T18:26:17.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6454",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-03-21T16:01:08.203Z",
+                "LastModifiedDate": "2023-11-07T03:13:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16888",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-269",
+                    "CWE-250"
+                ],
+                "PublishedDate": "2019-01-14T22:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:53:57.71Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6954",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fix_deferred",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-02-13T20:29:00.547Z",
+                "LastModifiedDate": "2023-11-07T03:00:35.947Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3815",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u11",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2019-01-28T15:29:00.307Z",
+                "LastModifiedDate": "2023-02-12T23:38:20.187Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1762-2",
+                "PkgName": "systemd",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u13",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-18078",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-01-29T05:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:41:50.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15686",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.613Z",
+                "LastModifiedDate": "2023-11-07T02:53:18.49Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15688",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.897Z",
+                "LastModifiedDate": "2022-01-31T18:30:19.75Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16864",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T20:29:00.277Z",
+                "LastModifiedDate": "2023-02-13T04:51:52.133Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16865",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T21:29:00.257Z",
+                "LastModifiedDate": "2023-02-13T04:52:11.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3842",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863",
+                    "CWE-285"
+                ],
+                "PublishedDate": "2019-04-09T21:29:03.443Z",
+                "LastModifiedDate": "2023-11-07T03:10:13.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1049",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-02-16T21:29:00.377Z",
+                "LastModifiedDate": "2022-01-31T18:26:17.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6454",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-03-21T16:01:08.203Z",
+                "LastModifiedDate": "2023-11-07T03:13:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16888",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-269",
+                    "CWE-250"
+                ],
+                "PublishedDate": "2019-01-14T22:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:53:57.71Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6954",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fix_deferred",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-02-13T20:29:00.547Z",
+                "LastModifiedDate": "2023-11-07T03:00:35.947Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3815",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u11",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2019-01-28T15:29:00.307Z",
+                "LastModifiedDate": "2023-02-12T23:38:20.187Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1762-2",
+                "PkgName": "systemd-sysv",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u13",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-20482",
+                "PkgName": "tar",
+                "InstalledVersion": "1.27.1-2+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "1.27.1-2+deb8u2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2018-12-26T18:29:00.373Z",
+                "LastModifiedDate": "2021-11-30T19:52:03.843Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1563-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2018e-0+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "2018g-0+deb8u1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "DLA-1625-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2018e-0+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "2018i-0+deb8u1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "DLA-1744-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2018e-0+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "2019a-0+deb8u1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "DLA-1957-1",
+                "PkgName": "tzdata",
+                "InstalledVersion": "2018e-0+deb8u1",
+                "Status": "fixed",
+                "FixedVersion": "2019c-0+deb8u1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-18078",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-01-29T05:29:00.213Z",
+                "LastModifiedDate": "2023-11-07T02:41:50.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15686",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.613Z",
+                "LastModifiedDate": "2023-11-07T02:53:18.49Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-15688",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-120"
+                ],
+                "PublishedDate": "2018-10-26T14:29:00.897Z",
+                "LastModifiedDate": "2022-01-31T18:30:19.75Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16864",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T20:29:00.277Z",
+                "LastModifiedDate": "2023-02-13T04:51:52.133Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16865",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2019-01-11T21:29:00.257Z",
+                "LastModifiedDate": "2023-02-13T04:52:11.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3842",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u12",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-863",
+                    "CWE-285"
+                ],
+                "PublishedDate": "2019-04-09T21:29:03.443Z",
+                "LastModifiedDate": "2023-11-07T03:10:13.917Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1049",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-362"
+                ],
+                "PublishedDate": "2018-02-16T21:29:00.377Z",
+                "LastModifiedDate": "2022-01-31T18:26:17.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-6454",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u10",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-03-21T16:01:08.203Z",
+                "LastModifiedDate": "2023-11-07T03:13:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16888",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-269",
+                    "CWE-250"
+                ],
+                "PublishedDate": "2019-01-14T22:29:00.233Z",
+                "LastModifiedDate": "2023-11-07T02:53:57.71Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6954",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fix_deferred",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "debian",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-02-13T20:29:00.547Z",
+                "LastModifiedDate": "2023-11-07T03:00:35.947Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-3815",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u11",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2019-01-28T15:29:00.307Z",
+                "LastModifiedDate": "2023-02-12T23:38:20.187Z"
+            },
+            {
+                "VulnerabilityID": "DLA-1762-2",
+                "PkgName": "udev",
+                "InstalledVersion": "215-17+deb8u7",
+                "Status": "fixed",
+                "FixedVersion": "215-17+deb8u13",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2779",
+                "PkgName": "util-linux",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-264"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00.287Z",
+                "LastModifiedDate": "2019-01-04T14:14:12.293Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5011",
+                "PkgName": "util-linux",
+                "InstalledVersion": "2.25.2-6",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-04-11T15:59:00.183Z",
+                "LastModifiedDate": "2020-09-11T15:22:28.257Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9841",
+                "PkgName": "zlib1g",
+                "InstalledVersion": "1:1.2.8.dfsg-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1:1.2.8.dfsg-2+deb8u1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.743Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.093Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9843",
+                "PkgName": "zlib1g",
+                "InstalledVersion": "1:1.2.8.dfsg-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1:1.2.8.dfsg-2+deb8u1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.9Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.807Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9840",
+                "PkgName": "zlib1g",
+                "InstalledVersion": "1:1.2.8.dfsg-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1:1.2.8.dfsg-2+deb8u1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.667Z",
+                "LastModifiedDate": "2023-11-07T02:37:35.78Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9842",
+                "PkgName": "zlib1g",
+                "InstalledVersion": "1:1.2.8.dfsg-2+b1",
+                "Status": "fixed",
+                "FixedVersion": "1:1.2.8.dfsg-2+deb8u1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.837Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.463Z"
+            }
+        ]
+    }
+]

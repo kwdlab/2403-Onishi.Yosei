@@ -1,0 +1,43 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/nats-ib:v2.9.21"
+        ],
+        "created": "2023-09-08T04:31:26.862796316Z"
+    },
+    {
+        "Target": "usr/local/bin/nats-server",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-46129",
+                "PkgName": "github.com/nats-io/nkeys",
+                "InstalledVersion": "v0.4.4",
+                "Status": "fixed",
+                "FixedVersion": "0.4.6",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-321",
+                    "CWE-325"
+                ],
+                "PublishedDate": "2023-10-31T00:15:09.933Z",
+                "LastModifiedDate": "2023-11-29T03:15:42.27Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.11.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            }
+        ]
+    }
+]

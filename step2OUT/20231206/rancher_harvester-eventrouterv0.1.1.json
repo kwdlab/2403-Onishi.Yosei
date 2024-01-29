@@ -1,0 +1,160 @@
+[
+    {
+        "RepoTags": [
+            "rancher/harvester-eventrouter:v0.1.1"
+        ],
+        "created": "2023-07-18T08:51:42.474591089Z"
+    },
+    {
+        "Target": "rancher/harvester-eventrouter:v0.1.1 (suse linux enterprise server 15.4)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "SUSE-SU-2023:3454-1",
+                "PkgName": "ca-certificates-mozilla-prebuilt",
+                "InstalledVersion": "2.60-150200.27.1",
+                "Status": "fixed",
+                "FixedVersion": "2.62-150200.30.1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4110-1",
+                "PkgName": "glibc",
+                "InstalledVersion": "2.31-150300.46.1",
+                "Status": "fixed",
+                "FixedVersion": "2.31-150300.63.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4162-1",
+                "PkgName": "libgcc_s1",
+                "InstalledVersion": "12.3.0+git1204-150000.1.10.1",
+                "Status": "fixed",
+                "FixedVersion": "13.2.1+git7813-150000.1.3.3",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4458-1",
+                "PkgName": "libgcc_s1",
+                "InstalledVersion": "12.3.0+git1204-150000.1.10.1",
+                "Status": "fixed",
+                "FixedVersion": "13.2.1+git7813-150000.1.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4162-1",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "12.3.0+git1204-150000.1.10.1",
+                "Status": "fixed",
+                "FixedVersion": "13.2.1+git7813-150000.1.3.3",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4458-1",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "12.3.0+git1204-150000.1.10.1",
+                "Status": "fixed",
+                "FixedVersion": "13.2.1+git7813-150000.1.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4217-1",
+                "PkgName": "libz1",
+                "InstalledVersion": "1.2.11-150000.3.45.1",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-150000.3.48.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "usr/bin/eventrouter",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.8.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-12-01T06:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.8.0",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.8.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-12-02T01:15:00Z"
+            }
+        ]
+    }
+]

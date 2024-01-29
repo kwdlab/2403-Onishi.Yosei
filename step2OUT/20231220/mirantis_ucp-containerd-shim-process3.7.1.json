@@ -1,0 +1,104 @@
+[
+    {
+        "RepoTags": [
+            "mirantis/ucp-containerd-shim-process:3.7.1"
+        ],
+        "created": "2023-07-28T06:03:55.749022464Z"
+    },
+    {
+        "Target": "bin/containerd-shim-process-v1",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-7ww5-4wqc-m92c",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.5.18",
+                "Status": "fixed",
+                "FixedVersion": "1.6.26, 1.7.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.33.2",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.33.2",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:10.883Z",
+                "LastModifiedDate": "2023-12-02T01:15:08.373Z"
+            }
+        ]
+    },
+    {
+        "Target": "bin/containerd-shim-process-v1-linux-amd64",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-7ww5-4wqc-m92c",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.5.18",
+                "Status": "fixed",
+                "FixedVersion": "1.6.26, 1.7.11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.33.2",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.33.2",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:10.883Z",
+                "LastModifiedDate": "2023-12-02T01:15:08.373Z"
+            }
+        ]
+    }
+]

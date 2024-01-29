@@ -1,0 +1,25 @@
+[
+    {
+        "Target": "odoo:16.0.Dockerfile",
+        "Class": "config",
+        "MisconfSummary": {
+            "Successes": 24,
+            "Failures": 2,
+            "Exceptions": 0
+        },
+        "Misconfigurations": [
+            {
+                "AVDID": "AVD-DS-0022",
+                "Severity": "HIGH",
+                "Title": "Deprecated MAINTAINER used",
+                "Description": "MAINTAINER has been deprecated since Docker 1.13.0."
+            },
+            {
+                "AVDID": "AVD-DS-0026",
+                "Severity": "LOW",
+                "Title": "No HEALTHCHECK defined",
+                "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
+            }
+        ]
+    }
+]

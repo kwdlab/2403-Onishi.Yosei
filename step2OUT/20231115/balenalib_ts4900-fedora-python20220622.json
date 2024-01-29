@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "balenalib/ts4900-fedora-python:20220622"
+        ],
+        "created": "2022-07-12T15:14:31.73615022Z"
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5752",
+                "PkgName": "pip",
+                "InstalledVersion": "22.1.2",
+                "Status": "fixed",
+                "FixedVersion": "23.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-77"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-03T14:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "setuptools",
+                "InstalledVersion": "63.1.0",
+                "Status": "fixed",
+                "FixedVersion": "65.5.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            }
+        ]
+    }
+]

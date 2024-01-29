@@ -1,0 +1,19 @@
+[
+    {
+        "Target": "haproxy:2.4.24-alpine3.18.Dockerfile",
+        "Class": "config",
+        "MisconfSummary": {
+            "Successes": 25,
+            "Failures": 1,
+            "Exceptions": 0
+        },
+        "Misconfigurations": [
+            {
+                "AVDID": "AVD-DS-0026",
+                "Severity": "LOW",
+                "Title": "No HEALTHCHECK defined",
+                "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
+            }
+        ]
+    }
+]

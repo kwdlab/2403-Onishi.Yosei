@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "astronomerinc/ap-dogstatsd:9"
+        ],
+        "created": "2023-04-03T19:46:39.307309442Z"
+    },
+    {
+        "Target": "astronomerinc/ap-dogstatsd:9 (alpine 3.12.12)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-37434",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.12-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.2.12-r2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-08-05T07:15:07.24Z",
+                "LastModifiedDate": "2023-07-19T00:56:46.373Z"
+            }
+        ]
+    }
+]

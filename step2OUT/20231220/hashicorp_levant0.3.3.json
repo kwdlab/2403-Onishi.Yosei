@@ -1,0 +1,90 @@
+[
+    {
+        "RepoTags": [
+            "hashicorp/levant:0.3.3"
+        ],
+        "created": "2023-10-05T07:44:16.566226395Z"
+    },
+    {
+        "Target": "hashicorp/levant:0.3.3 (alpine 3.15.10)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1v-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1w-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1v-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1w-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            }
+        ]
+    },
+    {
+        "Target": "bin/levant",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.12.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.14.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:09.88Z",
+                "LastModifiedDate": "2023-12-07T03:15:06.853Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.14.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:10.883Z",
+                "LastModifiedDate": "2023-12-02T01:15:08.373Z"
+            }
+        ]
+    }
+]

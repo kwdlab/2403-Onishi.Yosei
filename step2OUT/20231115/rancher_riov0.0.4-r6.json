@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "rancher/rio:v0.0.4-r6"
+        ],
+        "created": "2019-02-21T22:11:48.565624984Z"
+    },
+    {
+        "Target": "rancher/rio:v0.0.4-r6 (alpine 3.8.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.19-r10",
+                "Status": "fixed",
+                "FixedVersion": "1.1.19-r11",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:00Z",
+                "LastModifiedDate": "2023-03-03T17:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-14697",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.19-r10",
+                "Status": "fixed",
+                "FixedVersion": "1.1.19-r11",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-08-06T16:15:00Z",
+                "LastModifiedDate": "2023-03-03T17:43:00Z"
+            }
+        ]
+    }
+]

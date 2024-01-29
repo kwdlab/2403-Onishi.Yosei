@@ -1,0 +1,28 @@
+[
+    {
+        "RepoTags": [
+            "mattermost/release-bot:v0.0.1"
+        ],
+        "created": "2022-12-28T10:30:43.42516699Z"
+    },
+    {
+        "Target": "opt/release-bot/bin/release-bot",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.7",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,259 @@
+[
+    {
+        "RepoTags": [
+            "objectscale/chunkserver:1.0.0-418.1b630f7e"
+        ],
+        "created": "2023-11-14T02:09:19.09823343Z"
+    },
+    {
+        "Target": "objectscale/chunkserver:1.0.0-418.1b630f7e (suse linux enterprise server 15.4)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4659-1",
+                "PkgName": "curl",
+                "InstalledVersion": "8.0.1-150400.5.32.1",
+                "Status": "fixed",
+                "FixedVersion": "8.0.1-150400.5.36.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4659-1",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "8.0.1-150400.5.32.1",
+                "Status": "fixed",
+                "FixedVersion": "8.0.1-150400.5.36.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4458-1",
+                "PkgName": "libgcc_s1",
+                "InstalledVersion": "13.2.1+git7813-150000.1.3.3",
+                "Status": "fixed",
+                "FixedVersion": "13.2.1+git7813-150000.1.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4524-1",
+                "PkgName": "libopenssl1_1",
+                "InstalledVersion": "1.1.1l-150400.7.57.1",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1l-150400.7.60.2",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4619-1",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.39.3-150000.3.20.1",
+                "Status": "fixed",
+                "FixedVersion": "3.44.0-150000.3.23.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4458-1",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "13.2.1+git7813-150000.1.3.3",
+                "Status": "fixed",
+                "FixedVersion": "13.2.1+git7813-150000.1.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4537-1",
+                "PkgName": "libxml2-2",
+                "InstalledVersion": "2.9.14-150400.5.22.1",
+                "Status": "fixed",
+                "FixedVersion": "2.9.14-150400.5.25.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4587-1",
+                "PkgName": "vim",
+                "InstalledVersion": "9.0.1894-150000.5.54.1",
+                "Status": "fixed",
+                "FixedVersion": "9.0.2103-150000.5.57.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4587-1",
+                "PkgName": "vim-data-common",
+                "InstalledVersion": "9.0.1894-150000.5.54.1",
+                "Status": "fixed",
+                "FixedVersion": "9.0.2103-150000.5.57.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-3635",
+                "PkgName": "com.squareup.okio:okio",
+                "InstalledVersion": "1.17.2",
+                "Status": "fixed",
+                "FixedVersion": "3.4.0, 1.17.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-681"
+                ],
+                "PublishedDate": "2023-07-12T19:15:00Z",
+                "LastModifiedDate": "2023-10-25T15:17:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-xpw8-rcwv-8f8p",
+                "PkgName": "io.netty:netty-codec-http2",
+                "InstalledVersion": "4.1.86.Final",
+                "Status": "fixed",
+                "FixedVersion": "4.1.100.Final",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34462",
+                "PkgName": "io.netty:netty-handler",
+                "InstalledVersion": "4.1.86.Final",
+                "Status": "fixed",
+                "FixedVersion": "4.1.94.Final",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-06-22T23:15:00Z",
+                "LastModifiedDate": "2023-11-18T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-36478",
+                "PkgName": "org.eclipse.jetty.http2:http2-hpack",
+                "InstalledVersion": "11.0.15",
+                "Status": "fixed",
+                "FixedVersion": "10.0.16, 11.0.16, 9.4.53",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T17:15:00Z",
+                "LastModifiedDate": "2023-11-16T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40167",
+                "PkgName": "org.eclipse.jetty:jetty-http",
+                "InstalledVersion": "11.0.15",
+                "Status": "fixed",
+                "FixedVersion": "9.4.52, 10.0.16, 11.0.16, 12.0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-130"
+                ],
+                "PublishedDate": "2023-09-15T20:15:00Z",
+                "LastModifiedDate": "2023-10-13T01:59:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45688",
+                "PkgName": "org.json:json",
+                "InstalledVersion": "20210307",
+                "Status": "fixed",
+                "FixedVersion": "20230227",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-12-13T15:15:00Z",
+                "LastModifiedDate": "2023-03-09T15:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5072",
+                "PkgName": "org.json:json",
+                "InstalledVersion": "20210307",
+                "Status": "fixed",
+                "FixedVersion": "20231013",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:00Z",
+                "LastModifiedDate": "2023-10-18T18:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43642",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.10.3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-09-25T20:15:00Z",
+                "LastModifiedDate": "2023-09-26T15:46:00Z"
+            }
+        ]
+    }
+]

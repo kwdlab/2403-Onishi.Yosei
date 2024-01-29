@@ -1,0 +1,57 @@
+[
+    {
+        "RepoTags": [
+            "grafana/alertmanager-webhook-logger:0.3"
+        ],
+        "created": "2021-07-16T15:04:36.07640847Z"
+    },
+    {
+        "Target": "app/alertmanager-webhook-logger",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-40577",
+                "PkgName": "github.com/prometheus/alertmanager",
+                "InstalledVersion": "v0.21.0",
+                "Status": "fixed",
+                "FixedVersion": "0.25.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-25T01:15:09.177Z",
+                "LastModifiedDate": "2023-10-24T17:49:01.913Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-21698",
+                "PkgName": "github.com/prometheus/client_golang",
+                "InstalledVersion": "v1.6.0",
+                "Status": "fixed",
+                "FixedVersion": "1.11.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2022-02-15T16:15:08.527Z",
+                "LastModifiedDate": "2023-11-07T03:43:41.337Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20200420163511-1957bb5e6d1f",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:12.747Z",
+                "LastModifiedDate": "2023-11-07T03:46:03.463Z"
+            }
+        ]
+    }
+]

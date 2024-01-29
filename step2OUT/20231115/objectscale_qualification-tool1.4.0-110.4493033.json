@@ -1,0 +1,443 @@
+[
+    {
+        "RepoTags": [
+            "objectscale/qualification-tool:1.4.0-110.4493033"
+        ],
+        "created": "2023-11-06T12:36:57.098378516Z"
+    },
+    {
+        "Target": "objectscale/qualification-tool:1.4.0-110.4493033 (suse linux enterprise server 15.4)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "SUSE-SU-2023:3887-1",
+                "PkgName": "iperf",
+                "InstalledVersion": "3.10.1-68.2",
+                "Status": "fixed",
+                "FixedVersion": "3.15-150000.3.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2022:3142-1",
+                "PkgName": "libicu-suse65_1",
+                "InstalledVersion": "65.1-4.2.1",
+                "Status": "fixed",
+                "FixedVersion": "65.1-150200.4.5.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2022:3142-1",
+                "PkgName": "libicu65_1-ledata",
+                "InstalledVersion": "65.1-4.2.1",
+                "Status": "fixed",
+                "FixedVersion": "65.1-150200.4.5.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:3887-1",
+                "PkgName": "libiperf0",
+                "InstalledVersion": "3.10.1-68.2",
+                "Status": "fixed",
+                "FixedVersion": "3.15-150000.3.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "usr/local/bin/helm",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-21235",
+                "PkgName": "github.com/Masterminds/vcs",
+                "InstalledVersion": "v1.13.1",
+                "Status": "fixed",
+                "FixedVersion": "1.13.2",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-88"
+                ],
+                "PublishedDate": "2022-04-01T16:15:00Z",
+                "LastModifiedDate": "2022-04-08T18:10:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23648",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.4.13, 1.5.10, 1.6.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-03-03T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23471",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.5.16, 1.6.12",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2022-12-07T23:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:44:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-31030",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.5.13, 1.6.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2022-06-09T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:47:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25153",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.5.18, 1.6.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-02-16T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25173",
+                "PkgName": "github.com/containerd/containerd",
+                "InstalledVersion": "v1.5.9",
+                "Status": "fixed",
+                "FixedVersion": "1.5.18, 1.6.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-02-16T15:15:00Z",
+                "LastModifiedDate": "2023-09-15T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-6xv5-86q9-7xr8",
+                "PkgName": "github.com/cyphar/filepath-securejoin",
+                "InstalledVersion": "v0.2.3",
+                "Status": "fixed",
+                "FixedVersion": "0.2.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2253",
+                "PkgName": "github.com/docker/distribution",
+                "InstalledVersion": "v2.7.1+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "2.8.2-beta.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-06-06T20:15:00Z",
+                "LastModifiedDate": "2023-06-29T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-qq97-vm5h-rrhg",
+                "PkgName": "github.com/docker/distribution",
+                "InstalledVersion": "v2.7.1+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "2.8.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28840",
+                "PkgName": "github.com/docker/docker",
+                "InstalledVersion": "v20.10.12+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "20.10.24, 23.0.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-420",
+                    "CWE-636"
+                ],
+                "PublishedDate": "2023-04-04T22:15:00Z",
+                "LastModifiedDate": "2023-09-15T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28841",
+                "PkgName": "github.com/docker/docker",
+                "InstalledVersion": "v20.10.12+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "20.10.24, 23.0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-311",
+                    "CWE-636"
+                ],
+                "PublishedDate": "2023-04-04T22:15:00Z",
+                "LastModifiedDate": "2023-09-15T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-28842",
+                "PkgName": "github.com/docker/docker",
+                "InstalledVersion": "v20.10.12+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "20.10.24, 23.0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-420",
+                    "CWE-636"
+                ],
+                "PublishedDate": "2023-04-04T22:15:00Z",
+                "LastModifiedDate": "2023-09-15T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-jq35-85cj-fj4p",
+                "PkgName": "github.com/docker/docker",
+                "InstalledVersion": "v20.10.12+incompatible",
+                "Status": "fixed",
+                "FixedVersion": "24.0.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-21698",
+                "PkgName": "github.com/prometheus/client_golang",
+                "InstalledVersion": "v1.11.0",
+                "Status": "fixed",
+                "FixedVersion": "1.11.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-15T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-43565",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20211117183948-ae814b36b871",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20211202192323-5770296d904e",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:39:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27191",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.0.0-20211117183948-ae814b36b871",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220314234659-1baeb1ce4c0b",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-03-18T07:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27664",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220107192237-5cfca573fb4d",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220906165146-f3363e06e74c",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-09-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-41723",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220107192237-5cfca573fb4d",
+                "Status": "fixed",
+                "FixedVersion": "0.7.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-02-28T18:15:00Z",
+                "LastModifiedDate": "2023-11-08T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39325",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220107192237-5cfca573fb4d",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-11T22:15:00Z",
+                "LastModifiedDate": "2023-11-10T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3978",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220107192237-5cfca573fb4d",
+                "Status": "fixed",
+                "FixedVersion": "0.13.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-08-02T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "golang.org/x/net",
+                "InstalledVersion": "v0.0.0-20220107192237-5cfca573fb4d",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-29526",
+                "PkgName": "golang.org/x/sys",
+                "InstalledVersion": "v0.0.0-20211216021012-1d35b9e2eb4e",
+                "Status": "fixed",
+                "FixedVersion": "0.0.0-20220412211240-33da011f77ad",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-269"
+                ],
+                "PublishedDate": "2022-06-23T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-32149",
+                "PkgName": "golang.org/x/text",
+                "InstalledVersion": "v0.3.7",
+                "Status": "fixed",
+                "FixedVersion": "0.3.8",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-772"
+                ],
+                "PublishedDate": "2022-10-14T15:15:00Z",
+                "LastModifiedDate": "2022-10-18T17:41:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-m425-mq94-257g",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.43.0",
+                "Status": "fixed",
+                "FixedVersion": "1.56.3, 1.57.1, 1.58.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "google.golang.org/grpc",
+                "InstalledVersion": "v1.43.0",
+                "Status": "fixed",
+                "FixedVersion": "1.58.3, 1.57.1, 1.56.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T05:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-28948",
+                "PkgName": "gopkg.in/yaml.v3",
+                "InstalledVersion": "v3.0.0-20210107192922-496545a6307b",
+                "Status": "fixed",
+                "FixedVersion": "3.0.0-20220521103104-8f96da9f5d5e",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2022-05-19T20:15:00Z",
+                "LastModifiedDate": "2022-10-28T19:06:00Z"
+            }
+        ]
+    }
+]

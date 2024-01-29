@@ -1,0 +1,70 @@
+[
+    {
+        "RepoTags": [
+            "docker/telemetry:1.0.0.linux-x86_64-test"
+        ],
+        "created": "0001-01-01T00:00:00Z"
+    },
+    {
+        "Target": "docker/telemetry:1.0.0.linux-x86_64-test (alpine 3.6.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-16544",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.26.2-r5",
+                "Status": "fixed",
+                "FixedVersion": "1.26.2-r9",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2017-11-20T15:29:00.387Z",
+                "LastModifiedDate": "2022-10-28T19:29:45.977Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15873",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.26.2-r5",
+                "Status": "fixed",
+                "FixedVersion": "1.26.2-r9",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-10-24T20:29:00.28Z",
+                "LastModifiedDate": "2021-02-18T14:43:58.987Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.16-r10",
+                "Status": "fixed",
+                "FixedVersion": "1.1.16-r14",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.16-r10",
+                "Status": "fixed",
+                "FixedVersion": "1.1.16-r14",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "RepoTags": [
+            "grafana/metrics-enterprise:v2.10.4"
+        ],
+        "created": "2023-11-14T12:14:38.29567634Z"
+    },
+    {
+        "Target": "grafana/metrics-enterprise:v2.10.4 (alpine 3.18.3)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.1.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.1.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.1.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.1.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/bin/enterprise-metrics",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-2c7c-3mj9-8fqh",
+                "PkgName": "github.com/go-jose/go-jose/v3",
+                "InstalledVersion": "v3.0.0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

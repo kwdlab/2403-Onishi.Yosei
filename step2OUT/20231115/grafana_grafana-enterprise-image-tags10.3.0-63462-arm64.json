@@ -1,0 +1,70 @@
+[
+    {
+        "RepoTags": [
+            "grafana/grafana-enterprise-image-tags:10.3.0-63462-arm64"
+        ],
+        "created": "2023-11-15T10:31:06.803904042Z"
+    },
+    {
+        "Target": "grafana/grafana-enterprise-image-tags:10.3.0-63462-arm64 (alpine 3.18.4)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.1.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.1.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.1.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.1.3-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T14:15:00Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,574 @@
+[
+    {
+        "RepoTags": [
+            "datadog/dogstatsd-socat-proxy:beta"
+        ],
+        "created": "2017-07-03T10:19:12.15275011Z"
+    },
+    {
+        "Target": "datadog/dogstatsd-socat-proxy:beta (alpine 3.5.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-16544",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.25.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.25.1-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2017-11-20T15:29:00.387Z",
+                "LastModifiedDate": "2022-10-28T19:29:45.977Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15873",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.25.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.25.1-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-10-24T20:29:00.28Z",
+                "LastModifiedDate": "2021-02-18T14:43:58.987Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.15-r7",
+                "Status": "fixed",
+                "FixedVersion": "1.1.15-r8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.15-r7",
+                "Status": "fixed",
+                "FixedVersion": "1.1.15-r8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10684",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0-r8",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-06-29T23:29:00.223Z",
+                "LastModifiedDate": "2023-11-07T02:38:06.117Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10685",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0-r8",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-134"
+                ],
+                "PublishedDate": "2017-06-29T23:29:00.253Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11112",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-07-08T17:29:00.667Z",
+                "LastModifiedDate": "2018-10-21T10:29:05.3Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11113",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2017-07-08T17:29:00.747Z",
+                "LastModifiedDate": "2019-05-06T15:00:36.88Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13728",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.297Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.8Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-16879",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20171125-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-11-22T22:29:00.223Z",
+                "LastModifiedDate": "2023-11-07T02:40:56.507Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13729",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.327Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.857Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13730",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.39Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.91Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13731",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.423Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13732",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.453Z",
+                "LastModifiedDate": "2023-11-07T02:38:42.027Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13733",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.487Z",
+                "LastModifiedDate": "2023-11-07T02:38:42.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13734",
+                "PkgName": "ncurses-libs",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.517Z",
+                "LastModifiedDate": "2018-10-21T10:29:06.44Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10684",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0-r8",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-06-29T23:29:00.223Z",
+                "LastModifiedDate": "2023-11-07T02:38:06.117Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10685",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0-r8",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-134"
+                ],
+                "PublishedDate": "2017-06-29T23:29:00.253Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11112",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-07-08T17:29:00.667Z",
+                "LastModifiedDate": "2018-10-21T10:29:05.3Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11113",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2017-07-08T17:29:00.747Z",
+                "LastModifiedDate": "2019-05-06T15:00:36.88Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13728",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.297Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.8Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-16879",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20171125-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-11-22T22:29:00.223Z",
+                "LastModifiedDate": "2023-11-07T02:40:56.507Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13729",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.327Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.857Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13730",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.39Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.91Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13731",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.423Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13732",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.453Z",
+                "LastModifiedDate": "2023-11-07T02:38:42.027Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13733",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.487Z",
+                "LastModifiedDate": "2023-11-07T02:38:42.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13734",
+                "PkgName": "ncurses-terminfo",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.517Z",
+                "LastModifiedDate": "2018-10-21T10:29:06.44Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10684",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0-r8",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-06-29T23:29:00.223Z",
+                "LastModifiedDate": "2023-11-07T02:38:06.117Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10685",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0-r8",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-134"
+                ],
+                "PublishedDate": "2017-06-29T23:29:00.253Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11112",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-07-08T17:29:00.667Z",
+                "LastModifiedDate": "2018-10-21T10:29:05.3Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11113",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2017-07-08T17:29:00.747Z",
+                "LastModifiedDate": "2019-05-06T15:00:36.88Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13728",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.297Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.8Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-16879",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20171125-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-11-22T22:29:00.223Z",
+                "LastModifiedDate": "2023-11-07T02:40:56.507Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13729",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.327Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.857Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13730",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.39Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.91Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13731",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.423Z",
+                "LastModifiedDate": "2023-11-07T02:38:41.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13732",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.453Z",
+                "LastModifiedDate": "2023-11-07T02:38:42.027Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13733",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.487Z",
+                "LastModifiedDate": "2023-11-07T02:38:42.08Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-13734",
+                "PkgName": "ncurses-terminfo-base",
+                "InstalledVersion": "6.0-r7",
+                "Status": "fixed",
+                "FixedVersion": "6.0_p20170701-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-08-29T06:29:00.517Z",
+                "LastModifiedDate": "2018-10-21T10:29:06.44Z"
+            }
+        ]
+    }
+]

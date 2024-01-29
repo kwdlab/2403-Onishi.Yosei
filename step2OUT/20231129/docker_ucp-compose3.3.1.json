@@ -1,0 +1,188 @@
+[
+    {
+        "RepoTags": [
+            "docker/ucp-compose:3.3.1"
+        ],
+        "created": "2020-06-26T15:56:36.471790707Z"
+    },
+    {
+        "Target": "docker/ucp-compose:3.3.1 (ubuntu 19.10)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2020-1751",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.30-0ubuntu2.1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-0ubuntu2.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-04-17T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-19126",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.30-0ubuntu2.1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-0ubuntu2.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-665"
+                ],
+                "PublishedDate": "2019-11-19T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:07:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1752",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.30-0ubuntu2.1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-0ubuntu2.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2020-04-30T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1751",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.30-0ubuntu2.1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-0ubuntu2.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-04-17T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-19126",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.30-0ubuntu2.1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-0ubuntu2.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-665"
+                ],
+                "PublishedDate": "2019-11-19T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:07:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1752",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.30-0ubuntu2.1",
+                "Status": "fixed",
+                "FixedVersion": "2.30-0ubuntu2.2",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2020-04-30T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-37920",
+                "PkgName": "certifi",
+                "InstalledVersion": "2020.6.20",
+                "Status": "fixed",
+                "FixedVersion": "2023.7.22",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2023-07-25T21:15:00Z",
+                "LastModifiedDate": "2023-08-12T06:16:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-23491",
+                "PkgName": "certifi",
+                "InstalledVersion": "2020.6.20",
+                "Status": "fixed",
+                "FixedVersion": "2022.12.07",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-345"
+                ],
+                "PublishedDate": "2022-12-07T22:15:00Z",
+                "LastModifiedDate": "2023-03-24T18:12:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-32681",
+                "PkgName": "requests",
+                "InstalledVersion": "2.24.0",
+                "Status": "fixed",
+                "FixedVersion": "2.31.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-05-26T18:15:00Z",
+                "LastModifiedDate": "2023-09-17T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33503",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.25.9",
+                "Status": "fixed",
+                "FixedVersion": "1.26.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2021-06-29T11:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43804",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.25.9",
+                "Status": "fixed",
+                "FixedVersion": "2.0.6, 1.26.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-04T17:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45803",
+                "PkgName": "urllib3",
+                "InstalledVersion": "1.25.9",
+                "Status": "fixed",
+                "FixedVersion": "2.0.7, 1.26.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-17T20:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            }
+        ]
+    }
+]

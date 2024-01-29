@@ -1,0 +1,480 @@
+[
+    {
+        "RepoTags": [
+            "rancher/10-openvmtools:v0.8.0-rc9"
+        ],
+        "created": "2017-02-09T05:26:26.098143821Z"
+    },
+    {
+        "Target": "rancher/10-openvmtools:v0.8.0-rc9 (ubuntu 16.10)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2016-7543",
+                "PkgName": "bash",
+                "InstalledVersion": "4.3-15ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "4.3-15ubuntu1.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-01-19T20:59:00.47Z",
+                "LastModifiedDate": "2023-11-07T02:34:43.13Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-0634",
+                "PkgName": "bash",
+                "InstalledVersion": "4.3-15ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "4.3-15ubuntu1.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-78"
+                ],
+                "PublishedDate": "2017-08-28T15:29:01.487Z",
+                "LastModifiedDate": "2018-01-05T02:30:27.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9401",
+                "PkgName": "bash",
+                "InstalledVersion": "4.3-15ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "4.3-15ubuntu1.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2017-01-23T21:59:02.987Z",
+                "LastModifiedDate": "2020-09-14T18:32:28.977Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-1000366",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.24-3ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2.24-3ubuntu2.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-06-19T16:29:00.31Z",
+                "LastModifiedDate": "2020-10-15T13:28:10.487Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-1000366",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.24-3ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2.24-3ubuntu2.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-06-19T16:29:00.31Z",
+                "LastModifiedDate": "2020-10-15T13:28:10.487Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3135",
+                "PkgName": "libdns-export162",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.283Z",
+                "LastModifiedDate": "2019-10-09T23:27:16.663Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3136",
+                "PkgName": "libdns-export162",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.313Z",
+                "LastModifiedDate": "2020-10-20T12:15:12.72Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3137",
+                "PkgName": "libdns-export162",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.377Z",
+                "LastModifiedDate": "2019-10-09T23:27:17.15Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3138",
+                "PkgName": "libdns-export162",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.407Z",
+                "LastModifiedDate": "2019-10-09T23:27:17.4Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3142",
+                "PkgName": "libdns-export162",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.55Z",
+                "LastModifiedDate": "2019-08-30T17:15:10.36Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3143",
+                "PkgName": "libdns-export162",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.58Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-9233",
+                "PkgName": "libexpat1",
+                "InstalledVersion": "2.2.0-1",
+                "Status": "fixed",
+                "FixedVersion": "2.2.0-1ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-611",
+                    "CWE-835"
+                ],
+                "PublishedDate": "2017-07-25T20:29:00.22Z",
+                "LastModifiedDate": "2023-11-07T02:50:37.82Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7526",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.7.2-2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-2ubuntu1.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-310",
+                    "CWE-200"
+                ],
+                "PublishedDate": "2018-07-26T13:29:00.183Z",
+                "LastModifiedDate": "2023-11-07T02:50:12.157Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-9526",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.7.2-2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1.7.2-2ubuntu1.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2017-06-11T02:29:00.183Z",
+                "LastModifiedDate": "2023-11-07T02:50:47.41Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-7415",
+                "PkgName": "libicu57",
+                "InstalledVersion": "57.1-4",
+                "Status": "fixed",
+                "FixedVersion": "57.1-4ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-09-17T21:59:07.09Z",
+                "LastModifiedDate": "2019-04-23T19:29:43.207Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7867",
+                "PkgName": "libicu57",
+                "InstalledVersion": "57.1-4",
+                "Status": "fixed",
+                "FixedVersion": "57.1-4ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-04-14T04:59:00.65Z",
+                "LastModifiedDate": "2019-04-23T19:31:20.457Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-7868",
+                "PkgName": "libicu57",
+                "InstalledVersion": "57.1-4",
+                "Status": "fixed",
+                "FixedVersion": "57.1-4ubuntu0.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-04-14T04:59:00.697Z",
+                "LastModifiedDate": "2019-04-23T19:31:20.74Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3135",
+                "PkgName": "libisc-export160",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.283Z",
+                "LastModifiedDate": "2019-10-09T23:27:16.663Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3136",
+                "PkgName": "libisc-export160",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.313Z",
+                "LastModifiedDate": "2020-10-20T12:15:12.72Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3137",
+                "PkgName": "libisc-export160",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.377Z",
+                "LastModifiedDate": "2019-10-09T23:27:17.15Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3138",
+                "PkgName": "libisc-export160",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-617"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.407Z",
+                "LastModifiedDate": "2019-10-09T23:27:17.4Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3142",
+                "PkgName": "libisc-export160",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.55Z",
+                "LastModifiedDate": "2019-08-30T17:15:10.36Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-3143",
+                "PkgName": "libisc-export160",
+                "InstalledVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "1:9.10.3.dfsg.P4-10.1ubuntu1.7",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-01-16T20:29:00.58Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-9445",
+                "PkgName": "libsystemd0",
+                "InstalledVersion": "231-9ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "231-9ubuntu5",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-06-28T06:29:00.19Z",
+                "LastModifiedDate": "2022-01-31T18:19:39.563Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-9445",
+                "PkgName": "libudev1",
+                "InstalledVersion": "231-9ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "231-9ubuntu5",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-06-28T06:29:00.19Z",
+                "LastModifiedDate": "2022-01-31T18:19:39.563Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-4658",
+                "PkgName": "libxml2",
+                "InstalledVersion": "2.9.4+dfsg1-2",
+                "Status": "fixed",
+                "FixedVersion": "2.9.4+dfsg1-2ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2016-09-25T10:59:02.343Z",
+                "LastModifiedDate": "2019-03-13T14:05:10.147Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-5131",
+                "PkgName": "libxml2",
+                "InstalledVersion": "2.9.4+dfsg1-2",
+                "Status": "fixed",
+                "FixedVersion": "2.9.4+dfsg1-2ubuntu0.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2016-07-23T19:59:13.767Z",
+                "LastModifiedDate": "2023-11-07T02:32:56.177Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-1000366",
+                "PkgName": "locales",
+                "InstalledVersion": "2.24-3ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2.24-3ubuntu2.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-06-19T16:29:00.31Z",
+                "LastModifiedDate": "2020-10-15T13:28:10.487Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-6252",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.2-3.2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1:4.2-3.2ubuntu1.16.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-02-17T17:59:00.937Z",
+                "LastModifiedDate": "2017-11-04T01:29:21.38Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-2616",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.2-3.2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1:4.2-3.2ubuntu1.16.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-362",
+                    "CWE-267"
+                ],
+                "PublishedDate": "2018-07-27T19:29:00.207Z",
+                "LastModifiedDate": "2019-10-09T23:26:56.93Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-1000366",
+                "PkgName": "multiarch-support",
+                "InstalledVersion": "2.24-3ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2.24-3ubuntu2.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-06-19T16:29:00.31Z",
+                "LastModifiedDate": "2020-10-15T13:28:10.487Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-6252",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.2-3.2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1:4.2-3.2ubuntu1.16.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-02-17T17:59:00.937Z",
+                "LastModifiedDate": "2017-11-04T01:29:21.38Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-2616",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.2-3.2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1:4.2-3.2ubuntu1.16.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-362",
+                    "CWE-267"
+                ],
+                "PublishedDate": "2018-07-27T19:29:00.207Z",
+                "LastModifiedDate": "2019-10-09T23:26:56.93Z"
+            }
+        ]
+    }
+]

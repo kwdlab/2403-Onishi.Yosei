@@ -1,0 +1,230 @@
+[
+    {
+        "RepoTags": [
+            "mirantis/ucp-sf-notifier:3.7.1"
+        ],
+        "created": "2023-09-26T02:41:34.400834501Z"
+    },
+    {
+        "Target": "mirantis/ucp-sf-notifier:3.7.1 (alpine 3.17.5)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "openssl-dev",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:00Z",
+                "LastModifiedDate": "2023-11-30T22:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-46136",
+                "PkgName": "Werkzeug",
+                "InstalledVersion": "2.3.7",
+                "Status": "fixed",
+                "FixedVersion": "3.0.1, 2.3.8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-24T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-49083",
+                "PkgName": "cryptography",
+                "InstalledVersion": "39.0.2",
+                "Status": "fixed",
+                "FixedVersion": "41.0.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-11-29T19:15:00Z",
+                "LastModifiedDate": "2023-12-06T18:12:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-5cpq-8wj7-hf2v",
+                "PkgName": "cryptography",
+                "InstalledVersion": "39.0.2",
+                "Status": "fixed",
+                "FixedVersion": "41.0.0",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-jm77-qphf-c4w8",
+                "PkgName": "cryptography",
+                "InstalledVersion": "39.0.2",
+                "Status": "fixed",
+                "FixedVersion": "41.0.3",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "GHSA-v8gr-m533-ghj9",
+                "PkgName": "cryptography",
+                "InstalledVersion": "39.0.2",
+                "Status": "fixed",
+                "FixedVersion": "41.0.4",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5752",
+                "PkgName": "pip",
+                "InstalledVersion": "23.2.1",
+                "Status": "fixed",
+                "FixedVersion": "23.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-77"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-03T14:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27522",
+                "PkgName": "uWSGI",
+                "InstalledVersion": "2.0.21",
+                "Status": "fixed",
+                "FixedVersion": "2.0.22",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-444"
+                ],
+                "PublishedDate": "2023-03-07T16:15:00Z",
+                "LastModifiedDate": "2023-09-08T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43804",
+                "PkgName": "urllib3",
+                "InstalledVersion": "2.0.2",
+                "Status": "fixed",
+                "FixedVersion": "2.0.6, 1.26.17",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-04T17:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-45803",
+                "PkgName": "urllib3",
+                "InstalledVersion": "2.0.2",
+                "Status": "fixed",
+                "FixedVersion": "2.0.7, 1.26.18",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-200"
+                ],
+                "PublishedDate": "2023-10-17T20:15:00Z",
+                "LastModifiedDate": "2023-11-03T22:15:00Z"
+            }
+        ]
+    }
+]

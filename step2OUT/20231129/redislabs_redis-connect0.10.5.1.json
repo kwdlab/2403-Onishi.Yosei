@@ -1,0 +1,300 @@
+[
+    {
+        "RepoTags": [
+            "redislabs/redis-connect:0.10.5.1"
+        ],
+        "created": "2023-10-04T05:29:24.213989553Z"
+    },
+    {
+        "Target": "redislabs/redis-connect:0.10.5.1 (alpine 3.17.5)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4016",
+                "PkgName": "libproc",
+                "InstalledVersion": "3.3.17-r2",
+                "Status": "fixed",
+                "FixedVersion": "3.3.17-r3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-02T05:15:00Z",
+                "LastModifiedDate": "2023-08-21T03:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.11-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-09T13:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43787",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43785",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43786",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835"
+                ],
+                "PublishedDate": "2023-10-10T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4016",
+                "PkgName": "procps",
+                "InstalledVersion": "3.3.17-r2",
+                "Status": "fixed",
+                "FixedVersion": "3.3.17-r3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-02T05:15:00Z",
+                "LastModifiedDate": "2023-08-21T03:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-2976",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "30.0-android",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-552"
+                ],
+                "PublishedDate": "2023-06-14T18:15:00Z",
+                "LastModifiedDate": "2023-08-18T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-8908",
+                "PkgName": "com.google.guava:guava",
+                "InstalledVersion": "30.0-android",
+                "Status": "fixed",
+                "FixedVersion": "32.0.0-android",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-732"
+                ],
+                "PublishedDate": "2020-12-10T23:15:00Z",
+                "LastModifiedDate": "2023-08-02T17:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34462",
+                "PkgName": "io.netty:netty-handler",
+                "InstalledVersion": "4.1.86.Final",
+                "Status": "fixed",
+                "FixedVersion": "4.1.94.Final",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-06-22T23:15:00Z",
+                "LastModifiedDate": "2023-11-18T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-35887",
+                "PkgName": "org.apache.sshd:sshd-common",
+                "InstalledVersion": "2.9.2",
+                "Status": "fixed",
+                "FixedVersion": "2.10.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2023-07-10T16:15:00Z",
+                "LastModifiedDate": "2023-11-21T14:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-41080",
+                "PkgName": "org.apache.tomcat.embed:tomcat-embed-core",
+                "InstalledVersion": "9.0.78",
+                "Status": "fixed",
+                "FixedVersion": "8.5.93, 9.0.80, 10.1.13, 11.0.0-M11",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-601"
+                ],
+                "PublishedDate": "2023-08-25T21:15:00Z",
+                "LastModifiedDate": "2023-11-03T19:00:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-31582",
+                "PkgName": "org.bitbucket.b_c:jose4j",
+                "InstalledVersion": "0.7.9",
+                "Status": "fixed",
+                "FixedVersion": "0.9.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-331"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-10-31T15:18:00Z"
+            },
+            {
+                "VulnerabilityID": "GHSA-jgvc-jfgh-rjvv",
+                "PkgName": "org.bitbucket.b_c:jose4j",
+                "InstalledVersion": "0.7.9",
+                "Status": "fixed",
+                "FixedVersion": "0.9.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34055",
+                "PkgName": "org.springframework.boot:spring-boot",
+                "InstalledVersion": "2.7.14",
+                "Status": "fixed",
+                "FixedVersion": "2.7.18, 3.0.13, 3.1.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-1000027",
+                "PkgName": "org.springframework:spring-web",
+                "InstalledVersion": "5.3.29",
+                "Status": "fixed",
+                "FixedVersion": "6.0.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-01-02T23:15:00Z",
+                "LastModifiedDate": "2023-04-20T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34455",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-06-15T18:15:00Z",
+                "LastModifiedDate": "2023-08-18T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43642",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-09-25T20:15:00Z",
+                "LastModifiedDate": "2023-09-26T15:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34453",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-06-15T17:15:00Z",
+                "LastModifiedDate": "2023-06-27T15:59:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34454",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-06-15T17:15:00Z",
+                "LastModifiedDate": "2023-06-27T16:04:00Z"
+            }
+        ]
+    }
+]

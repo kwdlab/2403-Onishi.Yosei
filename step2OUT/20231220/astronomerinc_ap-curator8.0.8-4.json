@@ -1,0 +1,76 @@
+[
+    {
+        "RepoTags": [
+            "astronomerinc/ap-curator:8.0.8-4"
+        ],
+        "created": "2023-11-06T06:01:38.847084146Z"
+    },
+    {
+        "Target": "astronomerinc/ap-curator:8.0.8-4 (alpine 3.18.4)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.1.4-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.1.4-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "openssl",
+                "InstalledVersion": "3.1.4-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.1.4-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            }
+        ]
+    },
+    {
+        "Target": "usr/local/bin/dockerize",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-48795",
+                "PkgName": "golang.org/x/crypto",
+                "InstalledVersion": "v0.14.0",
+                "Status": "fixed",
+                "FixedVersion": "0.17.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-18T16:15:10.897Z",
+                "LastModifiedDate": "2023-12-19T05:15:08.54Z"
+            }
+        ]
+    }
+]

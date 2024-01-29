@@ -1,0 +1,653 @@
+[
+    {
+        "RepoTags": [
+            "okteto/udemy:vote"
+        ],
+        "created": "2019-09-17T10:38:33.020859318Z"
+    },
+    {
+        "Target": "okteto/udemy:vote (alpine 3.10.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-36159",
+                "PkgName": "apk-tools",
+                "InstalledVersion": "2.10.4-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.10.7-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-03T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-30139",
+                "PkgName": "apk-tools",
+                "InstalledVersion": "2.10.4-r2",
+                "Status": "fixed",
+                "FixedVersion": "2.10.6-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-04-21T16:15:00Z",
+                "LastModifiedDate": "2021-04-22T18:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-28831",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.30.1-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.30.1-r5",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-755"
+                ],
+                "PublishedDate": "2021-03-19T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-15903",
+                "PkgName": "expat",
+                "InstalledVersion": "2.2.7-r0",
+                "Status": "fixed",
+                "FixedVersion": "2.2.7-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-776"
+                ],
+                "PublishedDate": "2019-09-04T06:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-28196",
+                "PkgName": "krb5-libs",
+                "InstalledVersion": "1.17-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.17.2-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2020-11-06T08:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5094",
+                "PkgName": "libcom_err",
+                "InstalledVersion": "1.45.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.45.2-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2019-09-24T22:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-5188",
+                "PkgName": "libcom_err",
+                "InstalledVersion": "1.45.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.45.5-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-01-08T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:11:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1967",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1g-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-04-21T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3450",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1547",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-09-10T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1549",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-330"
+                ],
+                "PublishedDate": "2019-09-10T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1551",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2019-12-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1971",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1i-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-12-08T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3449",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1563",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327",
+                    "CWE-203"
+                ],
+                "PublishedDate": "2019-09-10T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23839",
+                "PkgName": "libcrypto1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1967",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1g-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-04-21T14:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3450",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1547",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-09-10T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1549",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-330"
+                ],
+                "PublishedDate": "2019-09-10T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1551",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2019-12-06T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-1971",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1i-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2020-12-08T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3449",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1k-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-03-25T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-1563",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1d-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327",
+                    "CWE-203"
+                ],
+                "PublishedDate": "2019-09-10T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:08:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23839",
+                "PkgName": "libssl1.1",
+                "InstalledVersion": "1.1.1c-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.1.1j-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-28928",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.22-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.22-r4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-11-24T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-28928",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.22-r3",
+                "Status": "fixed",
+                "FixedVersion": "1.1.22-r4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2020-11-24T18:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-19244",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.28.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.28.0-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2019-11-25T20:15:00Z",
+                "LastModifiedDate": "2022-04-15T16:12:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-11655",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.28.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.28.0-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-665"
+                ],
+                "PublishedDate": "2020-04-09T03:15:00Z",
+                "LastModifiedDate": "2022-04-08T10:34:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-16168",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.28.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.28.0-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-369"
+                ],
+                "PublishedDate": "2019-09-09T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2019-19242",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.28.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.28.0-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2019-11-27T17:15:00Z",
+                "LastModifiedDate": "2022-04-19T15:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-28831",
+                "PkgName": "ssl_client",
+                "InstalledVersion": "1.30.1-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.30.1-r5",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-755"
+                ],
+                "PublishedDate": "2021-03-19T05:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:32:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-30861",
+                "PkgName": "Flask",
+                "InstalledVersion": "1.1.1",
+                "Status": "fixed",
+                "FixedVersion": "2.3.2, 2.2.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-539"
+                ],
+                "PublishedDate": "2023-05-02T18:15:00Z",
+                "LastModifiedDate": "2023-08-20T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-28493",
+                "PkgName": "Jinja2",
+                "InstalledVersion": "2.10.1",
+                "Status": "fixed",
+                "FixedVersion": "2.11.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2021-02-01T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:21:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-25577",
+                "PkgName": "Werkzeug",
+                "InstalledVersion": "0.15.6",
+                "Status": "fixed",
+                "FixedVersion": "2.2.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-02-14T20:15:00Z",
+                "LastModifiedDate": "2023-08-18T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46136",
+                "PkgName": "Werkzeug",
+                "InstalledVersion": "0.15.6",
+                "Status": "fixed",
+                "FixedVersion": "3.0.1, 2.3.8",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-24T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-23934",
+                "PkgName": "Werkzeug",
+                "InstalledVersion": "0.15.6",
+                "Status": "fixed",
+                "FixedVersion": "2.2.3",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-02-14T20:15:00Z",
+                "LastModifiedDate": "2023-08-18T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3572",
+                "PkgName": "pip",
+                "InstalledVersion": "19.2.3",
+                "Status": "fixed",
+                "FixedVersion": "21.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-11-10T18:15:00Z",
+                "LastModifiedDate": "2022-10-05T02:14:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5752",
+                "PkgName": "pip",
+                "InstalledVersion": "19.2.3",
+                "Status": "fixed",
+                "FixedVersion": "23.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-77"
+                ],
+                "PublishedDate": "2023-10-25T18:17:00Z",
+                "LastModifiedDate": "2023-11-03T14:55:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "setuptools",
+                "InstalledVersion": "41.2.0",
+                "Status": "fixed",
+                "FixedVersion": "65.5.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:52:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40898",
+                "PkgName": "wheel",
+                "InstalledVersion": "0.33.6",
+                "Status": "fixed",
+                "FixedVersion": "0.38.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-23T00:15:00Z",
+                "LastModifiedDate": "2022-12-30T22:15:00Z"
+            }
+        ]
+    }
+]

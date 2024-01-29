@@ -1,0 +1,62 @@
+[
+    {
+        "RepoTags": [
+            "rancher/harvester-pcidevices:v0.2.6"
+        ],
+        "created": "2023-12-07T10:19:45.760352546Z"
+    },
+    {
+        "Target": "rancher/harvester-pcidevices:v0.2.6 (suse linux enterprise server 15.5)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4659-1",
+                "PkgName": "libcurl4",
+                "InstalledVersion": "8.0.1-150400.5.32.1",
+                "Status": "fixed",
+                "FixedVersion": "8.0.1-150400.5.36.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "suse-cvrf",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "SUSE-SU-2023:4672-1",
+                "PkgName": "suse-build-key",
+                "InstalledVersion": "12.0-150000.8.34.1",
+                "Status": "fixed",
+                "FixedVersion": "12.0-150000.8.37.1",
+                "Severity": "UNKNOWN",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    },
+    {
+        "Target": "bin/pcidevices",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-26484",
+                "PkgName": "kubevirt.io/kubevirt",
+                "InstalledVersion": "v0.55.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-863"
+                ],
+                "PublishedDate": "2023-03-15T21:15:00Z",
+                "LastModifiedDate": "2023-03-27T16:58:00Z"
+            }
+        ]
+    }
+]

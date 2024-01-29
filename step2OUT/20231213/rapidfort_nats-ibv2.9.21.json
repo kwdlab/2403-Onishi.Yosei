@@ -1,0 +1,29 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/nats-ib:v2.9.21"
+        ],
+        "created": "2023-09-08T04:31:26.862796316Z"
+    },
+    {
+        "Target": "usr/local/bin/nats-server",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-46129",
+                "PkgName": "github.com/nats-io/nkeys",
+                "InstalledVersion": "v0.4.4",
+                "Status": "fixed",
+                "FixedVersion": "0.4.6",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-321",
+                    "CWE-325"
+                ],
+                "PublishedDate": "2023-10-31T00:15:00Z",
+                "LastModifiedDate": "2023-11-29T03:15:00Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,238 @@
+[
+    {
+        "RepoTags": [
+            "kasmweb/core-oracle-7:1.14.0"
+        ],
+        "created": "2023-09-09T23:40:31.141136718Z"
+    },
+    {
+        "Target": "kasmweb/core-oracle-7:1.14.0 (oracle 7.9)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-3341",
+                "PkgName": "bind-export-libs",
+                "InstalledVersion": "32:9.11.4-26.P2.el7_9.14",
+                "Status": "fixed",
+                "FixedVersion": "32:9.11.4-26.P2.el7_9.15",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-09-20T13:15:00Z",
+                "LastModifiedDate": "2023-11-03T21:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-22218",
+                "PkgName": "libssh2",
+                "InstalledVersion": "1.8.0-4.el7",
+                "Status": "fixed",
+                "FixedVersion": "1.8.0-4.el7_9.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-10-06T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-41617",
+                "PkgName": "openssh",
+                "InstalledVersion": "7.4p1-23.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:7.4p1-22.0.1.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-09-26T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-41617",
+                "PkgName": "openssh-askpass",
+                "InstalledVersion": "7.4p1-23.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:7.4p1-22.0.1.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-09-26T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-41617",
+                "PkgName": "openssh-clients",
+                "InstalledVersion": "7.4p1-23.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:7.4p1-22.0.1.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-09-26T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-41617",
+                "PkgName": "openssh-server",
+                "InstalledVersion": "7.4p1-23.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:7.4p1-22.0.1.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-09-26T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "openssl",
+                "InstalledVersion": "1:1.0.2k-26.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:1.0.2k-22.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "openssl",
+                "InstalledVersion": "1:1.0.2k-26.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:1.0.2k-22.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3712",
+                "PkgName": "openssl",
+                "InstalledVersion": "1:1.0.2k-26.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:1.0.2k-23.0.1.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23840",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.0.2k-26.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:1.0.2k-22.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-23841",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.0.2k-26.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:1.0.2k-22.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2021-02-16T17:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:30:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3712",
+                "PkgName": "openssl-libs",
+                "InstalledVersion": "1:1.0.2k-26.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "10:1.0.2k-23.0.1.el7_9_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2021-08-24T15:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python",
+                "InstalledVersion": "2.7.5-93.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "2.7.5-94.0.1.el7_9",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python-libs",
+                "InstalledVersion": "2.7.5-93.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "2.7.5-94.0.1.el7_9",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3",
+                "InstalledVersion": "3.6.8-19.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "3.6.8-21.0.1.el7_9",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3-libs",
+                "InstalledVersion": "3.6.8-19.0.1.el7_9",
+                "Status": "fixed",
+                "FixedVersion": "3.6.8-21.0.1.el7_9",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            }
+        ]
+    }
+]

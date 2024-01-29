@@ -1,0 +1,124 @@
+[
+    {
+        "RepoTags": [
+            "tenable/was-scanner:2.6.1-1170"
+        ],
+        "created": "2023-11-14T21:08:38.393935Z"
+    },
+    {
+        "Target": "tenable/was-scanner:2.6.1-1170 (oracle 8.8)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2021-20231",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-03-12T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-20232",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2021-03-12T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:29:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-3580",
+                "PkgName": "gnutls",
+                "InstalledVersion": "3.6.16-6.el8_7",
+                "Status": "fixed",
+                "FixedVersion": "10:3.6.16-4.0.1.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2021-08-05T21:15:00Z",
+                "LastModifiedDate": "2021-11-26T21:06:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-40528",
+                "PkgName": "libgcrypt",
+                "InstalledVersion": "1.8.5-7.el8_6",
+                "Status": "fixed",
+                "FixedVersion": "10:1.8.5-7.el8_6_fips",
+                "Severity": "HIGH",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2021-09-06T19:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-33560",
+                "PkgName": "libgcrypt",
+                "InstalledVersion": "1.8.5-7.el8_6",
+                "Status": "fixed",
+                "FixedVersion": "10:1.8.5-6.el8_fips",
+                "Severity": "MEDIUM",
+                "SeveritySource": "oracle-oval",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2021-06-08T11:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:35:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Ruby",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-36617",
+                "PkgName": "uri",
+                "InstalledVersion": "0.12.1",
+                "Status": "fixed",
+                "FixedVersion": "~> 0.10.0.3, ~> 0.10.3, ~> 0.11.2, >= 0.12.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ruby-advisory-db",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-06-29T13:15:00Z",
+                "LastModifiedDate": "2023-07-25T15:15:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "opt/nessus-was-scanner/2.6.1-1170/bundle/ruby/3.1.0/gems/sys-info-0.1.4/Cargo.lock",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "GHSA-g98v-hv3f-hcfr",
+                "PkgName": "atty",
+                "InstalledVersion": "0.2.14",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            }
+        ]
+    }
+]

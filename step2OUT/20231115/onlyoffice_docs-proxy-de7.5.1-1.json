@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "onlyoffice/docs-proxy-de:7.5.1-1"
+        ],
+        "created": "2023-11-09T06:31:00.110594985Z"
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-24998",
+                "PkgName": "commons-fileupload:commons-fileupload",
+                "InstalledVersion": "1.4",
+                "Status": "fixed",
+                "FixedVersion": "1.5",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-02-20T16:15:00Z",
+                "LastModifiedDate": "2023-10-13T16:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-42889",
+                "PkgName": "org.apache.commons:commons-text",
+                "InstalledVersion": "1.9",
+                "Status": "fixed",
+                "FixedVersion": "1.10.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2022-10-13T13:15:00Z",
+                "LastModifiedDate": "2023-04-17T16:47:00Z"
+            }
+        ]
+    }
+]

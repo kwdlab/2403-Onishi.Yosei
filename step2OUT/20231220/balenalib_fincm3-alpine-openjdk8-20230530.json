@@ -1,0 +1,592 @@
+[
+    {
+        "RepoTags": [
+            "balenalib/fincm3-alpine-openjdk:8-20230530"
+        ],
+        "created": "2023-06-26T23:13:43.998416156Z"
+    },
+    {
+        "Target": "balenalib/fincm3-alpine-openjdk:8-20230530 (alpine 3.17.3)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.4.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:11.077Z",
+                "LastModifiedDate": "2023-11-16T02:15:26.113Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38039",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.3.0-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-09-15T04:15:10.127Z",
+                "LastModifiedDate": "2023-12-12T21:15:08.123Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46218",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-07T01:15:07.16Z",
+                "LastModifiedDate": "2023-12-15T03:15:44.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46219",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-311"
+                ],
+                "PublishedDate": "2023-12-12T02:15:06.99Z",
+                "LastModifiedDate": "2023-12-15T14:49:07.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "curl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.4.0-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:11.137Z",
+                "LastModifiedDate": "2023-10-28T03:15:08.267Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:43.613Z",
+                "LastModifiedDate": "2023-11-09T13:55:31.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1255",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.8-r4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-04-20T17:15:06.883Z",
+                "LastModifiedDate": "2023-09-08T17:15:15.8Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:09.683Z",
+                "LastModifiedDate": "2023-10-27T15:15:13.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2975",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-07-14T12:15:09.023Z",
+                "LastModifiedDate": "2023-07-27T13:02:02.013Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-r3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:10.003Z",
+                "LastModifiedDate": "2023-10-03T15:48:00.24Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.10-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:10.497Z",
+                "LastModifiedDate": "2023-11-06T19:15:09.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libcrypto3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38545",
+                "PkgName": "libcurl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.4.0-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-18T04:15:11.077Z",
+                "LastModifiedDate": "2023-11-16T02:15:26.113Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38039",
+                "PkgName": "libcurl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.3.0-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-09-15T04:15:10.127Z",
+                "LastModifiedDate": "2023-12-12T21:15:08.123Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46218",
+                "PkgName": "libcurl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-07T01:15:07.16Z",
+                "LastModifiedDate": "2023-12-15T03:15:44.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46219",
+                "PkgName": "libcurl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-311"
+                ],
+                "PublishedDate": "2023-12-12T02:15:06.99Z",
+                "LastModifiedDate": "2023-12-15T14:49:07.26Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-38546",
+                "PkgName": "libcurl",
+                "InstalledVersion": "8.1.1-r1",
+                "Status": "fixed",
+                "FixedVersion": "8.4.0-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-18T04:15:11.137Z",
+                "LastModifiedDate": "2023-10-28T03:15:08.267Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5363",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-25T18:17:43.613Z",
+                "LastModifiedDate": "2023-11-09T13:55:31.967Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1255",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.8-r4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2023-04-20T17:15:06.883Z",
+                "LastModifiedDate": "2023-09-08T17:15:15.8Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2650",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-05-30T14:15:09.683Z",
+                "LastModifiedDate": "2023-10-27T15:15:13.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2975",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-287"
+                ],
+                "PublishedDate": "2023-07-14T12:15:09.023Z",
+                "LastModifiedDate": "2023-07-27T13:02:02.013Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3446",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.9-r3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2023-07-19T12:15:10.003Z",
+                "LastModifiedDate": "2023-10-03T15:48:00.24Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3817",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.10-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2023-07-31T16:15:10.497Z",
+                "LastModifiedDate": "2023-11-06T19:15:09.12Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5678",
+                "PkgName": "libssl3",
+                "InstalledVersion": "3.0.8-r3",
+                "Status": "fixed",
+                "FixedVersion": "3.0.12-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-754"
+                ],
+                "PublishedDate": "2023-11-06T16:15:42.67Z",
+                "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43787",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2023-10-10T13:15:22.083Z",
+                "LastModifiedDate": "2023-11-07T04:21:29.897Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43785",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-10-10T13:15:21.877Z",
+                "LastModifiedDate": "2023-11-07T04:21:29.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43786",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.8.4-r1",
+                "Status": "fixed",
+                "FixedVersion": "1.8.7-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-835",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T13:15:22.023Z",
+                "LastModifiedDate": "2023-11-07T04:21:29.763Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-35945",
+                "PkgName": "nghttp2-libs",
+                "InstalledVersion": "1.51.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.51.0-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-459",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-07-13T21:15:08.88Z",
+                "LastModifiedDate": "2023-10-24T17:26:30.973Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44487",
+                "PkgName": "nghttp2-libs",
+                "InstalledVersion": "1.51.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.51.0-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-10-10T14:15:10.883Z",
+                "LastModifiedDate": "2023-12-02T01:15:08.373Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22067",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.392.08-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:12.54Z",
+                "LastModifiedDate": "2023-11-08T05:15:08.9Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22081",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.392.08-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:13.573Z",
+                "LastModifiedDate": "2023-11-08T05:15:09.007Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22045",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.382.05-r0",
+                "Severity": "LOW",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-18T21:15:14.267Z",
+                "LastModifiedDate": "2023-09-19T11:16:11.777Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22049",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.382.05-r0",
+                "Severity": "LOW",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-18T21:15:14.567Z",
+                "LastModifiedDate": "2023-09-19T11:16:14.407Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22067",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.392.08-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:12.54Z",
+                "LastModifiedDate": "2023-11-08T05:15:08.9Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22081",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.392.08-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:13.573Z",
+                "LastModifiedDate": "2023-11-08T05:15:09.007Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22045",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.382.05-r0",
+                "Severity": "LOW",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-18T21:15:14.267Z",
+                "LastModifiedDate": "2023-09-19T11:16:11.777Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22049",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.382.05-r0",
+                "Severity": "LOW",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-18T21:15:14.567Z",
+                "LastModifiedDate": "2023-09-19T11:16:14.407Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22067",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.392.08-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:12.54Z",
+                "LastModifiedDate": "2023-11-08T05:15:08.9Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22081",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.392.08-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-10-17T22:15:13.573Z",
+                "LastModifiedDate": "2023-11-08T05:15:09.007Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22045",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.382.05-r0",
+                "Severity": "LOW",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-18T21:15:14.267Z",
+                "LastModifiedDate": "2023-09-19T11:16:11.777Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-22049",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.372.07-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.382.05-r0",
+                "Severity": "LOW",
+                "SeveritySource": "null",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-07-18T21:15:14.567Z",
+                "LastModifiedDate": "2023-09-19T11:16:14.407Z"
+            }
+        ]
+    }
+]

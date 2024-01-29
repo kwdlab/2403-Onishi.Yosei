@@ -1,0 +1,540 @@
+[
+    {
+        "RepoTags": [
+            "rancher/server:v2.0.0-beta4"
+        ],
+        "created": "2018-04-25T22:41:03.257532089Z"
+    },
+    {
+        "Target": "rancher/server:v2.0.0-beta4 (ubuntu 17.10)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2018-0500",
+                "PkgName": "curl",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-07-11T13:29:00.317Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000300",
+                "PkgName": "curl",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.337Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000301",
+                "PkgName": "curl",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.383Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-11235",
+                "PkgName": "git",
+                "InstalledVersion": "1:2.14.1-1ubuntu4",
+                "Status": "fixed",
+                "FixedVersion": "1:2.14.1-1ubuntu4.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2018-05-30T04:29:00.287Z",
+                "LastModifiedDate": "2020-05-02T00:15:12.077Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-11233",
+                "PkgName": "git",
+                "InstalledVersion": "1:2.14.1-1ubuntu4",
+                "Status": "fixed",
+                "FixedVersion": "1:2.14.1-1ubuntu4.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-05-30T04:29:00.207Z",
+                "LastModifiedDate": "2020-05-02T00:15:11.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-11235",
+                "PkgName": "git-man",
+                "InstalledVersion": "1:2.14.1-1ubuntu4",
+                "Status": "fixed",
+                "FixedVersion": "1:2.14.1-1ubuntu4.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-22"
+                ],
+                "PublishedDate": "2018-05-30T04:29:00.287Z",
+                "LastModifiedDate": "2020-05-02T00:15:12.077Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-11233",
+                "PkgName": "git-man",
+                "InstalledVersion": "1:2.14.1-1ubuntu4",
+                "Status": "fixed",
+                "FixedVersion": "1:2.14.1-1ubuntu4.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-05-30T04:29:00.207Z",
+                "LastModifiedDate": "2020-05-02T00:15:11.887Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12020",
+                "PkgName": "gnupg",
+                "InstalledVersion": "2.1.15-1ubuntu8",
+                "Status": "fixed",
+                "FixedVersion": "2.1.15-1ubuntu8.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-706"
+                ],
+                "PublishedDate": "2018-06-08T21:29:00.237Z",
+                "LastModifiedDate": "2022-04-18T17:30:54.32Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12020",
+                "PkgName": "gnupg-agent",
+                "InstalledVersion": "2.1.15-1ubuntu8",
+                "Status": "fixed",
+                "FixedVersion": "2.1.15-1ubuntu8.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-706"
+                ],
+                "PublishedDate": "2018-06-08T21:29:00.237Z",
+                "LastModifiedDate": "2022-04-18T17:30:54.32Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12020",
+                "PkgName": "gpgv",
+                "InstalledVersion": "2.1.15-1ubuntu8",
+                "Status": "fixed",
+                "FixedVersion": "2.1.15-1ubuntu8.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-706"
+                ],
+                "PublishedDate": "2018-06-08T21:29:00.237Z",
+                "LastModifiedDate": "2022-04-18T17:30:54.32Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0500",
+                "PkgName": "libcurl3",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-07-11T13:29:00.317Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000300",
+                "PkgName": "libcurl3",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.337Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000301",
+                "PkgName": "libcurl3",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.383Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0500",
+                "PkgName": "libcurl3-gnutls",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-07-11T13:29:00.317Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000300",
+                "PkgName": "libcurl3-gnutls",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.337Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1000301",
+                "PkgName": "libcurl3-gnutls",
+                "InstalledVersion": "7.55.1-1ubuntu2.4",
+                "Status": "fixed",
+                "FixedVersion": "7.55.1-1ubuntu2.5",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2018-05-24T13:29:01.383Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0495",
+                "PkgName": "libgcrypt20",
+                "InstalledVersion": "1.7.8-2ubuntu1",
+                "Status": "fixed",
+                "FixedVersion": "1.7.8-2ubuntu1.1",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-06-13T23:29:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:51:03.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12015",
+                "PkgName": "libperl5.26",
+                "InstalledVersion": "5.26.0-8ubuntu1.1",
+                "Status": "fixed",
+                "FixedVersion": "5.26.0-8ubuntu1.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-06-07T13:29:00.24Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1122",
+                "PkgName": "libprocps6",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-829"
+                ],
+                "PublishedDate": "2018-05-23T14:29:00.217Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1123",
+                "PkgName": "libprocps6",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122",
+                    "CWE-119"
+                ],
+                "PublishedDate": "2018-05-23T14:29:00.28Z",
+                "LastModifiedDate": "2023-11-07T02:55:50.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1124",
+                "PkgName": "libprocps6",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2018-05-23T13:29:00.263Z",
+                "LastModifiedDate": "2020-09-09T14:58:59.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1125",
+                "PkgName": "libprocps6",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-121"
+                ],
+                "PublishedDate": "2018-05-23T14:29:00.343Z",
+                "LastModifiedDate": "2020-09-09T14:59:15.263Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1126",
+                "PkgName": "libprocps6",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-05-23T13:29:00.343Z",
+                "LastModifiedDate": "2019-07-30T13:15:14.327Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0495",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2g-1ubuntu13.5",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2g-1ubuntu13.6",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-06-13T23:29:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:51:03.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2g-1ubuntu13.5",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2g-1ubuntu13.6",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "libssl1.0.0",
+                "InstalledVersion": "1.0.2g-1ubuntu13.5",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2g-1ubuntu13.6",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0495",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2g-1ubuntu13.5",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2g-1ubuntu13.6",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-06-13T23:29:00.333Z",
+                "LastModifiedDate": "2023-11-07T02:51:03.097Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0732",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2g-1ubuntu13.5",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2g-1ubuntu13.6",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-320"
+                ],
+                "PublishedDate": "2018-06-12T13:29:00.207Z",
+                "LastModifiedDate": "2023-11-07T02:51:04.983Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-0737",
+                "PkgName": "openssl",
+                "InstalledVersion": "1.0.2g-1ubuntu13.5",
+                "Status": "fixed",
+                "FixedVersion": "1.0.2g-1ubuntu13.6",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-327"
+                ],
+                "PublishedDate": "2018-04-16T18:29:00.267Z",
+                "LastModifiedDate": "2023-11-07T02:51:05.69Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12015",
+                "PkgName": "perl",
+                "InstalledVersion": "5.26.0-8ubuntu1.1",
+                "Status": "fixed",
+                "FixedVersion": "5.26.0-8ubuntu1.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-06-07T13:29:00.24Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12015",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.26.0-8ubuntu1.1",
+                "Status": "fixed",
+                "FixedVersion": "5.26.0-8ubuntu1.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-06-07T13:29:00.24Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-12015",
+                "PkgName": "perl-modules-5.26",
+                "InstalledVersion": "5.26.0-8ubuntu1.1",
+                "Status": "fixed",
+                "FixedVersion": "5.26.0-8ubuntu1.2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-59"
+                ],
+                "PublishedDate": "2018-06-07T13:29:00.24Z",
+                "LastModifiedDate": "2020-08-24T17:37:01.14Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1122",
+                "PkgName": "procps",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-829"
+                ],
+                "PublishedDate": "2018-05-23T14:29:00.217Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1123",
+                "PkgName": "procps",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-122",
+                    "CWE-119"
+                ],
+                "PublishedDate": "2018-05-23T14:29:00.28Z",
+                "LastModifiedDate": "2023-11-07T02:55:50.227Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1124",
+                "PkgName": "procps",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787",
+                    "CWE-122"
+                ],
+                "PublishedDate": "2018-05-23T13:29:00.263Z",
+                "LastModifiedDate": "2020-09-09T14:58:59.73Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1125",
+                "PkgName": "procps",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787",
+                    "CWE-121"
+                ],
+                "PublishedDate": "2018-05-23T14:29:00.343Z",
+                "LastModifiedDate": "2020-09-09T14:59:15.263Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1126",
+                "PkgName": "procps",
+                "InstalledVersion": "2:3.3.12-1ubuntu2",
+                "Status": "fixed",
+                "FixedVersion": "2:3.3.12-1ubuntu2.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2018-05-23T13:29:00.343Z",
+                "LastModifiedDate": "2019-07-30T13:15:14.327Z"
+            }
+        ]
+    }
+]

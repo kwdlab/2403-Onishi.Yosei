@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "balenalib/beaglebone-black-fedora-python:20220928"
+        ],
+        "created": "2022-10-04T10:35:46.161814605Z"
+    },
+    {
+        "Target": "Python",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-5752",
+                "PkgName": "pip",
+                "InstalledVersion": "22.2.2",
+                "Status": "fixed",
+                "FixedVersion": "23.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-77"
+                ],
+                "PublishedDate": "2023-10-25T18:17:44.867Z",
+                "LastModifiedDate": "2023-11-03T14:55:50.973Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40897",
+                "PkgName": "setuptools",
+                "InstalledVersion": "65.4.1",
+                "Status": "fixed",
+                "FixedVersion": "65.5.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-1333"
+                ],
+                "PublishedDate": "2022-12-23T00:15:13.987Z",
+                "LastModifiedDate": "2023-11-07T03:52:38.44Z"
+            }
+        ]
+    }
+]

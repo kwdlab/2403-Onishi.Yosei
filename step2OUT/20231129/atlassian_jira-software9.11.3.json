@@ -1,0 +1,931 @@
+[
+    {
+        "RepoTags": [
+            "atlassian/jira-software:9.11.3"
+        ],
+        "created": "2023-11-25T16:44:27.910805435Z"
+    },
+    {
+        "Target": "atlassian/jira-software:9.11.3 (ubuntu 22.04)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-3715",
+                "PkgName": "bash",
+                "InstalledVersion": "5.1-6ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-01-05T15:15:00Z",
+                "LastModifiedDate": "2023-02-24T18:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-2781",
+                "PkgName": "coreutils",
+                "InstalledVersion": "8.32-4.1ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2017-02-07T15:59:00Z",
+                "LastModifiedDate": "2023-11-07T02:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "gcc-12-base",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3219",
+                "PkgName": "gpgv",
+                "InstalledVersion": "2.2.27-3ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-02-23T20:15:00Z",
+                "LastModifiedDate": "2023-05-26T16:31:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:00Z",
+                "LastModifiedDate": "2022-03-03T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "libc-bin",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:00Z",
+                "LastModifiedDate": "2022-03-03T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "libc6",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libgcc-s1",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-2953",
+                "PkgName": "libldap-2.5-0",
+                "InstalledVersion": "2.5.16+dfsg-0ubuntu0.22.04.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-05-30T22:15:00Z",
+                "LastModifiedDate": "2023-08-02T16:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-22916",
+                "PkgName": "liblzma5",
+                "InstalledVersion": "5.2.5-2ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-11-07T03:19:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-11164",
+                "PkgName": "libpcre3",
+                "InstalledVersion": "2:8.39-13ubuntu0.22.04.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2017-07-11T03:29:00Z",
+                "LastModifiedDate": "2023-11-07T02:38:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-3857",
+                "PkgName": "libpng16-16",
+                "InstalledVersion": "1.6.37-3build5",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2023-03-06T23:15:00Z",
+                "LastModifiedDate": "2023-04-06T13:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "libpython3.10-minimal",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:00Z",
+                "LastModifiedDate": "2023-06-01T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "libpython3.10-minimal",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "fixed",
+                "FixedVersion": "3.10.12-1~22.04.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "libpython3.10-stdlib",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:00Z",
+                "LastModifiedDate": "2023-06-01T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "libpython3.10-stdlib",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "fixed",
+                "FixedVersion": "3.10.12-1~22.04.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-46908",
+                "PkgName": "libsqlite3-0",
+                "InstalledVersion": "3.37.2-2ubuntu0.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2022-12-12T06:15:00Z",
+                "LastModifiedDate": "2023-11-24T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-27943",
+                "PkgName": "libstdc++6",
+                "InstalledVersion": "12.3.0-1ubuntu1~22.04",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-03-26T13:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:45:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-4899",
+                "PkgName": "libzstd1",
+                "InstalledVersion": "1.4.8+dfsg-3build1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-03-31T20:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:59:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5156",
+                "PkgName": "locales",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-401"
+                ],
+                "PublishedDate": "2023-09-25T16:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:23:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-20013",
+                "PkgName": "locales",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2022-02-19T05:15:00Z",
+                "LastModifiedDate": "2022-03-03T16:43:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4806",
+                "PkgName": "locales",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-18T17:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-4813",
+                "PkgName": "locales",
+                "InstalledVersion": "2.35-0ubuntu3.4",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-416"
+                ],
+                "PublishedDate": "2023-09-12T22:15:00Z",
+                "LastModifiedDate": "2023-11-21T18:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "login",
+                "InstalledVersion": "1:4.8.1-2ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:00Z",
+                "LastModifiedDate": "2023-04-24T18:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-29383",
+                "PkgName": "passwd",
+                "InstalledVersion": "1:4.8.1-2ubuntu2.1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-74"
+                ],
+                "PublishedDate": "2023-04-14T22:15:00Z",
+                "LastModifiedDate": "2023-04-24T18:05:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-47038",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.34.0-3ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "5.34.0-3ubuntu1.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-48522",
+                "PkgName": "perl-base",
+                "InstalledVersion": "5.34.0-3ubuntu1.2",
+                "Status": "fixed",
+                "FixedVersion": "5.34.0-3ubuntu1.3",
+                "Severity": "LOW",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2023-08-22T19:16:00Z",
+                "LastModifiedDate": "2023-09-15T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "python3.10",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:00Z",
+                "LastModifiedDate": "2023-06-01T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3.10",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "fixed",
+                "FixedVersion": "3.10.12-1~22.04.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-27043",
+                "PkgName": "python3.10-minimal",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2023-04-19T00:15:00Z",
+                "LastModifiedDate": "2023-06-01T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-40217",
+                "PkgName": "python3.10-minimal",
+                "InstalledVersion": "3.10.12-1~22.04.2",
+                "Status": "fixed",
+                "FixedVersion": "3.10.12-1~22.04.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-08-25T01:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:20:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2021-31879",
+                "PkgName": "wget",
+                "InstalledVersion": "1.21.2-2ubuntu1",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ubuntu",
+                "CweIDs": [
+                    "CWE-601"
+                ],
+                "PublishedDate": "2021-04-29T05:15:00Z",
+                "LastModifiedDate": "2022-05-13T20:52:00Z"
+            }
+        ]
+    },
+    {
+        "Target": "Java",
+        "Class": "lang-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2022-40152",
+                "PkgName": "com.fasterxml.woodstox:woodstox-core",
+                "InstalledVersion": "6.2.6",
+                "Status": "fixed",
+                "FixedVersion": "6.4.0, 5.4.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-09-16T10:15:00Z",
+                "LastModifiedDate": "2023-02-09T01:36:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45868",
+                "PkgName": "com.h2database:h2",
+                "InstalledVersion": "2.1.214",
+                "Status": "fixed",
+                "FixedVersion": "2.2.220",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-312"
+                ],
+                "PublishedDate": "2022-11-23T21:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:54:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-3635",
+                "PkgName": "com.squareup.okio:okio",
+                "InstalledVersion": "1.15.0",
+                "Status": "fixed",
+                "FixedVersion": "3.4.0, 1.17.6",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-681"
+                ],
+                "PublishedDate": "2023-07-12T19:15:00Z",
+                "LastModifiedDate": "2023-10-25T15:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1370",
+                "PkgName": "net.minidev:json-smart",
+                "InstalledVersion": "2.4.7",
+                "Status": "fixed",
+                "FixedVersion": "2.4.9",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2023-03-22T06:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1370",
+                "PkgName": "net.minidev:json-smart",
+                "InstalledVersion": "2.4.7",
+                "Status": "fixed",
+                "FixedVersion": "2.4.9",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2023-03-22T06:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1370",
+                "PkgName": "net.minidev:json-smart",
+                "InstalledVersion": "2.4.7",
+                "Status": "fixed",
+                "FixedVersion": "2.4.9",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2023-03-22T06:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-39410",
+                "PkgName": "org.apache.avro:avro",
+                "InstalledVersion": "1.7.7",
+                "Status": "fixed",
+                "FixedVersion": "1.11.3",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2023-09-29T17:15:00Z",
+                "LastModifiedDate": "2023-10-06T17:58:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-42503",
+                "PkgName": "org.apache.commons:commons-compress",
+                "InstalledVersion": "1.22",
+                "Status": "fixed",
+                "FixedVersion": "1.24.0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-20",
+                    "CWE-400"
+                ],
+                "PublishedDate": "2023-09-14T08:15:00Z",
+                "LastModifiedDate": "2023-10-20T15:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-44483",
+                "PkgName": "org.apache.santuario:xmlsec",
+                "InstalledVersion": "2.3.2",
+                "Status": "fixed",
+                "FixedVersion": "2.3.4, 2.2.6, 3.0.3",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-532"
+                ],
+                "PublishedDate": "2023-10-20T10:15:00Z",
+                "LastModifiedDate": "2023-10-27T18:49:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46589",
+                "PkgName": "org.apache.tomcat:tomcat-catalina",
+                "InstalledVersion": "9.0.82",
+                "Status": "fixed",
+                "FixedVersion": "11.0.0-M11, 10.1.16, 9.0.83, 8.5.96",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "null",
+                "LastModifiedDate": "null"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13936",
+                "PkgName": "org.apache.velocity:velocity",
+                "InstalledVersion": "1.6.4-atlassian-25",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2021-03-10T08:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2020-13959",
+                "PkgName": "org.apache.velocity:velocity-tools",
+                "InstalledVersion": "1.3",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2021-03-10T08:15:00Z",
+                "LastModifiedDate": "2023-11-07T03:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-33201",
+                "PkgName": "org.bouncycastle:bcprov-jdk15on",
+                "InstalledVersion": "1.69",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-07-05T03:15:00Z",
+                "LastModifiedDate": "2023-08-24T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-33201",
+                "PkgName": "org.bouncycastle:bcprov-jdk15on",
+                "InstalledVersion": "1.70",
+                "Status": "affected",
+                "FixedVersion": "null",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-295"
+                ],
+                "PublishedDate": "2023-07-05T03:15:00Z",
+                "LastModifiedDate": "2023-08-24T19:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40150",
+                "PkgName": "org.codehaus.jettison:jettison",
+                "InstalledVersion": "1.1",
+                "Status": "fixed",
+                "FixedVersion": "1.5.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2022-09-16T10:15:00Z",
+                "LastModifiedDate": "2023-07-13T17:24:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45685",
+                "PkgName": "org.codehaus.jettison:jettison",
+                "InstalledVersion": "1.1",
+                "Status": "fixed",
+                "FixedVersion": "1.5.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-12-13T15:15:00Z",
+                "LastModifiedDate": "2023-01-30T17:57:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-45693",
+                "PkgName": "org.codehaus.jettison:jettison",
+                "InstalledVersion": "1.1",
+                "Status": "fixed",
+                "FixedVersion": "1.5.2",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-12-13T15:15:00Z",
+                "LastModifiedDate": "2023-01-26T17:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-1436",
+                "PkgName": "org.codehaus.jettison:jettison",
+                "InstalledVersion": "1.1",
+                "Status": "fixed",
+                "FixedVersion": "1.5.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2023-03-22T06:15:00Z",
+                "LastModifiedDate": "2023-11-07T04:03:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2022-40149",
+                "PkgName": "org.codehaus.jettison:jettison",
+                "InstalledVersion": "1.1",
+                "Status": "fixed",
+                "FixedVersion": "1.5.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2022-09-16T10:15:00Z",
+                "LastModifiedDate": "2023-03-01T16:32:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5072",
+                "PkgName": "org.json:json",
+                "InstalledVersion": "20230227",
+                "Status": "fixed",
+                "FixedVersion": "20231013",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:00Z",
+                "LastModifiedDate": "2023-10-18T18:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-5072",
+                "PkgName": "org.json:json",
+                "InstalledVersion": "20230227",
+                "Status": "fixed",
+                "FixedVersion": "20231013",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-10-12T17:15:00Z",
+                "LastModifiedDate": "2023-10-18T18:17:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43643",
+                "PkgName": "org.owasp.antisamy:antisamy",
+                "InstalledVersion": "1.6.8",
+                "Status": "fixed",
+                "FixedVersion": "1.7.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-10-09T14:15:00Z",
+                "LastModifiedDate": "2023-10-13T17:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43643",
+                "PkgName": "org.owasp.antisamy:antisamy",
+                "InstalledVersion": "1.6.8",
+                "Status": "fixed",
+                "FixedVersion": "1.7.4",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-79"
+                ],
+                "PublishedDate": "2023-10-09T14:15:00Z",
+                "LastModifiedDate": "2023-10-13T17:35:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-1000027",
+                "PkgName": "org.springframework:spring-web",
+                "InstalledVersion": "5.3.29",
+                "Status": "fixed",
+                "FixedVersion": "6.0.0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-502"
+                ],
+                "PublishedDate": "2020-01-02T23:15:00Z",
+                "LastModifiedDate": "2023-04-20T09:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34455",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.1",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-06-15T18:15:00Z",
+                "LastModifiedDate": "2023-08-18T14:15:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-43642",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.4",
+                "Severity": "HIGH",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-770"
+                ],
+                "PublishedDate": "2023-09-25T20:15:00Z",
+                "LastModifiedDate": "2023-09-26T15:46:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34453",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-06-15T17:15:00Z",
+                "LastModifiedDate": "2023-06-27T15:59:00Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-34454",
+                "PkgName": "org.xerial.snappy:snappy-java",
+                "InstalledVersion": "1.1.8.4",
+                "Status": "fixed",
+                "FixedVersion": "1.1.10.1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "ghsa",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2023-06-15T17:15:00Z",
+                "LastModifiedDate": "2023-06-27T16:04:00Z"
+            }
+        ]
+    }
+]

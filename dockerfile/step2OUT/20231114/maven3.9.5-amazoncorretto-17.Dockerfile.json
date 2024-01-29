@@ -1,0 +1,31 @@
+[
+    {
+        "Target": "maven:3.9.5-amazoncorretto-17.Dockerfile",
+        "Class": "config",
+        "MisconfSummary": {
+            "Successes": 23,
+            "Failures": 3,
+            "Exceptions": 0
+        },
+        "Misconfigurations": [
+            {
+                "AVDID": "AVD-DS-0002",
+                "Severity": "HIGH",
+                "Title": "Image user should not be 'root'",
+                "Description": "Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile."
+            },
+            {
+                "AVDID": "AVD-DS-0015",
+                "Severity": "HIGH",
+                "Title": "'yum clean all' missing",
+                "Description": "You should use 'yum clean all' after using a 'yum install' command to clean package cached data and reduce image size."
+            },
+            {
+                "AVDID": "AVD-DS-0026",
+                "Severity": "LOW",
+                "Title": "No HEALTHCHECK defined",
+                "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
+            }
+        ]
+    }
+]

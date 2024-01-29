@@ -1,0 +1,25 @@
+[
+    {
+        "Target": "drupal:10.1.6-php8.2-fpm-alpine3.17.Dockerfile",
+        "Class": "config",
+        "MisconfSummary": {
+            "Successes": 24,
+            "Failures": 2,
+            "Exceptions": 0
+        },
+        "Misconfigurations": [
+            {
+                "AVDID": "AVD-DS-0002",
+                "Severity": "HIGH",
+                "Title": "Image user should not be 'root'",
+                "Description": "Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile."
+            },
+            {
+                "AVDID": "AVD-DS-0026",
+                "Severity": "LOW",
+                "Title": "No HEALTHCHECK defined",
+                "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
+            }
+        ]
+    }
+]

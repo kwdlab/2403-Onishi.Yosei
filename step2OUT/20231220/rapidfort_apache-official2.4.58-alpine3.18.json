@@ -1,0 +1,42 @@
+[
+    {
+        "RepoTags": [
+            "rapidfort/apache-official:2.4.58-alpine3.18"
+        ],
+        "created": "2023-12-01T10:17:35.554636593Z"
+    },
+    {
+        "Target": "rapidfort/apache-official:2.4.58-alpine3.18 (alpine 3.18.5)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2023-46218",
+                "PkgName": "libcurl",
+                "InstalledVersion": "8.4.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2023-12-07T01:15:07.16Z",
+                "LastModifiedDate": "2023-12-15T03:15:44.97Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2023-46219",
+                "PkgName": "libcurl",
+                "InstalledVersion": "8.4.0-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.5.0-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-311"
+                ],
+                "PublishedDate": "2023-12-12T02:15:06.99Z",
+                "LastModifiedDate": "2023-12-15T14:49:07.26Z"
+            }
+        ]
+    }
+]

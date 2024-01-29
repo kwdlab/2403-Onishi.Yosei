@@ -1,0 +1,916 @@
+[
+    {
+        "RepoTags": [
+            "atlassian/proforma-jre-with-fonts:8u121-jre-alpine"
+        ],
+        "created": "2020-04-27T02:15:16.11154114Z"
+    },
+    {
+        "Target": "atlassian/proforma-jre-with-fonts:8u121-jre-alpine (alpine 3.5.2)",
+        "Class": "os-pkgs",
+        "Vulnerabilities": [
+            {
+                "VulnerabilityID": "CVE-2017-16544",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.25.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.25.1-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-94"
+                ],
+                "PublishedDate": "2017-11-20T15:29:00.387Z",
+                "LastModifiedDate": "2022-10-28T19:29:45.977Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15873",
+                "PkgName": "busybox",
+                "InstalledVersion": "1.25.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.25.1-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190"
+                ],
+                "PublishedDate": "2017-10-24T20:29:00.28Z",
+                "LastModifiedDate": "2021-02-18T14:43:58.987Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-8105",
+                "PkgName": "freetype",
+                "InstalledVersion": "2.7-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-04-24T18:59:00.897Z",
+                "LastModifiedDate": "2021-01-26T12:33:27.803Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-8287",
+                "PkgName": "freetype",
+                "InstalledVersion": "2.7-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.7.1-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-04-27T00:59:00.32Z",
+                "LastModifiedDate": "2021-01-26T12:33:24.523Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6942",
+                "PkgName": "freetype",
+                "InstalledVersion": "2.7-r1",
+                "Status": "fixed",
+                "FixedVersion": "2.7-r2",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-02-13T05:29:00.267Z",
+                "LastModifiedDate": "2021-01-26T12:33:31.493Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-11813",
+                "PkgName": "libjpeg-turbo",
+                "InstalledVersion": "1.5.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.5.3-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-834"
+                ],
+                "PublishedDate": "2018-06-06T03:29:00.297Z",
+                "LastModifiedDate": "2020-06-25T14:15:11.38Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15232",
+                "PkgName": "libjpeg-turbo",
+                "InstalledVersion": "1.5.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.5.3-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2017-10-11T03:29:00.197Z",
+                "LastModifiedDate": "2018-07-11T01:29:00.487Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-1152",
+                "PkgName": "libjpeg-turbo",
+                "InstalledVersion": "1.5.1-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.5.3-r1",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-369"
+                ],
+                "PublishedDate": "2018-06-18T14:29:00.323Z",
+                "LastModifiedDate": "2020-07-31T21:15:12.17Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10790",
+                "PkgName": "libtasn1",
+                "InstalledVersion": "4.9-r0",
+                "Status": "fixed",
+                "FixedVersion": "4.9-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2017-07-02T03:29:00.183Z",
+                "LastModifiedDate": "2023-11-07T02:38:06.733Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-6891",
+                "PkgName": "libtasn1",
+                "InstalledVersion": "4.9-r0",
+                "Status": "fixed",
+                "FixedVersion": "4.9-r1",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2017-05-22T19:29:00.25Z",
+                "LastModifiedDate": "2023-11-07T02:49:59.207Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-6003",
+                "PkgName": "libtasn1",
+                "InstalledVersion": "4.9-r0",
+                "Status": "fixed",
+                "FixedVersion": "4.9-r3",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-674"
+                ],
+                "PublishedDate": "2018-01-22T20:29:00.493Z",
+                "LastModifiedDate": "2023-11-07T02:58:52.11Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14599",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.6.4-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.6.6-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-193"
+                ],
+                "PublishedDate": "2018-08-24T19:29:01.457Z",
+                "LastModifiedDate": "2023-11-07T02:52:58.86Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14600",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.6.4-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.6.6-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-08-24T19:29:01.567Z",
+                "LastModifiedDate": "2019-08-06T17:15:23.21Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-14598",
+                "PkgName": "libx11",
+                "InstalledVersion": "1.6.4-r0",
+                "Status": "fixed",
+                "FixedVersion": "1.6.6-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-20"
+                ],
+                "PublishedDate": "2018-08-24T19:29:01.377Z",
+                "LastModifiedDate": "2023-11-07T02:52:58.79Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl",
+                "InstalledVersion": "1.1.15-r6",
+                "Status": "fixed",
+                "FixedVersion": "1.1.15-r8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-15650",
+                "PkgName": "musl-utils",
+                "InstalledVersion": "1.1.15-r6",
+                "Status": "fixed",
+                "FixedVersion": "1.1.15-r8",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-119"
+                ],
+                "PublishedDate": "2017-10-19T23:29:00.407Z",
+                "LastModifiedDate": "2017-11-08T16:21:30.357Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2938",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.32Z",
+                "LastModifiedDate": "2022-08-12T18:04:18.297Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3183",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:20.683Z",
+                "LastModifiedDate": "2022-06-27T17:33:00.89Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3149",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:17.51Z",
+                "LastModifiedDate": "2022-06-27T17:33:43.813Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3169",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:19.37Z",
+                "LastModifiedDate": "2022-06-27T17:33:29.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-13785",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-369"
+                ],
+                "PublishedDate": "2018-07-09T13:29:00.443Z",
+                "LastModifiedDate": "2022-06-27T17:35:26.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16435",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-09-04T00:29:02.183Z",
+                "LastModifiedDate": "2021-05-26T11:15:08.243Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2940",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.427Z",
+                "LastModifiedDate": "2022-10-06T18:56:12.863Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2973",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:03.85Z",
+                "LastModifiedDate": "2022-06-27T17:34:45.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3180",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:20.387Z",
+                "LastModifiedDate": "2022-06-27T17:33:08.757Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3214",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:23.51Z",
+                "LastModifiedDate": "2022-06-27T17:27:04.897Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3639",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-05-22T12:29:00.25Z",
+                "LastModifiedDate": "2021-08-13T15:26:43.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2952",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.96Z",
+                "LastModifiedDate": "2022-10-06T18:55:10.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3136",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:16.307Z",
+                "LastModifiedDate": "2022-06-27T17:34:16.513Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3139",
+                "PkgName": "openjdk8-jre",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:16.573Z",
+                "LastModifiedDate": "2022-06-27T17:34:02.747Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2938",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.32Z",
+                "LastModifiedDate": "2022-08-12T18:04:18.297Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3183",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:20.683Z",
+                "LastModifiedDate": "2022-06-27T17:33:00.89Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3149",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:17.51Z",
+                "LastModifiedDate": "2022-06-27T17:33:43.813Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3169",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:19.37Z",
+                "LastModifiedDate": "2022-06-27T17:33:29.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-13785",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-369"
+                ],
+                "PublishedDate": "2018-07-09T13:29:00.443Z",
+                "LastModifiedDate": "2022-06-27T17:35:26.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16435",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-09-04T00:29:02.183Z",
+                "LastModifiedDate": "2021-05-26T11:15:08.243Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2940",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.427Z",
+                "LastModifiedDate": "2022-10-06T18:56:12.863Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2973",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:03.85Z",
+                "LastModifiedDate": "2022-06-27T17:34:45.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3180",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:20.387Z",
+                "LastModifiedDate": "2022-06-27T17:33:08.757Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3214",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:23.51Z",
+                "LastModifiedDate": "2022-06-27T17:27:04.897Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3639",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-05-22T12:29:00.25Z",
+                "LastModifiedDate": "2021-08-13T15:26:43.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2952",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.96Z",
+                "LastModifiedDate": "2022-10-06T18:55:10.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3136",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:16.307Z",
+                "LastModifiedDate": "2022-06-27T17:34:16.513Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3139",
+                "PkgName": "openjdk8-jre-base",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:16.573Z",
+                "LastModifiedDate": "2022-06-27T17:34:02.747Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2938",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.32Z",
+                "LastModifiedDate": "2022-08-12T18:04:18.297Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3183",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:20.683Z",
+                "LastModifiedDate": "2022-06-27T17:33:00.89Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3149",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:17.51Z",
+                "LastModifiedDate": "2022-06-27T17:33:43.813Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3169",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:19.37Z",
+                "LastModifiedDate": "2022-06-27T17:33:29.63Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-13785",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-369"
+                ],
+                "PublishedDate": "2018-07-09T13:29:00.443Z",
+                "LastModifiedDate": "2022-06-27T17:35:26.61Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-16435",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-190",
+                    "CWE-787"
+                ],
+                "PublishedDate": "2018-09-04T00:29:02.183Z",
+                "LastModifiedDate": "2021-05-26T11:15:08.243Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2940",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.427Z",
+                "LastModifiedDate": "2022-10-06T18:56:12.863Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2973",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:03.85Z",
+                "LastModifiedDate": "2022-06-27T17:34:45.66Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3180",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:20.387Z",
+                "LastModifiedDate": "2022-06-27T17:33:08.757Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3214",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:23.51Z",
+                "LastModifiedDate": "2022-06-27T17:27:04.897Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3639",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "MEDIUM",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-203"
+                ],
+                "PublishedDate": "2018-05-22T12:29:00.25Z",
+                "LastModifiedDate": "2021-08-13T15:26:43.697Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-2952",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.181.13-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-07-18T13:29:02.96Z",
+                "LastModifiedDate": "2022-10-06T18:55:10.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3136",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:16.307Z",
+                "LastModifiedDate": "2022-06-27T17:34:16.513Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-3139",
+                "PkgName": "openjdk8-jre-lib",
+                "InstalledVersion": "8.121.13-r0",
+                "Status": "fixed",
+                "FixedVersion": "8.191.12-r0",
+                "Severity": "LOW",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2018-10-17T01:31:16.573Z",
+                "LastModifiedDate": "2022-06-27T17:34:02.747Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2017-10989",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.15.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.15.2-r1",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-125"
+                ],
+                "PublishedDate": "2017-07-07T12:29:00.197Z",
+                "LastModifiedDate": "2019-10-03T00:03:26.223Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2018-8740",
+                "PkgName": "sqlite-libs",
+                "InstalledVersion": "3.15.2-r0",
+                "Status": "fixed",
+                "FixedVersion": "3.15.2-r2",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "CWE-476"
+                ],
+                "PublishedDate": "2018-03-17T00:29:00.247Z",
+                "LastModifiedDate": "2023-11-07T03:01:29.057Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9841",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.743Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.093Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9843",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "CRITICAL",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.9Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.807Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9840",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.667Z",
+                "LastModifiedDate": "2023-11-07T02:37:35.78Z"
+            },
+            {
+                "VulnerabilityID": "CVE-2016-9842",
+                "PkgName": "zlib",
+                "InstalledVersion": "1.2.8-r2",
+                "Status": "fixed",
+                "FixedVersion": "1.2.11-r0",
+                "Severity": "HIGH",
+                "SeveritySource": "nvd",
+                "CweIDs": [
+                    "null"
+                ],
+                "PublishedDate": "2017-05-23T04:29:01.837Z",
+                "LastModifiedDate": "2023-11-07T02:37:36.463Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "Target": "percona:5.6.51-2.Dockerfile",
+        "Class": "config",
+        "MisconfSummary": {
+            "Successes": 24,
+            "Failures": 2,
+            "Exceptions": 0
+        },
+        "Misconfigurations": [
+            {
+                "AVDID": "AVD-DS-0015",
+                "Severity": "HIGH",
+                "Title": "'yum clean all' missing",
+                "Description": "You should use 'yum clean all' after using a 'yum install' command to clean package cached data and reduce image size."
+            },
+            {
+                "AVDID": "AVD-DS-0026",
+                "Severity": "LOW",
+                "Title": "No HEALTHCHECK defined",
+                "Description": "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
+            }
+        ]
+    }
+]
